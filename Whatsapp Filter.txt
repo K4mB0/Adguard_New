@@ -1,0 +1,74 @@
+! AdGuard Home - Locked WhatsApp Blocklist
+! Fully enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Completely disable all WhatsApp access including media, messaging, voice/video, API, and CDN delivery
+
+
+! === Core WhatsApp Domains ===
+||whatsapp.com^$important
+||www.whatsapp.com^$important
+||whatsapp.net^$important
+||wa.me^$important
+
+
+! === Business & API Services ===
+||business.whatsapp.com^$important
+||api.whatsapp.com^$important
+||whatsappbusiness.com^$important
+
+
+! === Web & Desktop ===
+||web.whatsapp.com^$important
+||web.whatsapp.net^$important
+||web.whatsapp.org^$important
+||web.whatsapp.in^$important
+||web.whatsapp.biz^$important
+||web.whatsapp.me^$important
+||web.whatsapp.info^$important
+||web.whatsapp.co^$important
+||web.whatsapp.io^$important
+
+
+! === Media CDN ===
+||media-whatsapp.cdn.whatsapp.net^$important
+||media-ams6-1.cdn.whatsapp.net^$important
+||media-atl3-1.cdn.whatsapp.net^$important
+||media-fra3-1.cdn.whatsapp.net^$important
+||media-lhr3-1.cdn.whatsapp.net^$important
+||media-mia3-1.cdn.whatsapp.net^$important
+||media-mrs3-1.cdn.whatsapp.net^$important
+||media-scl3-1.cdn.whatsapp.net^$important
+||media-sea1-1.cdn.whatsapp.net^$important
+||media-sin6-1.cdn.whatsapp.net^$important
+||media-vie1-1.cdn.whatsapp.net^$important
+||media.whatsapp.net^$important
+||static.whatsapp.net^$important
+
+
+! === Messaging, Presence, Voice & Status ===
+||chat.whatsapp.com^$important
+||mmg.whatsapp.net^$important
+||pps.whatsapp.net^$important
+||v.whatsapp.net^$important
+||voip.whatsapp.net^$important
+||status.whatsapp.com^$important
+||notify.whatsapp.com^$important
+||translate.whatsapp.com^$important
+||crashlogs.whatsapp.net^$important
+
+
+! === Payments ===
+||payments.whatsapp.com^$important
+||payments.whatsapp.net^$important
+
+
+! === Meta (Facebook) Infrastructure Used by WhatsApp ===
+||graph.whatsapp.com^$important
+||graph.facebook.com^$important
+||connect.facebook.net^$important
+||mqtt-mini.facebook.com^$important
+||scontent.xx.fbcdn.net^$important
+
+
+! === Notes ===
+! - WhatsApp access is fully blacked out including app, web, APIs, media, auth, calls, and payments
+! - All regional CDN, Meta-based relays, and status endpoints are included

@@ -1,0 +1,81 @@
+! AdGuard Home - Locked Snapchat Blocklist
+! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Fully block Snapchat access, media, APIs, location, ads, and authentication services
+
+
+! === Core Snapchat Domains ===
+||snapchat.com^$important
+||snap.com^$important
+||snapchat.net^$important
+||snapkit.com^$important
+||snap-dev.net^$important
+||snapads.com^$important
+||snapmobile.net^$important
+
+
+! === Media, CDN, and Hosting ===
+||sc-cdn.net^$important
+||sc-static.net^$important
+||snapimg.com^$important
+||bolt-gcdn.sc-cdn.net^$important
+||cf-st.sc-cdn.net^$important
+||gcs.sc-cdn.net^$important
+||snapchat-proxy.appspot.com^$important
+
+
+! === APIs and Platform Services ===
+||api.snapchat.com^$important
+||api.snapkit.com^$important
+||us-central1-gcp.api.snapchat.com^$important
+||us-east1-aws.api.snapchat.com^$important
+||us-east4-gcp.api.snapchat.com^$important
+||kit.snapchat.com^$important
+||auth.snapchat.com^$important
+||gt-api.snapchat.com^$important
+
+
+! === Location & Mapping Infrastructure ===
+||map.snapchat.com^$important
+||loc.sc-jpl.com^$important
+||feelinsonice.com^$important
+||feelinsonice-hrd.appspot.com^$important
+||appspot.l.google.com^$important
+
+
+! === Stories, Discover, and Content ===
+||stories.snapchat.com^$important
+||discover.snapchat.com^$important
+||aws.stg.snapchat.com^$important
+||stg.snapchat.com^$important
+
+
+! === Advertising & Analytics ===
+||ads.snapchat.com^$important
+||adsapi.snapchat.com^$important
+||ads-interfaces.sc-cdn.net^$important
+||analytics.snapchat.com^$important
+||app-analytics.snapchat.com^$important
+||tr.snapchat.com^$important
+
+
+! === Authentication & Login ===
+||login.snapchat.com^$important
+||accounts.snapchat.com^$important
+||auth.snapchat.com^$important
+||sso.snapchat.com^$important
+
+
+! === Misc Services & Business Tools ===
+||forbusiness.snapchat.com^$important
+||business.snapchat.com^$important
+||creativekit.snapchat.com^$important
+||lens.snapchat.com^$important
+||lenses.snapchat.com^$important
+||geofilters.snapchat.com^$important
+||support.snapchat.com^$important
+||community.snapchat.com^$important
+
+
+! === Notes ===
+! - This list blocks all Snapchat functions, from media delivery and login to stories, maps, ads, and developer kits
+! - Covers both desktop and mobile app infrastructure, including CDN and analytics

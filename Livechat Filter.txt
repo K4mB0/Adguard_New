@@ -1,0 +1,78 @@
+! AdGuard Home - Locked LiveChat Services Blocklist
+! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Block commercial customer support chat systems (e.g., LiveChat Inc) entirely while allowing voice/game chat to remain functional (handled separately)
+
+
+! === Core LiveChat Domains ===
+||livechat.com^$important
+||livechatinc.com^$important
+||livechatinc.net^$important
+||livechat.net^$important
+
+
+! === CDN & API Services ===
+||cdn.livechat.com^$important
+||cdn.livechatinc.com^$important
+||static.livechat.com^$important
+||static.livechatinc.com^$important
+||assets.livechatinc.com^$important
+||resources.livechat.com^$important
+
+
+! === Customer-Facing Chat Widgets ===
+||chat.livechat.com^$important
+||widget.livechat.com^$important
+||chat-widget.livechat.com^$important
+||secure.livechatinc.com^$important
+||customer.livechatinc.com^$important
+
+
+! === Application Dashboards ===
+||app.livechat.com^$important
+||app.livechatinc.com^$important
+||dashboard.livechat.com^$important
+||my.livechatinc.com^$important
+
+
+! === Analytics & Tracking ===
+||analytics.livechat.com^$important
+||analytics.livechatinc.com^$important
+||tracker.livechat.com^$important
+||stats.livechatinc.com^$important
+
+
+! === Region-Specific and Redundancy ===
+||status.livechat.com^$important
+||accounts.livechat.com^$important
+||eu.livechat.com^$important
+||us.livechat.com^$important
+||asia.livechat.com^$important
+||backup.livechatinc.com^$important
+
+
+! === Integration & Connectivity ===
+||integration.livechat.com^$important
+||connect.livechatinc.com^$important
+||api-connect.livechat.com^$important
+
+
+! === Dev, Docs, and Miscellaneous ===
+||dev.livechat.com^$important
+||test.livechatinc.com^$important
+||staging.livechat.com^$important
+||developers.livechat.com^$important
+||docs.livechat.com^$important
+||help.livechat.com^$important
+||support.livechatinc.com^$important
+
+
+! === Business & Partner Programs ===
+||solutions.livechat.com^$important
+||marketplace.livechat.com^$important
+||partners.livechatinc.com^$important
+||community.livechat.com^$important
+
+
+! === Notes ===
+! - This list targets LiveChat.com (used by commercial sites for customer service chat widgets)
+! - This does NOT interfere with Xbox Live, PlayStation Network, or in-game voice chat platforms (which use different infrastructure entirely)

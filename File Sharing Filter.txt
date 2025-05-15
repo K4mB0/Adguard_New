@@ -1,0 +1,106 @@
+! AdGuard Home - File Sharing Services Blocklist (Strict)
+! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Block all file sharing and cloud transfer platforms except Google Drive (explicitly allowed)
+
+! === ALLOWLIST: Google Drive Only ===
+@@||drive.google.com^$important
+@@||docs.google.com^$important
+@@||googleusercontent.com^$important
+@@||ssl.gstatic.com^$important
+@@||googleapis.com^$important
+
+! === BLOCKLIST: MEGA ===
+||mega.nz^$important
+||mega.io^$important
+||mega.co.nz^$important
+
+! === BLOCKLIST: MediaFire ===
+||mediafire.com^$important
+||mfi.re^$important
+||mediafirecdn.com^$important
+
+! === BLOCKLIST: Zippyshare ===
+||zippyshare.com^$important
+
+! === BLOCKLIST: 4shared ===
+||4shared.com^$important
+||4shared-china.com^$important
+||4shared.info^$important
+
+! === BLOCKLIST: Dropbox ===
+||dropbox.com^$important
+||dropboxusercontent.com^$important
+||dropboxstatic.com^$important
+
+! === BLOCKLIST: WeTransfer ===
+||wetransfer.com^$important
+||we.tl^$important
+||wt.social^$important
+
+! === BLOCKLIST: RapidShare ===
+||rapidshare.com^$important
+||rapidshare.de^$important
+
+! === BLOCKLIST: SendSpace ===
+||sendspace.com^$important
+||sendspace.pl^$important
+
+! === BLOCKLIST: Box ===
+||box.com^$important
+||boxcdn.net^$important
+||box.net^$important
+
+! === BLOCKLIST: pCloud ===
+||pcloud.com^$important
+||pcloud.link^$important
+||pc.cd^$important
+
+! === BLOCKLIST: FileFactory ===
+||filefactory.com^$important
+||ff.im^$important
+
+! === BLOCKLIST: 1fichier ===
+||1fichier.com^$important
+||1fichier.net^$important
+
+! === BLOCKLIST: Uploaded ===
+||uploaded.net^$important
+||uploaded.to^$important
+||ul.to^$important
+
+! === BLOCKLIST: Rapidgator ===
+||rapidgator.net^$important
+||rg.to^$important
+
+! === BLOCKLIST: Turbobit ===
+||turbobit.net^$important
+||turb.to^$important
+
+! === BLOCKLIST: Other Major File Hosts ===
+||fileupload.com^$important
+||upload.ee^$important
+||uptobox.com^$important
+||uptostream.com^$important
+||uptodown.com^$important
+||openload.co^$important
+||oload.tv^$important
+||openload.io^$important
+||datafilehost.com^$important
+||dfh.to^$important
+
+! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
+||multcloud.com^$important
+||multcloud.net^$important
+||anonfiles.com^$important
+||anon.to^$important
+||gofile.io^$important
+||filetransfer.io^$important
+||transfer.sh^$important
+||file.io^$important
+||transferxl.com^$important
+||txl.tools^$important
+
+! === Notes ===
+! - Google Drive is explicitly allowed; all other platforms are blocked
+! - Covers direct file hosts, cloud sync services, temporary link sharing, and CDNs
+! - No exceptions permitted

@@ -1,0 +1,19 @@
+! AdGuard Home - Slang & Profanity Dictionary Blocklist
+! Created and enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Block online slang dictionaries and profanity reference tools used to bypass content filters or expose inappropriate terms
+
+
+! === Urban Dictionary & Related Slang Sites ===
+||urbandictionary.com^$important
+||www.urbandictionary.com^$important
+||api.urbandictionary.com^$important
+||assets.urbandictionary.com^$important
+||slangdefine.org^$important
+||onlineslangdictionary.com^$important
+||noslang.com^$important
+
+
+! === Notes ===
+! - These domains are often used to look up or share definitions of profanity, sexual slang, drug terms, and offensive language
+! - Some APIs are used by bots and browser extensions to pull NSFW content automatically
+! - Blocking helps prevent access to inappropriate or filter-dodging content by kids or students

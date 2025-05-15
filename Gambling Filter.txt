@@ -1,0 +1,67 @@
+! AdGuard Home - Locked Gambling Blocklist
+! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Completely block online gambling, poker, crypto casinos, and betting platforms across web, mobile, and app interfaces
+
+! === Online Casinos ===
+||bet365.com^$important
+||betway.com^$important
+||bovada.lv^$important
+||casumo.com^$important
+||draftkings.com^$important
+||fanduel.com^$important
+||gambling.com^$important
+||gamcare.org.uk^$important
+||ladbrokes.com^$important
+||mansion.com^$important
+||paddypower.com^$important
+||partypoker.com^$important
+||pokerstars.com^$important
+||skybet.com^$important
+||unibet.com^$important
+||williamhill.com^$important
+||888.com^$important
+||888casino.com^$important
+||888poker.com^$important
+||bwin.com^$important
+
+! === Sports Betting ===
+||betfair.com^$important
+||betonline.ag^$important
+||pinnacle.com^$important
+||sportsbet.com.au^$important
+||sportingbet.com^$important
+||tipico.com^$important
+||betfred.com^$important
+||coral.co.uk^$important
+||marathonbet.com^$important
+||betvictor.com^$important
+||betsson.com^$important
+||betsafe.com^$important
+||nordicbet.com^$important
+
+! === Online Poker ===
+||wsop.com^$important
+||fulltilt.com^$important
+||globalpoker.com^$important
+||ignitioncasino.eu^$important
+||americascardroom.eu^$important
+||ggpoker.com^$important
+||winamax.com^$important
+||partypoker.net^$important
+||pokernow.club^$important
+||pokerbaazi.com^$important
+
+! === Lottery & Bingo ===
+||lottoland.com^$important
+||national-lottery.co.uk^$important
+||lottery.com^$important
+||megamillions.com^$important
+||powerball.com^$important
+||tombola.co.uk^$important
+||foxy.bingo^$important
+||galabingo.com^$important
+||jackpotjoy.com^$important
+||meccabingo.com^$important
+
+! === Gambling CDNs & Static Resources ===
+||bet365cdn.com^

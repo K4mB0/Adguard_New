@@ -1,0 +1,56 @@
+! AdGuard Home - Locked Twitter/X Blocklist
+! Fully enforced by Coly & ChatGPT - 2025-05-15
+! Purpose: Complete Twitter blackout including X.com, media, APIs, OAuth, and business services
+
+
+! === Core Domains ===
+||twitter.com^$important
+||x.com^$important
+||t.co^$important
+||twimg.com^$important
+||twttr.com^$important
+||twitter.jp^$important
+||twitter.co^$important
+||twitter.net^$important
+
+
+! === CDN & Media Delivery ===
+||abs.twimg.com^$important
+||pbs.twimg.com^$important
+||video.twimg.com^$important
+||ton.twimg.com^$important
+||upload.twitter.com^$important
+||media.twitter.com^$important
+
+
+! === API, Login & OAuth ===
+||api.twitter.com^$important
+||api-ssl.twitter.com^$important
+||oauth.twitter.com^$important
+||sso.twitter.com^$important
+||platform.twitter.com^$important
+||tweetdeck.twitter.com^$important
+
+
+! === Ads, Analytics & Tracking ===
+||analytics.twitter.com^$important
+||ads-api.twitter.com^$important
+||advertising.twitter.com^$important
+||cdn.syndication.twimg.com^$important
+||syndication.twitter.com^$important
+
+
+! === Business, Developer & Support ===
+||business.twitter.com^$important
+||dev.twitter.com^$important
+||developer.twitter.com^$important
+||cards-dev.twitter.com^$important
+||blog.twitter.com^$important
+||status.twitter.com^$important
+||help.twitter.com^$important
+||support.twitter.com^$important
+
+
+! === Notes ===
+! - All possible routes to Twitter/X are shut down, including legacy, CDN, and shortened links
+! - Covers web, mobile, embedded widgets, authentication, and API clients

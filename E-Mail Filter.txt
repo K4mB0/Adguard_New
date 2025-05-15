@@ -1,0 +1,117 @@
+! AdGuard Home - Gmail Allowlist + Global Email Blocking
+! Updated and maintained by Coly & ChatGPT - 2025-05-15
+! Purpose: Allow full Gmail functionality while completely blocking all other email platforms and infrastructure
+
+! === ALLOWLIST: Google/Gmail Services ===
+@@||gmail.com^$important
+@@||googlemail.com^$important
+@@||mail.google.com^$important
+@@||smtp.gmail.com^$important
+@@||imap.gmail.com^$important
+@@||pop.gmail.com^$important
+@@||accounts.google.com^$important
+@@||myaccount.google.com^$important
+@@||googleapis.com^$important
+@@||gstatic.com^$important
+@@||google.com^$important
+@@||www.google.com^$important
+@@||ssl.gstatic.com^$important
+@@||fonts.gstatic.com^$important
+@@||contacts.google.com^$important
+@@||calendar.google.com^$important
+@@||drive.google.com^$important
+@@||docs.google.com^$important
+@@||meet.google.com^$important
+@@||m.gmail.com^$important
+@@||mobile.gmail.com^$important
+@@||oauth2.googleapis.com^$important
+@@||content.googleapis.com^$important
+@@||apis.google.com^$important
+@@||www.googleapis.com^$important
+
+! === BLOCKLIST: Major Email Providers (Non-Gmail) ===
+||outlook.com^$important
+||hotmail.com^$important
+||live.com^$important
+||yahoo.com^$important
+||aol.com^$important
+||icloud.com^$important
+||mail.com^$important
+||zoho.com^$important
+||protonmail.com^$important
+||tutanota.com^$important
+||mail.ru^$important
+||gmx.com^$important
+||web.de^$important
+||fastmail.com^$important
+||hushmail.com^$important
+||yopmail.com^$important
+||mailinator.com^$important
+||10minutemail.com^$important
+||tempmail.com^$important
+
+! === BLOCKLIST: ISP Email Providers ===
+||att.net^$important
+||comcast.net^$important
+||verizon.net^$important
+||sbcglobal.net^$important
+||charter.net^$important
+||shaw.ca^$important
+||btinternet.com^$important
+||talktalk.net^$important
+||sky.com^$important
+
+! === BLOCKLIST: Enterprise & Hosting Email ===
+||office365.com^$important
+||exchange.com^$important
+||zimbra.com^$important
+||godaddy.com^$important
+||bluehost.com^$important
+||hostgator.com^$important
+||ionos.com^$important
+||1and1.com^$important
+
+! === BLOCKLIST: Secure & Privacy-focused Email ===
+||proton.me^$important
+||posteo.de^$important
+||ctemplar.com^$important
+||riseup.net^$important
+||mailfence.com^$important
+||disroot.org^$important
+
+! === BLOCKLIST: Disposable/Temporary Email ===
+||temp-mail.org^$important
+||tempmailgen.com^$important
+||guerrillamail.com^$important
+||fakeinbox.com^$important
+||burnnermail.com^$important
+||throwawaymail.com^$important
+||maildrop.cc^$important
+||dropmail.me^$important
+||trash-mail.com^$important
+||getnada.com^$important
+||dispostable.com^$important
+||trashmail.com^$important
+
+! === BLOCKLIST: MailPlus / Email.nl Services ===
+||mailplus.nl^$important
+||m1.mailplus.nl^$important
+||track.mailplus.nl^$important
+||image.mailplus.nl^$important
+||cdn.mailplus.nl^$important
+
+! === BLOCKLIST: Email Infrastructure ===
+||emailsrvr.com^$important
+||sendgrid.net^$important
+||mailgun.com^$important
+||postmarkapp.com^$important
+||sparkpost.com^$important
+
+! === BLOCKLIST: Email Marketing Platforms ===
+||mailchimp.com^$important
+||list-manage.com^$important
+||aweber.com^$important
+||getresponse.com^$important
+||activecampaign.com^$important
+||klaviyo.com^$important
+||constantcontact.com^$important
