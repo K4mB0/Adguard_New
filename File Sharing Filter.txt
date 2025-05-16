@@ -87,6 +87,8 @@
 ||openload.io^$important
 ||datafilehost.com^$important
 ||dfh.to^$important
+||0x0.st^$important
+||catbox.moe^$important
 
 ! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
 ||multcloud.com^$important
