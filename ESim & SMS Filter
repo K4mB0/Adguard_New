@@ -1,0 +1,93 @@
+! Title: sms-verification-bypass-block.txt
+! Description: Blocks access to online SMS verification and disposable number services.
+! Last updated: 2025-05-16
+! Author: Coly & ChatGPT
+
+! --- Core domains ---
+||onlinesim.io^$important
+||*.onlinesim.io^$important
+
+! --- Similar services ---
+||sms-man.com^$important
+||*.sms-man.com^$important
+||zadarma.com^$important
+||*.zadarma.com^$important
+||5sim.net^$important
+||*.5sim.net^$important
+||sms-activate.org^$important
+||*.sms-activate.org^$important
+||online-sms.org^$important
+||*.online-sms.org^$important
+||smsbest.ru^$important
+||*.smsbest.ru^$important
+||5sim.biz^$important
+||*.5sim.biz^$important
+||callhippo.com^$important
+||*.callhippo.com^$important
+||krispcall.com^$important
+||*.krispcall.com^$important
+||quackr.io^$important
+||*.quackr.io^$important
+||sms-numbers.com^$important
+||*.sms-numbers.com^$important
+||sms-reg.com^$important
+||*.sms-reg.com^$important
+||smsc.ru^$important
+||*.smsc.ru^$important
+||sms-area.org^$important
+||*.sms-area.org^$important
+||smspinverify.com^$important
+||*.smspinverify.com^$important
+||majorphones.com^$important
+||*.majorphones.com^$important
+||verifywithsms.com^$important
+||*.verifywithsms.com^$important
+||textverified.com^$important
+||*.textverified.com^$important
+||mobilesms.io^$important
+||*.mobilesms.io^$important
+||otp4free.com^$important
+||*.otp4free.com^$important
+||smscoin.com^$important
+||*.smscoin.com^$important
+||smspva.com^$important
+||*.smspva.com^$important
+||smstome.com^$important
+||*.smstome.com^$important
+||receivesms.org^$important
+||*.receivesms.org^$important
+||virtual-temporary-number.com^$important
+||*.virtual-temporary-number.com^$important
+||freephonenum.com^$important
+||*.freephonenum.com^$important
+||sellaite.com^$important
+||*.sellaite.com^$important
+||sms-online.co^$important
+||*.sms-online.co^$important
+||fakenum.com^$important
+||*.fakenum.com^$important
+||freitempsms.com^$important
+||*.freitempsms.com^$important
+||mytrashmobile.com^$important
+||*.mytrashmobile.com^$important
+||sms-verification.com^$important
+||*.sms-verification.com^$important
+||textnow.com^$important
+||*.textnow.com^$important
+||textplus.com^$important
+||*.textplus.com^$important
+||textfree.us^$important
+||*.textfree.us^$important
+||textmeup.com^$important
+||*.textmeup.com^$important
+||sideline.com^$important
+||*.sideline.com^$important
+||phoner.com^$important
+||*.phoner.com^$important
+||dingtone.me^$important
+||*.dingtone.me^$important
+
+
+! --- Notes ---
+! This list blocks services that offer anonymous or disposable phone numbers for SMS verification.
+! Used to prevent children from bypassing parental or platform-based restrictions.
