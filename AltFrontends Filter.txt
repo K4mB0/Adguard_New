@@ -4,7 +4,6 @@
 
 ! === Alt Frontends & Censorship Proxies ===
 ||ajay.app^$important
-||unduck.link^$important
 ||tux.pizza^$important
 ||cloudflare-ipfs.com^$important
 ||onion.to^$important
