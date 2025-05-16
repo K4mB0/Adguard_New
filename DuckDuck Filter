@@ -1,1 +1,26 @@
+! AdGuard Home - Search Bypass Filter
+! Updated and categorized by Coly & ChatGPT - 2025-05-16
+! Purpose: Block DuckDuckGo and similar services used to bypass search or filter restrictions
+
+||duckduckgo.com^$important
+||html.duckduckgo.com^$important
+||lite.duckduckgo.com^$important
+||duckduckgo-owned-server.com^$important
+||duckduckgo.eu.org^$important
+||duckduckgo.startpageapi.com^$important
+||external-content.duckduckgo.com^$important
+||proxy.duckduckgo.com^$important
+||links.duckduckgo.com^$important
+||safe.duckduckgo.com^$important
+||images.duckduckgo.com^$important
+||mobile-api.duckduckgo.com^$important
+||ddg.gg^$important
+||start.duckduckgo.com^$important
+||next.duckduckgo.com^$important
+||ddg-api.herokuapp.com^$important
+||unduck.link^$important
+
+! === Notes ===
+! - This blocklist targets search tools commonly used to bypass parental or content filtering
+! - Includes core domains, mirrors, subdomains, and alternate API endpoints
 
