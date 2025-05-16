@@ -1,0 +1,63 @@
+! Title: voip-services-block.txt
+! Description: Blocks access to online VoIP services and virtual number providers, including Zadarma, to prevent misuse for anonymous communication or verification bypass.
+! Last updated: 2025-05-16
+! Author: Coly & ChatGPT
+
+! --- Core domains ---
+||zadarma.com^$important
+||*.zadarma.com^$important
+
+! --- Additional VoIP services ---
+||nextiva.com^$important
+||*.nextiva.com^$important
+||callhippo.com^$important
+||*.callhippo.com^$important
+||vonage.com^$important
+||*.vonage.com^$important
+||ringcentral.com^$important
+||*.ringcentral.com^$important
+||8x8.com^$important
+||*.8x8.com^$important
+||dialpad.com^$important
+||*.dialpad.com^$important
+||aircall.io^$important
+||*.aircall.io^$important
+||cloudtalk.io^$important
+||*.cloudtalk.io^$important
+||placetel.de^$important
+||*.placetel.de^$important
+||voicehost.co.uk^$important
+||*.voicehost.co.uk^$important
+||voip.ms^$important
+||*.voip.ms^$important
+||voipstudio.com^$important
+||*.voipstudio.com^$important
+||twilio.com^$important
+||*.twilio.com^$important
+||openphone.co^$important
+||*.openphone.co^$important
+||ringover.com^$important
+||*.ringover.com^$important
+||unitedworldtelecom.com^$important
+||*.unitedworldtelecom.com^$important
+||globalcallforwarding.com^$important
+||*.globalcallforwarding.com^$important
+||cebodtelecom.com^$important
+||*.cebodtelecom.com^$important
+||servetel.in^$important
+||*.servetel.in^$important
+||dialerhq.com^$important
+||*.dialerhq.com^$important
+||exotel.com^$important
+||*.exotel.com^$important
+||broadvoice.com^$important
+||*.broadvoice.com^$important
+||ooma.com^$important
+||*.ooma.com^$important
+||google.com/voice^$important
+||*.google.com/voice^$important
+
+! --- Notes ---
+! This file blocks VoIP services and virtual number providers that can be used to bypass phone verification or anonymize communication.
+! These services may also be used in coordination with SMS verification bypass tools and are often abused for evading parental controls or authentication.
+! Pair this file with sms-verification-bypass-block.txt for full coverage.
