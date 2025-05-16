@@ -92,6 +92,10 @@
 ||getnada.com^$important
 ||dispostable.com^$important
 ||trashmail.com^$important
+||tuta.com^$important
+||api.tuta.com^$important
+||w16.api.tuta.com^$important
+||app.tuta.com^$important
 
 ! === BLOCKLIST: MailPlus / Email.nl Services ===
 ||mailplus.nl^$important
