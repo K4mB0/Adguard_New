@@ -2,6 +2,10 @@
 ! Fully enforced by Coly & ChatGPT - 2025-05-15
 ! Purpose: Block alternative frontends, mirror gateways, and clearnet proxies that circumvent platform restrictions or content filtering
 
+
+! === Twitch Circumvention Tools ===
+||lunar.icu^$important
+
 ! === Alt Frontends & Censorship Proxies ===
 ||ajay.app^$important
 ||tux.pizza^$important
