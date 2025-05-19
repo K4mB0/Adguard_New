@@ -6,6 +6,9 @@
 ! === Genit.AL ===
 ||genit.al^$important
 
+! === Open.AI ===
+||openaicommunities.space^$important
+
 ! === Character.AI and Mirrors ===
 ||character.ai^$important
 ||beta.character.ai^$important
