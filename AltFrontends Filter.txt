@@ -1,7 +1,6 @@
 ! AdGuard Home - Alt Frontends & Censorship Bypass Proxies Blocklist
-! Fully enforced by Coly & ChatGPT - 2025-05-15
+! Fully enforced by Coly & ChatGPT - 2025-06-01
 ! Purpose: Block alternative frontends, mirror gateways, and clearnet proxies that circumvent platform restrictions or content filtering
-
 
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
@@ -20,32 +19,35 @@
 ||invidious.io^$important
 ||invidious.site^$important
 ||invidious.snopyta.org^$important
-||nitter.net^$important
-||nitter.it^$important
-||nitter.cz^$important
 ||bibliogram.art^$important
 ||rimgo.totaldarkness.net^$important
 ||proxitok.pabloferreiro.es^$important
 ||sneedflix.cc^$important
 
-! == Additional Frontends & Circumvention Sites (2025-06-01) ==
+! === Consolidated Wildcard Frontends ===
+||nitter.*^$important
+||libreddit.*^$important
+||teddit.*^$important
+||invidious.*^$important
+||searx.*^$important
+||piped.*^$important
+||redlib.*^$important
+||privacyredirect.com^$important
+
+! === Additional Frontends & Circumvention Sites ===
 ||red4u.xyz^$important
-||searx.space^$important
-||www.thekitty.zone^$important
+||thekitty.zone^$important
 ||reddit.claw.ovh^$important
 ||red.artemislena.eu^$important
 ||claw.ovh^$important
-||nitter.ngn.tf^$important
 ||lightbrd.com^$important
 ||twiiit.com^$important
-||nitter.poast.org^$important
 ||diasporafoundation.org^$important
 ||joinmastodon.org^$important
 ||tunnel.googlezip.net^$important
 
-
 ! === Notes ===
 ! - All wildcard and *.domain entries replaced with ||domain^ format for full blocking
 ! - This format blocks both root and all subdomains
-! - Wildcards across TLDs (like `.*`) are not supported by AdGuard Home and have been removed
-! - This file is now 100% compliant and effective for DNS-level blocking
+! - Wildcards across TLDs (like `.*`) are NOT supported and avoided
+! - Merged multiple frontends under general wildcards to ensure durability and cleanliness
