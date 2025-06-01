@@ -2,6 +2,8 @@
 ! Updated and categorized by Coly & ChatGPT - 2025-05-15
 ! Purpose: Block AI chat/roleplay services used for NSFW, pseudo-romantic, and fetish scenarios
 
+! === Ollama.AI === 
+||ollama.com^$important
 
 ! === Genit.AL ===
 ||genit.al^$important
