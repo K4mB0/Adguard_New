@@ -46,6 +46,14 @@
 ||joinmastodon.org^$important
 ||tunnel.googlezip.net^$important
 
+! === New Reddit Forks & Proxies (2025-06-01) ===
+||leddit.xyz^$important
+||redlibrary.xyz^$important
+||lr.n8pjl.ca^$important
+||reddit.owo.si^$important
+||reddit.utsav2.dev^$important
+||reddit.rtrace.io^$important
+
 ! === Notes ===
 ! - All wildcard and *.domain entries replaced with ||domain^ format for full blocking
 ! - This format blocks both root and all subdomains
