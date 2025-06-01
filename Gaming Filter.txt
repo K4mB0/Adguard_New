@@ -22,6 +22,49 @@
 @@||fortnite-public-service-prod.ol.epicgames.com^$important
 
 
+! === EA Games Allowlist Rules (2025-06-01) ===
+@@||account-public-service-prod03.ol.epicgames.com^$important
+@@||akamaihd.net^$important
+@@||api.kws.ol.epicgames.com^$important
+@@||autopatch.juno.ea.com^$important
+@@||bakkesplugins.com^$important
+@@||catalog-public-service-prod06.ol.epicgames.com^$important
+@@||cloudflare.epicgamescdn.com^$important
+@@||cloudsync-prod.s3.us-east-1.amazonaws.com^$important
+@@||cloudsync.juno.ea.com^$important
+@@||confluence.ea.com^$important
+@@||connect.ol.epicgames.com^$important
+@@||desktop-config.juno.ea.com^$important
+@@||download.epicgames.com^$important
+@@||ea.com^$important
+@@||eaanticheat.ac.ea.com^$important
+@@||eaassets-a.akamaihd.net^$important
+@@||eaavatarservice.akamaized.net^$important
+@@||epicgames-download1.akamaized.net^$important
+@@||eulatracking-public-service-prod06.ol.epicgames.com^$important
+@@||events.statsigapi.net^$important
+@@||fastly-download.epicgames.com^$important
+@@||fcas.mob.v4.prd.futc-ext.gcp.ea.com^$important
+@@||friends-public-service-prod06.ol.epicgames.com^$important
+@@||gcs.ea.com^$important
+@@||graphql.epicgames.com^$important
+@@||library-service.live.use1a.on.epicgames.com^$important
+@@||lightswitch-public-service-prod06.ol.epicgames.com^$important
+@@||origin.com^$important
+@@||pin-river.data.ea.com^$important
+@@||presence-public-service-prod.ol.epicgames.com^$important
+@@||priceengine-public-service-ecomprod01.ol.epicgames.com^$important
+@@||ratt.juno.ea.com^$important
+@@||s3.alphaconsole.io^$important
+@@||sentry.io^$important
+@@||service-aggregation-layer-subs.juno.ea.com^$important
+@@||service-aggregation-layer.juno.ea.com^$important
+@@||social-overlay-launchdarkly-api-prod.ol.epicgames.com^$important
+@@||social-overlay-token-exchange-api-prod.ol.epicgames.com^$important
+@@||statsigapi.net^$important
+@@||utas.mob.v4.prd.futc-ext.gcp.ea.com^$important
+
+
 ! === Minecraft / Mojang ===
 @@||minecraft.net^$important
 @@||mojang.com^$important
