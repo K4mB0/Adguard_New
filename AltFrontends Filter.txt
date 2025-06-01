@@ -28,6 +28,22 @@
 ||proxitok.pabloferreiro.es^$important
 ||sneedflix.cc^$important
 
+! == Additional Frontends & Circumvention Sites (2025-06-01) ==
+||red4u.xyz^$important
+||searx.space^$important
+||www.thekitty.zone^$important
+||reddit.claw.ovh^$important
+||red.artemislena.eu^$important
+||claw.ovh^$important
+||nitter.ngn.tf^$important
+||lightbrd.com^$important
+||twiiit.com^$important
+||nitter.poast.org^$important
+||diasporafoundation.org^$important
+||joinmastodon.org^$important
+||tunnel.googlezip.net^$important
+
+
 ! === Notes ===
 ! - All wildcard and *.domain entries replaced with ||domain^ format for full blocking
 ! - This format blocks both root and all subdomains
