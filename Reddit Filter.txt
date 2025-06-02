@@ -24,6 +24,10 @@
 ||redditsearch.io^$important
 ||redditurl.com^$important
 ||r.genit.al^$important
+||redlib.nadeko.net^$important
+||redlib.perennialte.ch^$important
+||libreddit.miaoute.net^$important
+
 
 ! === Optional Regex Rule (extreme blocking – use with caution) ===
 !/.*reddit.*/$important
