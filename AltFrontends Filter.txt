@@ -2,6 +2,13 @@
 ! Fully enforced by Coly & ChatGPT - 2025-06-01
 ! Purpose: Block alternative frontends, mirror gateways, and clearnet proxies that circumvent platform restrictions or content filtering
 
+! === New Frontends ===
+||zerotrace.org^$important
+||cdn-zerotrace.pressidium.com^$important
+||snoo.habedieeh.re^$important
+||whatever.social^$important
+||discuss.whatever.social^$important
+
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
 
