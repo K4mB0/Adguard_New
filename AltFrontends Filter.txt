@@ -26,6 +26,12 @@
 
 ! === Consolidated Wildcard Frontends ===
 ||nitter.*^$important
+||nitter.poast.org^$important
+||nitter.privacydev.net^$important
+||nitter.eu^$important
+||nitter.42l.fr^$important
+||nitter.snopyta.org^$important
+
 ||libreddit.*^$important
 ||teddit.*^$important
 ||invidious.*^$important
