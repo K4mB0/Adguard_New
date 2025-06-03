@@ -1,0 +1,41 @@
+! Title: Allow Google Services
+! Description: Comprehensive allowlist for all major Google services including Gmail, Drive, Classroom, Docs, Meet, and supporting APIs.
+! Updated: 2025-06-03
+! Author: Coly & ChatGPT
+
+@@||gmail.com^$important
+@@||googlemail.com^$important
+@@||mail.google.com^$important
+
+@@||m.gmail.com^$important
+@@||mobile.gmail.com^$important
+
+@@||smtp.gmail.com^$important
+@@||imap.gmail.com^$important
+@@||pop.gmail.com^$important
+
+@@||accounts.google.com^$important
+@@||myaccount.google.com^$important
+@@||google.com^$important
+@@||www.google.com^$important
+
+@@||classroom.google.com^$important
+@@||drive.google.com^$important
+@@||docs.google.com^$important
+@@||meet.google.com^$important
+@@||calendar.google.com^$important
+@@||contacts.google.com^$important
+
+@@||ssl.gstatic.com^$important
+@@||fonts.gstatic.com^$important
+@@||gstatic.com^$important
+
+@@||googleapis.com^$important
+@@||apis.google.com^$important
+@@||www.googleapis.com^$important
+@@||oauth2.googleapis.com^$important
+@@||content.googleapis.com^$important
+
+! Footer:
+! This allowlist is designed to support full access to Google services while maintaining parental controls elsewhere.
+! Use in conjunction with stricter blocklists to avoid false positives that affect Google product usability.
