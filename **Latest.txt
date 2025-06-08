@@ -1,0 +1,17 @@
+! Title: Latest Blocking Rules
+! Description: This file contains the latest additions to the parental control blocklist. These rules are based on current observations and analysis of circumvention attempts, suspicious domains, and newly discovered threats.
+! Last updated: 2025-06-08
+! Author: Coly & ChatGPT
+
+||1fichier.com^$important
+||cnl.filecrypt.cc^$important
+||mega.nz^$important
+||mixdrop.*^$important
+||pixeldrain.com^$important
+
+! ------------------------------
+! Notes:
+! - These rules are designed to complement the existing core filters.
+! - They reflect new or recently active domains that may be used to bypass restrictions, access illicit content, or avoid detection.
+! - All entries in this file are temporary until they are merged into their appropriate long-term category.
+! ------------------------------
