@@ -3,11 +3,14 @@
 ! Last updated: 2025-06-08
 ! Author: Coly & ChatGPT
 
-||1fichier.com^$important
-||cnl.filecrypt.cc^$important
-||mega.nz^$important
-||mixdrop.*^$important
 ||pixeldrain.com^$important
+||mixdrop.ag^$important
+||mixdrop.my^$important
+||gofile.io^$important
+||filecrypt.co^$important
+||bypass.vip^$important
+||api.bypass.vip^$important
+||_9666._https.cnl.filecrypt.cc^$important
 
 ! ------------------------------
 ! Notes:
