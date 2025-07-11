@@ -48,6 +48,14 @@
 ||pornpics.com^$important
 ||pornpictureshq.com^$important
 ||sex.com^$important
+||nudostar.tv^$important
+||*.nudostar.tv^$important
+||bongacams11.com^$important
+||*.bongacams11.com^$important
+||faponic.com^$important
+||*.faponic.com^$important
+||javseen.tv^$important
+||*.javseen.tv^$important
 
 
 ! === Premium Networks ===
