@@ -13,6 +13,7 @@
 ||_9666._https.cnl.filecrypt.cc^$important
 ||cs.rin.ru^$important
 ||nadeko.net^$important
+||us1.noblo.cc^$important
 
 ! ------------------------------
 ! Notes:
