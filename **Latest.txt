@@ -11,6 +11,8 @@
 ||bypass.vip^$important
 ||api.bypass.vip^$important
 ||_9666._https.cnl.filecrypt.cc^$important
+||cs.rin.ru^$important
+||nadeko.net^$important
 
 ! ------------------------------
 ! Notes:
