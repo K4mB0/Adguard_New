@@ -1,8 +1,11 @@
 ! Title: Latest Blocking Rules
 ! Description: This file contains the latest additions to the parental control blocklist. These rules are based on current observations and analysis of circumvention attempts, suspicious domains, and newly discovered threats.
-! Last updated: 2025-06-08
+! Last updated: 2025-07-13
 ! Author: Coly & ChatGPT
 
+! ==============================
+! 🚫 File Sharing & Bypass Hosts
+! ==============================
 ||pixeldrain.com^$important
 ||mixdrop.ag^$important
 ||mixdrop.my^$important
@@ -12,14 +15,38 @@
 ||api.bypass.vip^$important
 ||_9666._https.cnl.filecrypt.cc^$important
 ||cs.rin.ru^$important
-||nadeko.net^$important
-||us1.noblo.cc^$important
-||kemono.su^$important
-||coomer.su^$important
-||javseen.tv^$important
+
+! ==============================
+! 🚧 Circumvention Platforms
+! ==============================
 ||invidio.us^$important
 ||instances.invidio.us^$important
+||piped-instances.kavin.rocks^$important
+||reddit.nerdvpn.de^$important
+||reddit.adminforge.de^$important
+||safereddit.com^$important
+||wikiless.org^$important
+||nadeko.net^$important
+||us1.noblo.cc^$important
 
+! ==============================
+! 🔞 Adult & Explicit Content
+! ==============================
+||media.theporndude.com$important
+||javseenz.tv^$important
+||pics.javseen.tv^$important
+||pics.dmm.co.jp^$important
+||kemono.su^$important
+||coomer.su^$important
+||coom.subsonic.workers.dev$important
+||jav.subsonic.workers.dev$important
+||kem.subsonic.workers.dev$important
+
+! ==============================
+! 📥 Downloader Tools & Utilities
+! ==============================
+||redgifsdownloader.net$important
+||redgifdownloader.com$important
 
 ! ------------------------------
 ! Notes:
