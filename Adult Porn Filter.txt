@@ -56,7 +56,15 @@
 ||*.faponic.com^$important
 ||javseen.tv^$important
 ||*.javseen.tv^$important
-
+||media.theporndude.com$important
+||javseenz.tv^$important
+||pics.javseen.tv^$important
+||pics.dmm.co.jp^$important
+||kemono.su^$important
+||coomer.su^$important
+||coom.subsonic.workers.dev$important
+||jav.subsonic.workers.dev$important
+||kem.subsonic.workers.dev$important
 
 ! === Premium Networks ===
 ||brazzers.com^$important
