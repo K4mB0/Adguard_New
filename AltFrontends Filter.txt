@@ -8,6 +8,8 @@
 ||snoo.habedieeh.re^$important
 ||whatever.social^$important
 ||discuss.whatever.social^$important
+||bypass.vip^$important
+||api.bypass.vip^$important
 
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
