@@ -6,15 +6,7 @@
 ! ==============================
 ! 🚫 File Sharing & Bypass Hosts
 ! ==============================
-||pixeldrain.com^$important
-||mixdrop.ag^$important
-||mixdrop.my^$important
-||gofile.io^$important
-||filecrypt.co^$important
-||bypass.vip^$important
-||api.bypass.vip^$important
-||_9666._https.cnl.filecrypt.cc^$important
-||cs.rin.ru^$important
+
 
 ! ==============================
 ! 🚧 Circumvention Platforms
