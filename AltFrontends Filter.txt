@@ -60,6 +60,15 @@
 ||diasporafoundation.org^$important
 ||joinmastodon.org^$important
 ||tunnel.googlezip.net^$important
+||invidio.us^$important
+||instances.invidio.us^$important
+||piped-instances.kavin.rocks^$important
+||reddit.nerdvpn.de^$important
+||reddit.adminforge.de^$important
+||safereddit.com^$important
+||wikiless.org^$important
+||nadeko.net^$important
+||us1.noblo.cc^$important
 
 ! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
