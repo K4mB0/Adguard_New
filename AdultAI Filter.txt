@@ -22,6 +22,9 @@
 ||api.characterai.io^$important
 ||characterai.org^$important
 ||charakter.ai^$important
+||t3.chat^$important
+||wyvernchat.com^$important
+
 
 
 ! === JanitorAI ===
