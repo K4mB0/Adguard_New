@@ -95,6 +95,8 @@
 ||mixdrop.my^$important
 ||filecrypt.co^$important
 ||_9666._https.cnl.filecrypt.cc^$important
+||downr.org^$important
+
 
 ! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
 ||multcloud.com^$important
