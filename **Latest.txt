@@ -11,15 +11,7 @@
 ! ==============================
 ! 🚧 Circumvention Platforms
 ! ==============================
-||invidio.us^$important
-||instances.invidio.us^$important
-||piped-instances.kavin.rocks^$important
-||reddit.nerdvpn.de^$important
-||reddit.adminforge.de^$important
-||safereddit.com^$important
-||wikiless.org^$important
-||nadeko.net^$important
-||us1.noblo.cc^$important
+
 
 ! ==============================
 ! 🔞 Adult & Explicit Content
