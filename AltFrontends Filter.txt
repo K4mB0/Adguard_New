@@ -69,6 +69,8 @@
 ||wikiless.org^$important
 ||nadeko.net^$important
 ||us1.noblo.cc^$important
+||redgifsdownloader.net$important
+||redgifdownloader.com$important
 
 ! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
