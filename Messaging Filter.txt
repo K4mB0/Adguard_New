@@ -1,0 +1,160 @@
+! Title: Messaging_Apps_Filter.txt
+! Description: Fully blocks all known messaging applications and platforms including APIs, CDNs, and web portals. Built to enforce total messaging blackout for parental control and device lockdown.
+! Last Updated: 2025-08-03
+! Author: Coly & ChatGPT
+
+! ====================
+! 🚫 MESSAGING APPS BLOCKLIST
+! ====================
+
+! === Telegram ===
+||telegram.org^$important
+||web.telegram.org^$important
+||t.me^$important
+
+! === WhatsApp ===
+||whatsapp.com^$important
+||www.whatsapp.com^$important
+||whatsapp.net^$important
+||wa.me^$important
+||business.whatsapp.com^$important
+||api.whatsapp.com^$important
+||whatsappbusiness.com^$important
+||web.whatsapp.com^$important
+||web.whatsapp.net^$important
+||web.whatsapp.org^$important
+||web.whatsapp.in^$important
+||web.whatsapp.biz^$important
+||web.whatsapp.me^$important
+||web.whatsapp.info^$important
+||web.whatsapp.co^$important
+||web.whatsapp.io^$important
+||media-whatsapp.cdn.whatsapp.net^$important
+||media.whatsapp.net^$important
+||static.whatsapp.net^$important
+||chat.whatsapp.com^$important
+||mmg.whatsapp.net^$important
+||pps.whatsapp.net^$important
+||v.whatsapp.net^$important
+||voip.whatsapp.net^$important
+||status.whatsapp.com^$important
+||notify.whatsapp.com^$important
+||translate.whatsapp.com^$important
+||crashlogs.whatsapp.net^$important
+||payments.whatsapp.com^$important
+||payments.whatsapp.net^$important
+||graph.whatsapp.com^$important
+||mqtt-mini.facebook.com^$important
+
+! === Signal ===
+||signal.org^$important
+||cdn.signal.org^$important
+||chat.signal.org^$important
+
+! === Facebook Messenger ===
+||messenger.com^$important
+||m.me^$important
+||chat.facebook.com^$important
+||messaging.facebook.com^$important
+||connect.facebook.net^$important
+
+! === Discord ===
+||discord.com^$important
+||discord.gg^$important
+||cdn.discordapp.com^$important
+||discordapp.com^$important
+
+! === Kik ===
+||kik.com^$important
+||api.kik.com^$important
+
+! === Viber ===
+||viber.com^$important
+||api.viber.com^$important
+||secure.viber.com^$important
+
+! === Snapchat ===
+||snapchat.com^$important
+||app.snapchat.com^$important
+||story.snapchat.com^$important
+||sc-cdn.net^$important
+
+! === WeChat ===
+||wechat.com^$important
+||wechatapp.com^$important
+||weixin.qq.com^$important
+
+! === LINE ===
+||line.me^$important
+||line.naver.jp^$important
+||naver.jp^$important
+
+! === Google Hangouts / Chat ===
+||hangouts.google.com^$important
+||chat.google.com^$important
+
+! === Tapatalk ===
+||tapatalk.com^$important
+||cdn.tapatalk.com^$important
+||groups.tapatalk-cdn.com^$important
+
+! === IMO ===
+||imo.im^$important
+
+! === Chatango ===
+||chatango.com^$important
+||st.chatango.com^$important
+
+! === Skype ===
+||skype.com^$important
+||web.skype.com^$important
+||api.skype.com^$important
+
+! === Threema ===
+||threema.ch^$important
+||app.threema.ch^$important
+
+! === Wickr ===
+||wickr.com^$important
+
+! === Wire ===
+||wire.com^$important
+||app.wire.com^$important
+
+! === Session ===
+||getsession.org^$important
+
+! === Element / Matrix ===
+||element.io^$important
+||matrix.org^$important
+
+! === Briar ===
+||briarproject.org^$important
+
+! === Voxer ===
+||voxer.com^$important
+
+! === GroupMe ===
+||groupme.com^$important
+
+! === Zalo (Vietnam) ===
+||zalo.me^$important
+||zaloapp.com^$important
+
+! === Hike (India, deprecated but resurfaces) ===
+||hike.in^$important
+
+! === Beeper ===
+||beeper.com^$important
+
+! === Band (Naver Group Messenger) ===
+||band.us^$important
+
+! ====================
+! ✅ END OF BLOCKLIST
+! ====================
+! Notes:
+! - This list is part of the MindFence project.
+! - Built to work with AdGuard Home and DNS-based filtering setups.
+! - Covers direct domains, mirrors, subdomains, API endpoints, and media/CDN delivery.
+! - Do not use this list with allowlist rules for any messaging app unless intended.
