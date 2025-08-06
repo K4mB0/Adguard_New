@@ -81,8 +81,23 @@
 
 ! === WeChat ===
 ||wechat.com^$important
-||wechatapp.com^$important
-||weixin.qq.com^$important
+||weixin.com^$important
+||wx.qq.com^$important
+||res.wx.qq.com^$important
+||web.wechat.com^$important
+||web.wechatapp.com^$important
+||support.weixin.qq.com^$important
+||long.weixin.qq.com^$important
+||short.weixin.qq.com^$important
+||szsupport.weixin.qq.com^$important
+||hkshort.weixin.qq.com^$important
+||hkminorshort.weixin.qq.com^$important
+||open.weixin.qq.com^$important
+||mp.weixin.qq.com^$important
+||api.weixin.qq.com^$important
+||cdn.weixin.qq.com^$important
+||file.wx.qq.com^$important
+||dl.wechat.com^$important
 
 ! === LINE ===
 ||line.me^$important
