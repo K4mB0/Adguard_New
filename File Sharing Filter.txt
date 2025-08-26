@@ -1,5 +1,5 @@
 ! AdGuard Home - File Sharing Services Blocklist (Strict)
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly & ChatGPT - 2025-08-26
 ! Purpose: Block all file sharing and cloud transfer platforms except Google Drive (explicitly allowed)
 
 ! === ALLOWLIST: Google Drive Only ===
@@ -91,12 +91,18 @@
 ||catbox.moe^$important
 ||buzzheavier.com^$important
 ||pixeldrain.com^$important
+||pixeldrain.net^$important
+||pixeldrain-bypass.cybar.xyz^$important
 ||mixdrop.ag^$important
 ||mixdrop.my^$important
+||megadb.net^$important
+||megadb.xyz^$important
+||fs18.megadb.xyz^$important
 ||filecrypt.co^$important
+||filecrypt.cc^$important
 ||_9666._https.cnl.filecrypt.cc^$important
 ||downr.org^$important
-
+||clicknupload.click^$important
 
 ! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
 ||multcloud.com^$important
@@ -110,7 +116,36 @@
 ||transferxl.com^$important
 ||txl.tools^$important
 
+! === BLOCKLIST: Image/File Hosting Bypass ===
+||file.garden^$important
+||i.postimg.cc^$important
+||i.ibb.co^$important
+||i.imgur.com^$important
+||freeimage.host^$important
+||media.tenor.com^$important
+
+! === BLOCKLIST: Unlock/Gating Services ===
+||sub2unlock.io^$important
+
+! === BLOCKLIST: Video/File Save Mirrors ===
+||files.savemp4.red^$important
+
+! === BLOCKLIST: AI/CDN Mirrors Used for File Hosting ===
+||cdn-avatars.hf-mirror.com^$important
+||de5282c3ca0c.edge.sdk.hf-mirror.com^$important
+
+! === BLOCKLIST: Subsonic Worker File Mirrors ===
+||coom2.subsonic.workers.dev^$important
+||down.subsonic.workers.dev^$important
+||lr.subsonic.workers.dev^$important
+||kem2.subsonic.workers.dev^$important
+
+! === BLOCKLIST: Counters / Trackers in File Sharing ===
+||count.getloli.com^$important
+
 ! === Notes ===
-! - Google Drive is explicitly allowed; all other platforms are blocked
-! - Covers direct file hosts, cloud sync services, temporary link sharing, and CDNs
-! - No exceptions permitted
+! - Google Drive explicitly allowed; all others blocked
+! - Includes file hosts, cloud sync, bypass domains, mirrors, and trackers
+! - ModsFire & UnionCrax remain allowed
+! - No duplicates; all enforced with $important
+! - Strict denial of file sharing and circumvention platforms
