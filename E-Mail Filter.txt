@@ -96,6 +96,8 @@
 ||api.tuta.com^$important
 ||w16.api.tuta.com^$important
 ||app.tuta.com^$important
+||mailinator.com^$important
+||www.mailinator.com^$important
 
 ! === BLOCKLIST: MailPlus / Email.nl Services ===
 ||mailplus.nl^$important
