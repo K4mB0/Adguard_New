@@ -98,6 +98,8 @@
 ||app.tuta.com^$important
 ||mailinator.com^$important
 ||www.mailinator.com^$important
+||tmailor.com^$important
+||temp-mail.io^$important
 
 ! === BLOCKLIST: MailPlus / Email.nl Services ===
 ||mailplus.nl^$important
