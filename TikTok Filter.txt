@@ -12,6 +12,8 @@
 ||t.tiktok.com^$important
 ||tiktokv.com^$important
 ||tiktokcdn.com^$important
+||tiktokcdn-eu.com^$important
+||tiktokcdn-us.com^$important
 
 
 ! === TikTok CDN & Media Delivery ===
