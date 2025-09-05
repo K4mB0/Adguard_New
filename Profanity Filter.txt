@@ -11,9 +11,11 @@
 ||slangdefine.org^$important
 ||onlineslangdictionary.com^$important
 ||noslang.com^$important
-
+||hexbear.net^$important
+||www.hexbear.net^$important
 
 ! === Notes ===
 ! - These domains are often used to look up or share definitions of profanity, sexual slang, drug terms, and offensive language
 ! - Some APIs are used by bots and browser extensions to pull NSFW content automatically
+
 ! - Blocking helps prevent access to inappropriate or filter-dodging content by kids or students
