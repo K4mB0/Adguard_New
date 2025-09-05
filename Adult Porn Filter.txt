@@ -116,6 +116,7 @@
 ||danbooru.donmai.us^$important
 ||e621.net^$important
 ||sankakucomplex.com^$important
+||yiffit.net^$important
 
 
 ! === General Adult Content Delivery (CDNs) ===
