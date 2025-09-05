@@ -5,6 +5,10 @@
 ! === ACTIVE ===
 ||ouo.io^$important
 
+||linktr.ee^$important
+||ugc.production.linktr.ee^$important
+||assets.production.linktr.ee^$important
+
 ! === COMMENTED (enable one-by-one as needed) ===
 ! ||linkvertise.com^$important
 ! ||work.ink^$important
