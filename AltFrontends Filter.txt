@@ -71,6 +71,7 @@
 ||us1.noblo.cc^$important
 ||redgifsdownloader.net$important
 ||redgifdownloader.com$important
+||unblocc.co.uk^$important
 
 ! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
