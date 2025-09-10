@@ -72,22 +72,6 @@
 ||redgifsdownloader.net$important
 ||redgifdownloader.com$important
 
-! NoBlocc / NoBlocc proxy network
-||noblocc.com^$important
-||www.noblocc.com^$important
-||noblocc.uk^$important
-||www.noblocc.uk^$important
-||us1.noblocc.uk^$important
-||us2.noblocc.uk^$important
-||uk1.noblocc.com^$important
-||uk2.noblocc.com^$important
-||us1.noblocc.com^$important
-||us2.noblocc.com^$important
-
-! UnBlocc (mirror proxy sibling)
-||unblocc.co.uk^$important
-||unblocc.com^$important
-
 ! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
 ||redlibrary.xyz^$important
