@@ -1,0 +1,38 @@
+! =====================================
+! NoBlocc / UnBlocc Proxy Blocklist
+! Purpose: Block all known NoBlocc/UnBlocc
+! proxy domains and mirrors
+! =====================================
+
+! Core domains (catch all subdomains)
+||antiblocc.uk^$important
+||deblocc.uk^$important
+||eduhelp.uk^$important
+||noblo.cc^$important
+||noblocc.com^$important
+||noblocc.me^$important
+||noblocc.uk^$important
+||stopblocc.uk^$important
+||unblocc.co.uk^$important
+||unblocc.com^$important
+
+! Known active subdomains / mirrors
+||admin-286ea7.noblocc.uk^$important
+||api.noblocc.com^$important
+||g.noblocc.uk^$important
+||ghgi.noblocc.uk^$important
+||maintenance.noblocc.uk^$important
+||uk1.noblocc.com^$important
+||uk2.noblocc.com^$important
+||us1.noblocc.com^$important
+||us1.noblocc.uk^$important
+||us2.noblocc.com^$important
+||us2.noblocc.uk^$important
+
+! =====================================
+! Optional future-proof wildcard rules
+! Uncomment if you want to catch
+! every new mirror automatically
+! =====================================
+||*noblocc*^$important
+||*unblocc*^$important
