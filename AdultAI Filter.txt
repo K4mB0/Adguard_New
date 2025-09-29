@@ -118,6 +118,9 @@
 ||aisekai.chat^$important
 ||aiwaifu.dev^$important
 ||aiwaifu.net^$important
+||waifu.im^$important
+||www.waifu.im^$important
+||docs.waifu.im^$important
 ||crushon.ai^$important
 ||juicychat.ai^$important
 ||chat.kink.ai^$important
