@@ -10,6 +10,10 @@
 ||discuss.whatever.social^$important
 ||bypass.vip^$important
 ||api.bypass.vip^$important
+||modslocker.com^$important
+||cdn.modslocker.com^$important
+||dl1.modslocker.com^$important
+
 
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
