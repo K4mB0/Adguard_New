@@ -34,6 +34,15 @@
 ||static.janitorai.com^$important
 ||cdn.janitorai.com^$important
 
+! === JannyAI === !
+||jannyai.com^$important
+||image.jannyai.com^$important
+||anal.jannyai.com^$important
+||cdn.jannyai.com^$important
+||api.jannyai.com^$important
+||static.jannyai.com^$important
+
+
 
 ! === Replika & Clones ===
 ||replika.ai^$important
