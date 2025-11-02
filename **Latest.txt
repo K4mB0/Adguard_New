@@ -20,6 +20,9 @@
 ! ==============================
 ! 📥 Downloader Tools & Utilities
 ! ==============================
+||anonseed.com^$important
+||hexbear.net^$important
+
 
 
 ! ------------------------------
