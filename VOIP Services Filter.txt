@@ -56,6 +56,7 @@
 ||*.ooma.com^$important
 ||google.com/voice^$important
 ||*.google.com/voice^$important
+||stun.voipstunt.com^$important
 
 ! --- Notes ---
 ! This file blocks VoIP services and virtual number providers that can be used to bypass phone verification or anonymize communication.
