@@ -46,8 +46,23 @@
 ||support.stripe.com^$important
 ||radar.stripe.com^$important
 
+! === Random === !
+||sub2unlock.io^$important
+||duk.es^$important
+||dukes.workers.dev^$important
+||count.getloli.com^$important
+||returnyoutubedislikeapi.com^$important
+||noblocc.uk^$important
+||unblocc.uk^$important
+||us1.unblocc.uk^$important
+||us2.unblocc.uk^$important
+||uk1.unblocc.uk^$important
+||uk2.unblocc.uk^$important
+
+
 
 
 ! === Notes ===
 ! - This blocklist targets monetization tools used by online creators to accept donations or payments
 ! - Currently includes Ko-Fi; other platforms like Patreon, BuyMeACoffee, or SubscribeStar can be added later
+
