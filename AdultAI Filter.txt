@@ -25,8 +25,6 @@
 ||t3.chat^$important
 ||wyvernchat.com^$important
 
-
-
 ! === JanitorAI ===
 ||janitorai.com^$important
 ||janitor.ai^$important
@@ -42,8 +40,6 @@
 ||api.jannyai.com^$important
 ||static.jannyai.com^$important
 
-
-
 ! === Replika & Clones ===
 ||replika.ai^$important
 ||replika.com^$important
@@ -58,14 +54,12 @@
 ||replai.ai^$important
 ||anima.ai^$important
 
-
 ! === KoboldAI Ecosystem ===
 ||koboldai.net^$important
 ||lite.koboldai.net^$important
 ||fiction.live^$important
 ||textgen.dev^$important
 ||oobabooga.net^$important
-
 
 ! === NovelAI & Derivatives ===
 ||novelai.net^$important
@@ -75,14 +69,12 @@
 ||opus.novelai.net^$important
 ||scenario.gg^$important
 
-
 ! === AI Dungeon / Latitude ===
 ||aidungeon.io^$important
 ||play.aidungeon.io^$important
 ||api.aidungeon.io^$important
 ||scenarios.aidungeon.io^$important
 ||latitude.io^$important
-
 
 ! === Hugging Face & Open AI Hosting Repositories ===
 ||huggingface.co^$important
@@ -135,14 +127,12 @@
 ||chat.kink.ai^$important
 ||girlfriendgpt.com^$important
 
-
 ! === Legacy / Chatbot Experiments ===
 ||cleverbot.com^$important
 ||eviebot.com^$important
 ||boibot.com^$important
 ||jenniferbot.com^$important
 ||personalityforge.com^$important
-
 
 ! === Notes ===
 ! - Some entries like sindresorhus.com appear unrelated — review needed.
