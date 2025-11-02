@@ -103,6 +103,31 @@
 ||_9666._https.cnl.filecrypt.cc^$important
 ||downr.org^$important
 ||clicknupload.click^$important
+||file.garden^$important
+||i.postimg.cc^$important
+||files.savemp4.red^$important
+||i.ibb.co^$important
+||i.imgur.com^$important
+||cdn-avatars.hf-mirror.com^$important
+||de5282c3ca0c.edge.sdk.hf-mirror.com^$important
+||coom2.subsonic.workers.dev^$important
+||down.subsonic.workers.dev^$important
+||lr.subsonic.workers.dev^$important
+||kem2.subsonic.workers.dev^$important
+||freeimage.host^$important
+||cdn.discordapp.com^$important
+||extensions.socalifornian.live^$important
+||cybar.xyz^$important
+||vern.cc^$important
+||ducks.party^$important
+||filecrypt.cc^$important
+||gamedriveorg.pd*.workers.dev^$important
+||cdn.pd*.workers.dev^$important
+||frontendfriendly.xyz^$important
+||unblocc.com^$important
+||unblocc.cc^$important
+||unblocc.net^$important
+
 
 ! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
 ||multcloud.com^$important
