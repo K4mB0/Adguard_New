@@ -154,3 +154,17 @@
 ||spankwire.com^$important
 ||drtuber.com^$important
 ||sleazyneasy.com^$important
+||creepshots.com^$important
+||coomer.st^$important
+||img.coomer.st^$important
+||n1.coomer.st^$important
+||n3.coomer.st^$important
+||n4.coomer.st^$important
+||kemono.cr^$important
+||n1.kemono.cr^$important
+||n2.kemono.cr^$important
+||n3.kemono.cr^$important
+||n4.kemono.cr^$important
+||img.kemono.cr^$important
+||safebooru.org^$important
+
