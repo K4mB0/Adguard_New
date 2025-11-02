@@ -133,6 +133,22 @@
 ||boibot.com^$important
 ||jenniferbot.com^$important
 ||personalityforge.com^$important
+||api.wyvern.chat^$important
+||api.featherless.ai^$important
+||sacrilegious.uwu.ai^$important
+||chat.qwen.ai^$important
+||qwen.ai^$important
+||qianwen-res.oss-accelerate-overseas.aliyuncs.com^$important
+||qianwen-res.oss-cn-beijing.aliyuncs.com^$important
+||wyvern.chat^$important
+||app.wyvern.chat^$important
+||blog.wyvern.chat^$important
+||ytapi.org^$important
+||cdn.ytapi.org^$important
+||mp3api.ytjar.info^$important
+||oh.fuuuuuck.com^$important   ← edgy name but this points at AI bypass infra
+||flagsmith-proxy-worker.inventive.workers.dev^$important
+
 
 ! === Notes ===
 ! - Some entries like sindresorhus.com appear unrelated — review needed.
