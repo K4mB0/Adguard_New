@@ -78,6 +78,8 @@
 ||discord.link^$important
 ||cord.vip^$important
 ||cord.xyz^$important
+||discord.c99.nl^$important
+
 
 
 
