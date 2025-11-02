@@ -26,6 +26,7 @@
 ||r.genit.al^$important
 ||redlib.nadeko.net^$important
 ||redlib.perennialte.ch^$important
+||www.redditstatic.com^$important
 ||libreddit.miaoute.net^$important
 
 
