@@ -83,6 +83,12 @@
 ||us.tiktok.com^$important
 ||tiktokd.org^$important
 ||bytedapm.com^$important
+||ssstik.io^$important
+||snaptik.kim^$important
+||tikcdn.io^$important
+||savett.cc^$important
+||dl4.savett.cc^$important
+
 
 
 ! === Notes ===
