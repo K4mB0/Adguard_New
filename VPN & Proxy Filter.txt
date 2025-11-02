@@ -114,6 +114,11 @@
 ||urban-vpn.com^$important
 ||freevpn.me^$important
 ||vpnbook.com^$important
+||cf-web-proxy.pages.dev^$important
+||devprod.cloudflare.dev^$important
+||cloudflare-dns.com^$important
+||binternet.ducks.party^$important
+
 
 ! === Notes ===
 ! - This list disables access to all major VPN and proxy providers
