@@ -1,8 +1,8 @@
 ! AdGuard Home - Optimized Adult AI Roleplay Blocklist
-! Updated and categorized by Coly & ChatGPT - 2025-05-15
+! Updated and categorized by Coly 04/11/25
 ! Purpose: Block AI chat/roleplay services used for NSFW, pseudo-romantic, and fetish scenarios
 
-! === Ollama.AI === 
+! === Ollama.AI ===
 ||ollama.com^$important
 
 ! === Genit.AL ===
@@ -32,7 +32,7 @@
 ||static.janitorai.com^$important
 ||cdn.janitorai.com^$important
 
-! === JannyAI === !
+! === JannyAI ===
 ||jannyai.com^$important
 ||image.jannyai.com^$important
 ||anal.jannyai.com^$important
@@ -77,13 +77,12 @@
 ||latitude.io^$important
 
 ! === Hugging Face & Open AI Hosting Repositories ===
+! Consider moving these to an “AI Infrastructure” category instead of Adult AI Roleplay
 ||huggingface.co^$important
-||*.huggingface.co^$important
 ||spaces.huggingface.co^$important
 ||datasets-server.huggingface.co^$important
 ||cdn-lfs.huggingface.co^$important
 ||cdn-assets.huggingface.co^$important
-
 
 ! === Additional AI Roleplay Platforms ===
 ||charstar.ai^$important
@@ -146,9 +145,6 @@
 ||ytapi.org^$important
 ||cdn.ytapi.org^$important
 ||mp3api.ytjar.info^$important
-||oh.fuuuuuck.com^$important   ← edgy name but this points at AI bypass infra
+||oh.fuuuuuck.com^$important
+! Edgy domain name — flagged for AI bypass infra
 ||flagsmith-proxy-worker.inventive.workers.dev^$important
-
-
-! === Notes ===
-! - Some entries like sindresorhus.com appear unrelated — review needed.
