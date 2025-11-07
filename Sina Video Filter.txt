@@ -1,7 +1,6 @@
 ! AdGuard Home - Locked Sina Video Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Block all video services hosted by Sina, including streaming, CDN, analytics, and APIs
-
 
 ! === Core Sina Video Domains ===
 ||video.sina.com.cn^$important
@@ -9,7 +8,6 @@
 ||video.sina.com^$important
 ||kandian.sina.com.cn^$important
 ||live.sina.com.cn^$important
-
 
 ! === CDN & Media Servers ===
 ||vhead.sina.com.cn^$important
@@ -20,7 +18,7 @@
 ||pull.video.sina.cn^$important
 ||dispatch.video.sina.com.cn^$important
 ||v.iask.com^$important
-
+||sax.sina.com.cn^$important
 
 ! === APIs & Platform Services ===
 ||api.video.sina.com.cn^$important
@@ -30,14 +28,12 @@
 ||s.video.sina.com.cn^$important
 ||count.video.sina.com.cn^$important
 
-
 ! === Storage & Uploading Systems ===
 ||vcdn.sina.com.cn^$important
 ||vodcdn.video.sina.com.cn^$important
 ||file.video.sina.com.cn^$important
 ||upload.video.sina.com.cn^$important
 ||vstorage.sina.com.cn^$important
-
 
 ! === Analytics & Ad Tracking ===
 ||datacenter.sina.com.cn^$important
@@ -46,8 +42,7 @@
 ||vstat.v.blog.sina.com.cn^$important
 ||beacon.sina.com.cn^$important
 
-
-! === Additional Sina Services & UI ===
+! === Additional Sina / Weibo Video Surfaces ===
 ||sina.cn^$important
 ||sina.com.cn^$important
 ||sjs.sinajs.cn^$important
@@ -57,14 +52,12 @@
 ||iplookup.video.sina.com.cn^$important
 ||comment.sina.com.cn^$important
 ||comment.video.sina.com.cn^$important
-
+||weibo.com^$important
+||m.weibo.cn^$important
+||video.weibo.com^$important
+||wbimg.com^$important
 
 ! === Mobile Video Infrastructure ===
 ||mapi.sina.com^$important
 ||videoload.sina.cn^$important
 ||livelog.sina.cn^$important
-
-
-! === Notes ===
-! - This blocklist disables all Sina video content, including playback, uploads, live feeds, ads, and comments
-! - Mobile endpoints and CDNs are included to prevent bypass
