@@ -1,7 +1,6 @@
 ! AdGuard Home - Locked Facebook/Meta Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Fully block Facebook, Messenger, Meta services, and all connected APIs, CDNs, tracking, and mobile apps
-
 
 ! === Core Facebook Domains ===
 ||facebook.com^$important
@@ -16,7 +15,6 @@
 ||fb.com^$important
 ||fb.me^$important
 ||facebook.net^$important
-
 
 ! === Facebook CDN & Media ===
 ||fbcdn.net^$important
@@ -42,7 +40,6 @@
 ||fbcdn-video-h.akamaihd.net^$important
 ||fbstatic-a.akamaihd.net^$important
 
-
 ! === Facebook API & App Services ===
 ||api.facebook.com^$important
 ||apps.facebook.com^$important
@@ -55,7 +52,6 @@
 ||vupload2.facebook.com^$important
 ||star.facebook.com^$important
 
-
 ! === Facebook Advertising & Analytics ===
 ||ads.facebook.com^$important
 ||business.facebook.com^$important
@@ -65,12 +61,10 @@
 ||scontent.facebook.com^$important
 ||static.facebook.com^$important
 
-
 ! === Authentication Services ===
 ||login.facebook.com^$important
 ||oauth.facebook.com^$important
 ||sso.facebook.com^$important
-
 
 ! === Facebook Messenger ===
 ||messenger.com^$important
@@ -78,15 +72,12 @@
 ||m.messenger.com^$important
 ||api.messenger.com^$important
 
-
 ! === Meta & Other Subsidiaries ===
 ||meta.com^$important
 ||threads.net^$important
+||threads.com^$important
 ||workplace.com^$important
 ||atlassolutions.com^$important
-
-
-! === Notes ===
-! - Every known Facebook, Messenger, and Meta endpoint is covered
-! - Mobile, video, API, analytics, and login functions are all disabled
-! - No exceptions allowed in this profile
+||metaverse.com^$important
+||meta.foundation^$important
+||meta.community^$important
