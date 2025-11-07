@@ -1,15 +1,17 @@
-! AdGuard Home - Total VPN/Proxy Access Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
-! Purpose: Block all commercial VPN providers, proxy services, and evasion platforms
+! AdGuard Home - Total VPN & Proxy Access Blocklist
+! Updated and enforced by Coly - 2025-11-05
+! Purpose: Block all commercial VPNs, proxies, and encrypted-tunnel apps while allowing 1.1.1.1 DNS resolution.
 
-! === NordVPN ===
+! === NordVPN Family ===
 ||nordvpn.com^$important
-||nordvpn.net^$important
 ||nordcdn.com^$important
 ||nord-dns.com^$important
 ||nordaccount.com^$important
 ||nordwebsite.net^$important
 ||northghost.com^$important
+||nordlayer.com^$important
+||nordpass.com^$important
+||nordlocker.com^$important
 
 ! === ExpressVPN ===
 ||expressvpn.com^$important
@@ -25,14 +27,15 @@
 ||protonmail.com^$important
 ||protonstatus.com^$important
 
-! === Surfshark ===
+! === Surfshark / Atlas ===
 ||surfshark.com^$important
 ||surfshark.net^$important
 ||surfsharkdns.com^$important
+||atlasvpn.com^$important
+||atlaskvpn.com^$important
 ||wgs.prod.surfshark.com^$important
-||stats.surfshark.com^$important
 ||api.surfshark.com^$important
-||ux.surfshark.com^$important
+||stats.surfshark.com^$important
 ||downloads.surfshark.com^$important
 
 ! === CyberGhost ===
@@ -44,7 +47,6 @@
 ! === Private Internet Access ===
 ||privateinternetaccess.com^$important
 ||piavpn.net^$important
-||pia.com^$important
 ||piaservers.net^$important
 
 ! === IPVanish ===
@@ -54,8 +56,8 @@
 
 ! === TunnelBear ===
 ||tunnelbear.com^$important
-||tbear.io^$important
 ||tunnelbear.net^$important
+||tbear.io^$important
 
 ! === Windscribe ===
 ||windscribe.com^$important
@@ -64,16 +66,17 @@
 
 ! === Hotspot Shield / AnchorFree ===
 ||hotspotshield.com^$important
-||hsselite.com^$important
 ||anchorfree.com^$important
+||hsselite.com^$important
 ||hotspotshield.net^$important
+||pango.co^$important
 
 ! === VyprVPN / GoldenFrog ===
 ||vyprvpn.com^$important
 ||goldenfrog.com^$important
 ||vyprvpn.net^$important
 
-! === Hide.me ===
+! === Hide.me / Hide.io ===
 ||hide.me^$important
 ||hide.io^$important
 ||hideservers.net^$important
@@ -93,9 +96,7 @@
 ||mullvad.com^$important
 ||mullvadvpn.net^$important
 
-! === Additional VPN Services ===
-||atlaskvpn.com^$important
-||atlasvpn.com^$important
+! === Other Major VPN Providers ===
 ||airvpn.org^$important
 ||perfect-privacy.com^$important
 ||vpnunlimited.com^$important
@@ -114,12 +115,51 @@
 ||urban-vpn.com^$important
 ||freevpn.me^$important
 ||vpnbook.com^$important
+||zoogvpn.com^$important
+||hidemyass.com^$important
+||planetvpn.com^$important
+||goosevpn.com^$important
+||privadovpn.com^$important
+||ultravpn.com^$important
+||blufvpn.com^$important
+||fastestvpn.com^$important
+||smartdnsproxy.com^$important
+||strongdns.com^$important
+||whoer.net^$important
+||seed4.me^$important
+||getflix.com.au^$important
+||anonine.com^$important
+||unlocator.com^$important
+
+! === Cloudflare Warp (VPN/Proxy Components Only) ===
+||warp.plus^$important
+||warp.cloudflare.com^$important
+||cloudflarewarp.com^$important
+||cloudflareclient.com^$important
+||developers.cloudflare.com/warp^$important
+
+! (Safe for AdGuard Home – allows standard Cloudflare DNS resolution)
+! DO NOT block these:
+! cloudflare-dns.com
+! cloudflare-gateway.com
+! 1dot1dot1dot1.cloudflare-dns.com
+
+! === Miscellaneous Proxy / VPN Aggregators ===
+||vpnproxy.net^$important
+||vpnmonster.com^$important
+||supervpn.net^$important
+||freeopenvpn.org^$important
+||unblockvpn.com^$important
+||fastvpn.me^$important
+||ipburger.com^$important
+||getfreevpn.com^$important
+||sslprivateproxy.com^$important
+||myprivateproxy.net^$important
+||smartproxy.com^$important
+||proxylisty.com^$important
+||proxyportal.net^$important
+||vpnapi.io^$important
+||binternet.ducks.party^$important
 ||cf-web-proxy.pages.dev^$important
 ||devprod.cloudflare.dev^$important
-||cloudflare-dns.com^$important
-||binternet.ducks.party^$important
 
-
-! === Notes ===
-! - This list disables access to all major VPN and proxy providers
-! - Wildcard-style logic has been removed for full compatibility with AdGuard Home
