@@ -1,18 +1,22 @@
 ! AdGuard Home - Locked Twitter/X Blocklist
-! Fully enforced by Coly & ChatGPT - 2025-05-15
+! Fully enforced by Coly 04/11/25
 ! Purpose: Complete Twitter blackout including X.com, media, APIs, OAuth, and business services
-
 
 ! === Core Domains ===
 ||twitter.com^$important
+||www.twitter.com^$important
 ||x.com^$important
+||www.x.com^$important
 ||t.co^$important
 ||twimg.com^$important
 ||twttr.com^$important
 ||twitter.jp^$important
 ||twitter.co^$important
 ||twitter.net^$important
-
+||twitterinc.com^$important
+||twitter.org^$important
+||mobile.twitter.com^$important
+||lite.twitter.com^$important
 
 ! === CDN & Media Delivery ===
 ||abs.twimg.com^$important
@@ -21,36 +25,67 @@
 ||ton.twimg.com^$important
 ||upload.twitter.com^$important
 ||media.twitter.com^$important
+||cdn.syndication.twimg.com^$important
+||video-cdn.x.com^$important
+||cdn.x.com^$important
+||media.x.com^$important
+||upload.x.com^$important
+||ton.x.com^$important
 
-
-! === API, Login & OAuth ===
+! === API, GraphQL & OAuth ===
 ||api.twitter.com^$important
 ||api-ssl.twitter.com^$important
+||api.x.com^$important
+||graphql.twitter.com^$important
+||graphql.x.com^$important
 ||oauth.twitter.com^$important
+||oauth.x.com^$important
 ||sso.twitter.com^$important
+||sso.x.com^$important
 ||platform.twitter.com^$important
 ||tweetdeck.twitter.com^$important
+||tweetdeck.x.com^$important
+||twimg.x.com^$important
 
+! === Spaces, Live & Streaming ===
+||prod-spaces.scdn.twitter.com^$important
+||prod-spaces.x.com^$important
+||live.twitter.com^$important
+||live-video.twitter.com^$important
+||live.x.com^$important
+||video.x.com^$important
+||prod-video.x.com^$important
+||audio.x.com^$important
+||spaces.x.com^$important
 
 ! === Ads, Analytics & Tracking ===
 ||analytics.twitter.com^$important
+||analytics.x.com^$important
 ||ads-api.twitter.com^$important
+||ads-api.x.com^$important
 ||advertising.twitter.com^$important
-||cdn.syndication.twimg.com^$important
+||advertising.x.com^$important
+||ads.twitter.com^$important
+||ads.x.com^$important
 ||syndication.twitter.com^$important
-
+||syndication.x.com^$important
+||cdn.syndication.x.com^$important
+||metrics.x.com^$important
+||trk.x.com^$important
+||pixel.x.com^$important
 
 ! === Business, Developer & Support ===
 ||business.twitter.com^$important
+||business.x.com^$important
 ||dev.twitter.com^$important
 ||developer.twitter.com^$important
+||developer.x.com^$important
 ||cards-dev.twitter.com^$important
 ||blog.twitter.com^$important
 ||status.twitter.com^$important
 ||help.twitter.com^$important
 ||support.twitter.com^$important
+||support.x.com^$important
+||about.x.com^$important
+||about.twitter.com^$important
 
-
-! === Notes ===
-! - All possible routes to Twitter/X are shut down, including legacy, CDN, and shortened links
-! - Covers web, mobile, embedded widgets, authentication, and API clients
