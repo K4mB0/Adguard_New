@@ -1,9 +1,8 @@
 ! AdGuard Home - Slang & Profanity Dictionary Blocklist
-! Created and enforced by Coly & ChatGPT - 2025-05-15
+! Created and enforced by Coly 04/11/25
 ! Purpose: Block online slang dictionaries and profanity reference tools used to bypass content filters or expose inappropriate terms
 
-
-! === Urban Dictionary & Related Slang Sites ===
+! === Urban Dictionary & Core Slang Sites ===
 ||urbandictionary.com^$important
 ||www.urbandictionary.com^$important
 ||api.urbandictionary.com^$important
@@ -11,11 +10,27 @@
 ||slangdefine.org^$important
 ||onlineslangdictionary.com^$important
 ||noslang.com^$important
+
+! === Slang / Profanity Wikis & Clones ===
+||ruraldictionary.com^$important
+||the-definitions.com^$important
+||slangit.com^$important
+||slangpedia.org^$important
+||lingojam.com^$important
+||theinternetdictionary.com^$important
+||internetslang.com^$important
+||slanglang.net^$important
+||fastslang.com^$important
+
+! === Meme & NSFW Slang Forums ===
 ||hexbear.net^$important
 ||www.hexbear.net^$important
+||knowyourmeme.com^$important
+||meming.io^$important
+||memeatlas.com^$important
 
-! === Notes ===
-! - These domains are often used to look up or share definitions of profanity, sexual slang, drug terms, and offensive language
-! - Some APIs are used by bots and browser extensions to pull NSFW content automatically
-
-! - Blocking helps prevent access to inappropriate or filter-dodging content by kids or students
+! === API / App Sources Pulling Slang Data ===
+||slangapi.com^$important
+||dictionaryapi.dev^$important
+||api.slangit.com^$important
+||api.internetslang.com^$important
