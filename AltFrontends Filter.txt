@@ -1,5 +1,5 @@
 ! AdGuard Home - Alt Frontends & Censorship Bypass Proxies Blocklist
-! Fully enforced by Coly & ChatGPT - 2025-06-01
+! Updated and categorized by Coly 04/11/25
 ! Purpose: Block alternative frontends, mirror gateways, and clearnet proxies that circumvent platform restrictions or content filtering
 
 ! === New Frontends ===
@@ -14,7 +14,6 @@
 ||cdn.modslocker.com^$important
 ||dl1.modslocker.com^$important
 
-
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
 
@@ -24,7 +23,6 @@
 ||cloudflare-ipfs.com^$important
 ||onion.to^$important
 ||tor2web.io^$important
-||i2p^$important
 ||bloat.cat^$important
 ||teddit.net^$important
 ||libreddit.net^$important
@@ -37,20 +35,12 @@
 ||proxitok.pabloferreiro.es^$important
 ||sneedflix.cc^$important
 
-! === Consolidated Wildcard Frontends ===
-||nitter.*^$important
+! === Nitter & Other Frontend Families ===
 ||nitter.poast.org^$important
 ||nitter.privacydev.net^$important
 ||nitter.eu^$important
 ||nitter.42l.fr^$important
 ||nitter.snopyta.org^$important
-
-||libreddit.*^$important
-||teddit.*^$important
-||invidious.*^$important
-||searx.*^$important
-||piped.*^$important
-||redlib.*^$important
 ||privacyredirect.com^$important
 
 ! === Additional Frontends & Circumvention Sites ===
@@ -73,10 +63,9 @@
 ||wikiless.org^$important
 ||nadeko.net^$important
 ||us1.noblo.cc^$important
-||redgifsdownloader.net$important
-||redgifdownloader.com$important
+||redgifsdownloader.net^$important
+||redgifdownloader.com^$important
 ||sounddownmp3.com^$important
-
 
 ! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
@@ -86,8 +75,3 @@
 ||reddit.utsav2.dev^$important
 ||reddit.rtrace.io^$important
 
-! === Notes ===
-! - All wildcard and *.domain entries replaced with ||domain^ format for full blocking
-! - This format blocks both root and all subdomains
-! - Wildcards across TLDs (like `.*`) are NOT supported and avoided
-! - Merged multiple frontends under general wildcards to ensure durability and cleanliness
