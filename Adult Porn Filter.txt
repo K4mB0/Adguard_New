@@ -1,5 +1,5 @@
 ! AdGuard Home - Optimized Adult Content Blocklist
-! Updated and categorized by Coly & ChatGPT - 2025-05-15
+! Updated and categorized by Coly 04/11/25
 ! Purpose: Block access to explicit adult content, cam sites, adult social platforms, and delivery CDNs
 
 
@@ -49,22 +49,16 @@
 ||pornpictureshq.com^$important
 ||sex.com^$important
 ||nudostar.tv^$important
-||*.nudostar.tv^$important
 ||bongacams11.com^$important
-||*.bongacams11.com^$important
 ||faponic.com^$important
-||*.faponic.com^$important
 ||javseen.tv^$important
-||*.javseen.tv^$important
-||media.theporndude.com$important
-||javseenz.tv^$important
-||pics.javseen.tv^$important
+||media.theporndude.com^$important
 ||pics.dmm.co.jp^$important
 ||kemono.su^$important
 ||coomer.su^$important
-||coom.subsonic.workers.dev$important
-||jav.subsonic.workers.dev$important
-||kem.subsonic.workers.dev$important
+||coom.subsonic.workers.dev^$important
+||jav.subsonic.workers.dev^$important
+||kem.subsonic.workers.dev^$important
 
 ! === Premium Networks ===
 ||brazzers.com^$important
@@ -167,4 +161,3 @@
 ||n4.kemono.cr^$important
 ||img.kemono.cr^$important
 ||safebooru.org^$important
-
