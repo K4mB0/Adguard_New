@@ -1,5 +1,5 @@
 ! AdGuard Home - Locked Gambling Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Completely block online gambling, poker, crypto casinos, and betting platforms across web, mobile, and app interfaces
 
 ! === Online Casinos ===
@@ -10,7 +10,6 @@
 ||draftkings.com^$important
 ||fanduel.com^$important
 ||gambling.com^$important
-||gamcare.org.uk^$important
 ||ladbrokes.com^$important
 ||mansion.com^$important
 ||paddypower.com^$important
@@ -64,4 +63,100 @@
 ||meccabingo.com^$important
 
 ! === Gambling CDNs & Static Resources ===
-||bet365cdn.com^
+||bet365cdn.com^$important
+||bet365static.com^$important
+||static.skybet.com^$important
+||cdn.williamhill.com^$important
+||media.unibet.com^$important
+||static.unibet.com^$important
+||cdn.bwin.com^$important
+||cdn.pokerstars.com^$important
+||static.pokerstars.com^$important
+
+! === Crypto Casinos ===
+||stake.com^$important
+||roobet.com^$important
+||bc.game^$important
+||rollbit.com^$important
+||trustdice.win^$important
+||betfury.io^$important
+||bitsler.com^$important
+||metaspins.com^$important
+||vave.com^$important
+||thunderpick.com^$important
+||coinplay.com^$important
+||sportsbet.io^$important
+||betcoin.ag^$important
+||7bitcasino.com^$important
+||mbitcasino.io^$important
+||cloudbet.com^$important
+||bitcasino.io^$important
+||duckdice.io^$important
+||bets.io^$important
+||casino.io^$important
+||betplay.io^$important
+
+! === Mirror & Regional Variants ===
+||stake.games^$important
+||stake.bet^$important
+||stake.run^$important
+||roobet.fun^$important
+||roobet.org^$important
+||roobet.co^$important
+||pokerstars.net^$important
+||pokerstars.eu^$important
+||pokerstars.uk^$important
+||888casino.es^$important
+||888casino.it^$important
+||unibet.co.uk^$important
+||unibet.eu^$important
+||williamhill.es^$important
+||williamhill.it^$important
+||bwin.de^$important
+||bwin.es^$important
+||betfair.es^$important
+||betfair.it^$important
+||betsson.se^$important
+||betsson.dk^$important
+||betway.co.za^$important
+||betway.ng^$important
+||betway.in^$important
+||betway.ke^$important
+||bet365.es^$important
+||bet365.it^$important
+||bet365.dk^$important
+||bet365.uk^$important
+||bet365.mx^$important
+
+! === Gambling Tracking & Affiliate Networks ===
+||affiliates.bet365.com^$important
+||affiliates.williamhill.com^$important
+||affiliates.888.com^$important
+||partners.unibet.com^$important
+||partners.betsson.com^$important
+||affiliates.betway.com^$important
+||affiliates.bwin.com^$important
+||track.bet365.com^$important
+||tracking.williamhill.com^$important
+||track.bwin.com^$important
+||media.betsson.com^$important
+||adserver.bet365.com^$important
+||tracking.betway.com^$important
+||ads.unibet.com^$important
+||ads.888.com^$important
+
+! === Gambling Apps / Mobile Endpoints ===
+||api.bet365.com^$important
+||api.betway.com^$important
+||api.williamhill.com^$important
+||api.unibet.com^$important
+||mobile.betfair.com^$important
+||m.unibet.com^$important
+||m.bet365.com^$important
+||m.betway.com^$important
+||m.williamhill.com^$important
+||app.roobet.com^$important
+||app.stake.com^$important
+||m.stake.com^$important
+||api.stake.com^$important
+||api.roobet.com^$important
