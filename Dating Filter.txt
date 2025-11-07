@@ -1,5 +1,5 @@
 ! AdGuard Home - Optimized Dating Site & App Blocklist
-! Updated and categorized by Coly & ChatGPT - 2025-05-15
+! Updated and categorized by Coly 04/11/25
 ! Purpose: Block access to dating platforms, their APIs, tracking, and media services
 
 
@@ -15,7 +15,6 @@
 ||pof.com^$important
 ||plentyoffish.com^$important
 
-
 ! === CDN & Resource Domains ===
 ||tindersparks.com^$important
 ||tinder.net^$important
@@ -28,7 +27,6 @@
 ||matchcdn.com^$important
 ||pofcdn.com^$important
 
-
 ! === API & Platform Services ===
 ||api.gotinder.com^$important
 ||api.bumble.com^$important
@@ -38,7 +36,6 @@
 ||api.okcupid.com^$important
 ||api.match.com^$important
 ||api.pof.com^$important
-
 
 ! === Additional Dating Platforms ===
 ||eharmony.com^$important
@@ -58,7 +55,6 @@
 ||feeld.co^$important
 ||taimi.com^$important
 
-
 ! === Tracking & Analytics ===
 ||analytics.gotinder.com^$important
 ||analytics.bumble.com^$important
@@ -68,7 +64,6 @@
 ||metrics.okcupid.com^$important
 ||stats.match.com^$important
 
-
 ! === Account & Auth Services ===
 ||accounts.gotinder.com^$important
 ||accounts.bumble.com^$important
@@ -77,7 +72,6 @@
 ||accounts.grindr.com^$important
 ||login.okcupid.com^$important
 ||auth.match.com^$important
-
 
 ! === Chat & Media Endpoints ===
 ||media.gotinder.com^$important
@@ -90,7 +84,6 @@
 ||chat.hinge.co^$important
 ||media.grindr.com^$important
 ||chat.grindr.com^$important
-
 
 ! === New & Emerging Platforms (2025 Intelligence) ===
 ||pure.app^$important
@@ -105,8 +98,3 @@
 ||whatsyourprice.com^$important
 ||seeking.com^$important
 ||xmeets.com^$important
-
-
-! === Notes ===
-! - Added 2025 emerging platforms based on current trends and usage spikes
-! - seeking.com also appears in adult/relationship filter sets
