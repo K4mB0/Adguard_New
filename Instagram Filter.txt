@@ -1,7 +1,6 @@
 ! AdGuard Home - Locked Instagram Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Fully block all Instagram content, APIs, services, and related infrastructure
-
 
 ! === Core Instagram Domains ===
 ||instagram.com^$important
@@ -12,11 +11,12 @@
 ||blog.instagram.com^$important
 ||about.instagram.com^$important
 
-
 ! === Instagram CDN & Media Delivery ===
 ||cdninstagram.com^$important
 ||scontent.cdninstagram.com^$important
-
+||scontent.xx.fbcdn.net^$important
+||instagram.fcdn.net^$important
+||igcdn.com^$important
 
 ! === Instagram APIs & App Services ===
 ||api.instagram.com^$important
@@ -27,7 +27,9 @@
 ||tiles.instagram.com^$important
 ||logger.instagram.com^$important
 ||badges.instagram.com^$important
-
+||edge-mqtt.instagram.com^$important
+||mqtt-mini.instagram.com^$important
+||mqtt.c10r.instagram.com^$important
 
 ! === Instagram Ads & Analytics ===
 ||business.instagram.com^$important
@@ -35,13 +37,14 @@
 ||analytics.instagram.com^$important
 ||ads-settings.instagram.com^$important
 ||advertisers.instagram.com^$important
-
+||meta.instagram.com^$important
+||partner.instagram.com^$important
 
 ! === Authentication & App Login ===
 ||login.instagram.com^$important
 ||secure.instagram.com^$important
 ||oauth.instagram.com^$important
-
+||auth.instagram.com^$important
 
 ! === Mobile, API, and Proxy Variants ===
 ||b.instagram.com^$important
@@ -52,7 +55,9 @@
 ||android.instagram.com^$important
 ||ios.instagram.com^$important
 ||l.instagram.com^$important
-
+||edge.instagram.com^$important
+||edge-chat.instagram.com^$important
+||edge-mqtt-mini.instagram.com^$important
 
 ! === Extra Instagram Services & Frontends ===
 ||privacycenter.instagram.com^$important
@@ -60,9 +65,5 @@
 ||creators.instagram.com^$important
 ||live.instagram.com^$important
 ||shop.instagram.com^$important
-
-
-! === Notes ===
-! - Blocks every known Instagram subdomain, CDN, and API interface
-! - Covers business, ads, mobile, login, and content layers
-! - Use this list for full denial of access without exception
+||adsmeta.instagram.com^$important
+||metaads.instagram.com^$important
