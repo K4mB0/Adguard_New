@@ -1,5 +1,5 @@
 ! AdGuard Home - Locked P2P, Torrent & Tor Access Blocklist
-! Fully maintained by Coly & ChatGPT - 2025-05-15
+! Fully maintained by Coly 04/11/25
 ! Purpose: Block all public torrent infrastructure, P2P trackers, Tor network, proxies, bridges, and client updates
 
 ! === Major Torrent Sites ===
@@ -29,6 +29,9 @@
 ||torrentgalaxy.to^$important
 ||torrentproject2.se^$important
 ||bitsearch.to^$important
+||monkeydl.to^$important
+||torrentbay.st^$important
+||kickasst.net^$important
 
 ! === Additional Torrent Sites ===
 ||zamunda.net^$important
@@ -43,6 +46,10 @@
 ||bayproxy.me^$important
 ||ahoy.one^$important
 ||unblocked.lol^$important
+||opentor.net^$important
+||torlink.net^$important
+||bittorrentdownload.net^$important
+||fasttorrent.ru^$important
 
 ! === Torrent Trackers and Infrastructure ===
 ||router.bittorrent.com^$important
@@ -51,6 +58,11 @@
 ||tracker.opentrackr.org^$important
 ||tracker.publicbt.com^$important
 ||dht.transmissionbt.com^$important
+||tracker.leechers-paradise.org^$important
+||tracker.internetwarriors.net^$important
+||tracker.torrent.eu.org^$important
+||tracker.cyberia.is^$important
+||tracker.dler.org^$important
 
 ! === BitTorrent Clients & Updates ===
 ||update.utorrent.com^$important
@@ -67,6 +79,8 @@
 ||tixati.com^$important
 ||frostwire.com^$important
 ||webtorrent.io^$important
+||aria2.github.io^$important
+||biglybt.com^$important
 
 ! === Tor Project & Mirror Domains ===
 ||torproject.org^$important
@@ -75,6 +89,8 @@
 ||torproject.se^$important
 ||torproject.nl^$important
 ||torproject.de^$important
+||torproject.io^$important
+||torproject.cz^$important
 ||torbrowser.org^$important
 ||torpark.net^$important
 ||tor-node.net^$important
@@ -90,6 +106,11 @@
 ||proxy.torproject.org^$important
 ||torservers.net^$important
 ||privoxy.org^$important
+||tor2web.io^$important
+||tor2web.org^$important
+||onion.pet^$important
+||onion.cab^$important
+||onion.ws^$important
 
 ! === Tor Metrics, Status & Docs ===
 ||metrics.torproject.org^$important
@@ -103,8 +124,7 @@
 ||tb-manual.torproject.org^$important
 ||blog.torproject.org^$important
 ||media.torproject.org^$important
+||manual.torproject.org^$important
+||gettor.torproject.org^$important
+||dist.torproject.org^$important
 
-! === Notes ===
-! - Blocks access to all major torrent sites, trackers, DHT servers, and client updates
-! - Tor is fully neutralized across official services, bridges, proxies, and mirror hosts
-! - Covers both desktop and mobile P2P/Tor use, including evasion infrastructure
