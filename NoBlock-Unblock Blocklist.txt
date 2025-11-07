@@ -1,38 +1,68 @@
-! =====================================
-! NoBlocc / UnBlocc Proxy Blocklist
-! Purpose: Block all known NoBlocc/UnBlocc
-! proxy domains and mirrors
-! =====================================
+! AdGuard Home - NoBlocc / UnBlocc Proxy Blocklist
+! Updated and enforced by Coly 04/11/25
+! Purpose: Block all known NoBlocc / UnBlocc proxy domains and mirrors used to evade DNS-level filtering
 
-! Core domains (catch all subdomains)
-||antiblocc.uk^$important
-||deblocc.uk^$important
-||eduhelp.uk^$important
-||noblo.cc^$important
+! === Core Domains ===
+||noblocc.uk^$important
+||noblocc.co.uk^$important
 ||noblocc.com^$important
 ||noblocc.me^$important
-||noblocc.uk^$important
-||stopblocc.uk^$important
+||noblo.cc^$important
+||unblocc.uk^$important
 ||unblocc.co.uk^$important
 ||unblocc.com^$important
+||unblocc.net^$important
+||unblocc.cc^$important
+||antiblocc.uk^$important
+||deblocc.uk^$important
+||stopblocc.uk^$important
+||eduhelp.uk^$important
+||estonias.uk^$important
+||phantomcaravan.uk^$important
+||coccblocc.men^$important
 
-! Known active subdomains / mirrors
-||admin-286ea7.noblocc.uk^$important
+! === Known Active Subdomains / Mirrors ===
 ||api.noblocc.com^$important
+||api.noblocc.me^$important
+||api.noblocc.uk^$important
+||api.unblocc.uk^$important
+||api.stopblocc.uk^$important
+||admin-286ea7.noblocc.uk^$important
 ||g.noblocc.uk^$important
 ||ghgi.noblocc.uk^$important
 ||maintenance.noblocc.uk^$important
 ||uk1.noblocc.com^$important
 ||uk2.noblocc.com^$important
 ||us1.noblocc.com^$important
-||us1.noblocc.uk^$important
 ||us2.noblocc.com^$important
-||us2.noblocc.uk^$important
+||uk1.unblocc.com^$important
+||uk2.unblocc.com^$important
+||us1.unblocc.com^$important
+||us2.unblocc.com^$important
+||cdn.noblocc.uk^$important
+||cache.noblocc.uk^$important
+||node.noblocc.uk^$important
+||proxy.noblocc.uk^$important
+||files.unblocc.uk^$important
+||cdn.unblocc.uk^$important
+||edge.unblocc.uk^$important
+||gateway.unblocc.uk^$important
+||worker.unblocc.uk^$important
 
-! =====================================
-! Optional future-proof wildcard rules
-! Uncomment if you want to catch
-! every new mirror automatically
-! =====================================
-||*noblocc*^$important
-||*unblocc*^$important
+! === Cloudflare Workers / Pages variants observed in public lists (explicit examples)
+||unblocc-worker.pages.dev^$important
+||noblocc-worker.pages.dev^$important
+||proxy-noblocc.workers.dev^$important
+||proxy-unblocc.workers.dev^$important
+||cloudflare-unblock.workers.dev^$important
+||cfworker-unblock.pages.dev^$important
+||unblocker-demo.pages.dev^$important
+||nativerelay.pages.dev^$important
+
+! === Other proxy / unblocker-style domains seen in circulation
+||cookiesfor.me^$important
+||proxy-unblocker.github.io^$important
+||unblockit.page^$important
+||unblockgo.xyz^$important
+||collagehelper.com^$important
+||api.collagehelper.com^$important
