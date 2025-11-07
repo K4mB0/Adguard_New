@@ -1,14 +1,11 @@
 ! Title: jami-block.txt
 ! Description: Blocks all known access to Jami (https://jami.net), including messaging, connectivity, and updates. Effective for desktop and mobile versions.
-! Last updated: 2025-05-16
-! Author: Coly & ChatGPT
+! Last updated: 04/11/25
+! Author: Coly
 
 ||jami.net^$important
-||*.jami.net^$important
 ||ring.cx^$important
-||*.ring.cx^$important
 ||savoirfairelinux.com^$important
-||*.savoirfairelinux.com^$important
 
 ! Known bootstrap & DHT relay nodes
 ||bootstrap.jami.net^$important
@@ -17,11 +14,14 @@
 ||turn.jami.net^$important
 ||stun.jami.net^$important
 ||ns.jami.net^$important
+||proxy.jami.net^$important
+||dht.jami.net^$important
 
 ! Update and release resources
 ||dl.jami.net^$important
 ||releases.jami.net^$important
 ||packages.jami.net^$important
+||updates.jami.net^$important
 
 ! Jami daemon and communication
 ||daemon.jami.net^$important
@@ -29,10 +29,13 @@
 ||api.jami.net^$important
 ||sip.jami.net^$important
 ||account.jami.net^$important
+||rpc.jami.net^$important
+||peer.jami.net^$important
 
 ! CDN or external resources used by jami.net (precautionary)
 ||cdn.jami.net^$important
 ||media.jami.net^$important
-
-! This filter is intended to block Jami communications at DNS level via AdGuard Home or compatible clients.
-! The block covers website access, messaging, peer bootstrap, app updates, and SIP/DHT communication endpoints.
+||static.jami.net^$important
+||docs.jami.net^$important
+||conference.jami.net^$important
+||download.jami.net^$important
