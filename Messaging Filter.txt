@@ -1,48 +1,27 @@
 ! Title: Messaging_Apps_Filter.txt
 ! Description: Fully blocks all known messaging applications and platforms including APIs, CDNs, and web portals. Built to enforce total messaging blackout for parental control and device lockdown.
-! Last Updated: 2025-08-03
-! Author: Coly & ChatGPT
-
-! ====================
-! 🚫 MESSAGING APPS BLOCKLIST
-! ====================
+! Last Updated: 04/11/25
+! Author: Coly
 
 ! === Telegram ===
 ||telegram.org^$important
 ||web.telegram.org^$important
 ||t.me^$important
+||telegram.me^$important
+||cdn-telegram.org^$important
+||tdesktop.com^$important
+||tg.dev^$important
 
 ! === WhatsApp ===
 ||whatsapp.com^$important
-||www.whatsapp.com^$important
 ||whatsapp.net^$important
 ||wa.me^$important
+||web.whatsapp.com^$important
 ||business.whatsapp.com^$important
 ||api.whatsapp.com^$important
 ||whatsappbusiness.com^$important
-||web.whatsapp.com^$important
-||web.whatsapp.net^$important
-||web.whatsapp.org^$important
-||web.whatsapp.in^$important
-||web.whatsapp.biz^$important
-||web.whatsapp.me^$important
-||web.whatsapp.info^$important
-||web.whatsapp.co^$important
-||web.whatsapp.io^$important
-||media-whatsapp.cdn.whatsapp.net^$important
 ||media.whatsapp.net^$important
 ||static.whatsapp.net^$important
-||chat.whatsapp.com^$important
-||mmg.whatsapp.net^$important
-||pps.whatsapp.net^$important
-||v.whatsapp.net^$important
-||voip.whatsapp.net^$important
-||status.whatsapp.com^$important
-||notify.whatsapp.com^$important
-||translate.whatsapp.com^$important
-||crashlogs.whatsapp.net^$important
-||payments.whatsapp.com^$important
-||payments.whatsapp.net^$important
 ||graph.whatsapp.com^$important
 ||mqtt-mini.facebook.com^$important
 
@@ -50,6 +29,7 @@
 ||signal.org^$important
 ||cdn.signal.org^$important
 ||chat.signal.org^$important
+||updates.signal.org^$important
 
 ! === Facebook Messenger ===
 ||messenger.com^$important
@@ -61,8 +41,8 @@
 ! === Discord ===
 ||discord.com^$important
 ||discord.gg^$important
-||cdn.discordapp.com^$important
 ||discordapp.com^$important
+||cdn.discordapp.com^$important
 
 ! === Kik ===
 ||kik.com^$important
@@ -78,35 +58,35 @@
 ||app.snapchat.com^$important
 ||story.snapchat.com^$important
 ||sc-cdn.net^$important
+||snapkit.com^$important
 
 ! === WeChat ===
 ||wechat.com^$important
 ||weixin.com^$important
 ||wx.qq.com^$important
-||res.wx.qq.com^$important
-||web.wechat.com^$important
-||web.wechatapp.com^$important
-||support.weixin.qq.com^$important
-||long.weixin.qq.com^$important
-||short.weixin.qq.com^$important
-||szsupport.weixin.qq.com^$important
-||hkshort.weixin.qq.com^$important
-||hkminorshort.weixin.qq.com^$important
-||open.weixin.qq.com^$important
 ||mp.weixin.qq.com^$important
 ||api.weixin.qq.com^$important
 ||cdn.weixin.qq.com^$important
 ||file.wx.qq.com^$important
-||dl.wechat.com^$important
+||open.weixin.qq.com^$important
+||long.weixin.qq.com^$important
+||short.weixin.qq.com^$important
 
 ! === LINE ===
 ||line.me^$important
 ||line.naver.jp^$important
 ||naver.jp^$important
+||line-apps.com^$important
 
 ! === Google Hangouts / Chat ===
 ||hangouts.google.com^$important
 ||chat.google.com^$important
+
+! === Skype ===
+||skype.com^$important
+||web.skype.com^$important
+||api.skype.com^$important
+||swx.cdn.skype.com^$important
 
 ! === Tapatalk ===
 ||tapatalk.com^$important
@@ -120,17 +100,13 @@
 ||chatango.com^$important
 ||st.chatango.com^$important
 
-! === Skype ===
-||skype.com^$important
-||web.skype.com^$important
-||api.skype.com^$important
-
 ! === Threema ===
 ||threema.ch^$important
 ||app.threema.ch^$important
 
 ! === Wickr ===
 ||wickr.com^$important
+||wickrapp.com^$important
 
 ! === Wire ===
 ||wire.com^$important
@@ -138,13 +114,33 @@
 
 ! === Session ===
 ||getsession.org^$important
+||llarp.dev^$important
 
 ! === Element / Matrix ===
 ||element.io^$important
 ||matrix.org^$important
+||synapse.matrix.org^$important
+||modular.im^$important
+||matrix.to^$important
 
 ! === Briar ===
 ||briarproject.org^$important
+
+! === SimpleX ===
+||simplex.chat^$important
+||simplex.im^$important
+
+! === Delta Chat ===
+||delta.chat^$important
+||accounts.delta.chat^$important
+
+! === Olvid ===
+||olvid.io^$important
+||api.olvid.io^$important
+
+! === Berty ===
+||berty.tech^$important
+||api.berty.tech^$important
 
 ! === Voxer ===
 ||voxer.com^$important
@@ -161,15 +157,25 @@
 
 ! === Beeper ===
 ||beeper.com^$important
+||api.beeper.com^$important
 
 ! === Band (Naver Group Messenger) ===
 ||band.us^$important
+||cdn.band.us^$important
 
-! ====================
-! ✅ END OF BLOCKLIST
-! ====================
-! Notes:
-! - This list is part of the MindFence project.
-! - Built to work with AdGuard Home and DNS-based filtering setups.
-! - Covers direct domains, mirrors, subdomains, API endpoints, and media/CDN delivery.
-! - Do not use this list with allowlist rules for any messaging app unless intended.
+! === Threads (Meta Messenger) ===
+||threads.net^$important
+||api.threads.net^$important
+||cdn.threads.net^$important
+
+! === Rocket.Chat / Mattermost ===
+||rocket.chat^$important
+||mattermost.com^$important
+
+! === Zulip ===
+||zulip.com^$important
+||chat.zulip.org^$important
+
+! === TeamSpeak / Mumble ===
+||teamspeak.com^$important
+||mumble.info^$important
