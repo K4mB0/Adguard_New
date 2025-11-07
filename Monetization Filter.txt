@@ -1,7 +1,6 @@
 ! AdGuard Home - Monetization & Creator Donation Platform Blocklist
-! Created and enforced by Coly & ChatGPT - 2025-05-15
+! Created and enforced by Coly 04/11/25
 ! Purpose: Block platforms used for crowdfunding, donations, creator tipping, and supporter membership services
-
 
 ! === Ko-Fi & Payment Gateways ===
 ||ko-fi.com^$important
@@ -46,7 +45,52 @@
 ||support.stripe.com^$important
 ||radar.stripe.com^$important
 
-! === Random === !
+! === Patreon ===
+||patreon.com^$important
+||api.patreon.com^$important
+||cdn.patreon.com^$important
+||c10.patreonusercontent.com^$important
+||patreonusercontent.com^$important
+
+! === Buy Me a Coffee ===
+||buymeacoffee.com^$important
+||api.buymeacoffee.com^$important
+||cdn.buymeacoffee.com^$important
+||assets.buymeacoffee.com^$important
+
+! === SubscribeStar ===
+||subscribestar.com^$important
+||subscribestar.adult^$important
+||api.subscribestar.com^$important
+||cdn.subscribestar.com^$important
+
+! === Gumroad ===
+||gumroad.com^$important
+||cdn.gumroad.com^$important
+||app.gumroad.com^$important
+||api.gumroad.com^$important
+
+! === Payhip ===
+||payhip.com^$important
+||cdn.payhip.com^$important
+||api.payhip.com^$important
+
+! === Liberapay ===
+||liberapay.com^$important
+||api.liberapay.com^$important
+
+! === OpenCollective ===
+||opencollective.com^$important
+||api.opencollective.com^$important
+||cdn.opencollective.com^$important
+
+! === PayPal Donation / Personal Gateways ===
+||paypal.me^$important
+||www.paypal.me^$important
+||donate.paypal.com^$important
+||www.donate.paypal.com^$important
+
+! === Miscellaneous / Gateway Mirrors ===
 ||sub2unlock.io^$important
 ||duk.es^$important
 ||dukes.workers.dev^$important
@@ -58,11 +102,3 @@
 ||us2.unblocc.uk^$important
 ||uk1.unblocc.uk^$important
 ||uk2.unblocc.uk^$important
-
-
-
-
-! === Notes ===
-! - This blocklist targets monetization tools used by online creators to accept donations or payments
-! - Currently includes Ko-Fi; other platforms like Patreon, BuyMeACoffee, or SubscribeStar can be added later
-
