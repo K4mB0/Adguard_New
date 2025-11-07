@@ -1,7 +1,6 @@
 ! AdGuard Home - Gaming Services Whitelist
-! Updated and maintained by Coly & ChatGPT - 2025-05-15
+! Updated and maintained by Coly 04/11/25
 ! Purpose: Ensure full access to major online gaming services (Steam, Epic, Xbox, etc.) for uninterrupted play
-
 
 ! === Epic Games (Fortnite / Store / Engine) ===
 @@||epicgames.com^$important
@@ -21,8 +20,7 @@
 @@||account-public-service-prod.ol.epicgames.com^$important
 @@||fortnite-public-service-prod.ol.epicgames.com^$important
 
-
-! === EA Games Allowlist Rules (2025-06-01) ===
+! === EA Games ===
 @@||account-public-service-prod03.ol.epicgames.com^$important
 @@||akamaihd.net^$important
 @@||api.kws.ol.epicgames.com^$important
@@ -64,7 +62,6 @@
 @@||statsigapi.net^$important
 @@||utas.mob.v4.prd.futc-ext.gcp.ea.com^$important
 
-
 ! === Minecraft / Mojang ===
 @@||minecraft.net^$important
 @@||mojang.com^$important
@@ -81,7 +78,6 @@
 @@||dl.minecraft.net^$important
 @@||realms.minecraft.net^$important
 
-
 ! === Assetto Corsa / AC Mods ===
 @@||kunos-simulazioni.com^$important
 @@||acstuff.ru^$important
@@ -95,20 +91,22 @@
 @@||multiplayer.kunos-simulazioni.com^$important
 @@||services.kunos-simulazioni.com^$important
 
-
 ! === Steam (Valve) ===
 @@||steampowered.com^$important
 @@||steamcontent.com^$important
 @@||steamstatic.com^$important
 @@||steam-api.com^$important
+@@||steamcdn-a.akamaihd.net^$important
+@@||cdn.steampowered.com^$important
+@@||steamcommunity.com^$important
 
-
-! === Shared CDNs / Infrastructure (used by multiple games) ===
+! === Shared CDNs / Infrastructure ===
 @@||akamaihd.net^$important
 @@||cloudfront.net^$important
+@@||fastly.net^$important
+@@||edgesuite.net^$important
 
-
-! === Suggested Additions (Xbox, PlayStation, Nintendo, Ubisoft, Battle.net) ===
+! === Xbox / PlayStation / Nintendo / Ubisoft / Blizzard ===
 @@||xbox.com^$important
 @@||live.com^$important
 @@||xboxlive.com^$important
@@ -117,14 +115,14 @@
 @@||psn.com^$important
 @@||sonyentertainmentnetwork.com^$important
 @@||nintendo.com^$important
+@@||nintendo.net^$important
 @@||ubisoft.com^$important
 @@||ubi.com^$important
 @@||battlenet.com^$important
 @@||blizzard.com^$important
 @@||battle.net^$important
-
-
-! === Notes ===
-! - Covers core services and required CDNs for major platforms
-! - Epic telemetry is currently allowed — review if you want stricter privacy
-! - Steam, Xbox Live, PlayStation, Nintendo, Mojang fully covered
+@@||cdn.blizzard.com^$important
+@@||launcher.battlenet.com^$important
+@@||api.blizzard.com^$important
+@@||cdn.ubisoft.com^$important
+@@||uplay.com^$important
