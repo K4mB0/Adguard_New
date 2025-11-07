@@ -1,18 +1,30 @@
 ! AdGuard Home - Unlock/Gating Link Shorteners (Strict)
-! Updated and enforced by Coly & ChatGPT - 2025-08-29
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Block monetized “link locker” / “unlock to continue” / ad-gated shorteners used to bypass parental controls or funnel to blocked destinations.
 
 ! === ACTIVE ===
 ||ouo.io^$important
-
 ||linktr.ee^$important
 ||ugc.production.linktr.ee^$important
 ||assets.production.linktr.ee^$important
+||linkr.bio^$important
+||beacons.ai^$important
+||beacons.page^$important
+||solo.to^$important
+||linkpop.com^$important
+||campsite.bio^$important
+||taplink.cc^$important
+||linkfly.to^$important
+||allmylinks.com^$important
 
 ! === COMMENTED (enable one-by-one as needed) ===
 ! ||linkvertise.com^$important
 ! ||work.ink^$important
 ! ||rekonise.com^$important
+! ||lootlabs.gg^$important
+! ||loot-link.com^$important
+! ||lootdest.org^$important
+! ||lootlinks.net^$important
 
 ! === Sub2Unlock Family (multi-TLD) ===
 ! ||sub2unlock.io^$important
@@ -20,16 +32,13 @@
 ! ||sub2unlock.net^$important
 ! ||sub2unlock.me^$important
 
-! === Loot / Gaming-Focused Monetizers & Lockers ===
-! ||lootlabs.gg^$important
-! ||loot-link.com^$important
-! ||lootdest.org^$important
-! ||lootlinks.net^$important
-
 ! === Legacy / High-Risk Monetized Shorteners ===
 ! ||adf.ly^$important
 ! ||adfoc.us^$important
 ! ||shorte.st^$important
+! ||lnk.bio^$important
+! ||bio.link^$important
+! ||lnk.to^$important
 
 ! === Optional (broad-use shorteners; usually keep disabled)
 ! ||bit.ly^$important
@@ -37,5 +46,6 @@
 ! ||cutt.ly^$important
 ! ||is.gd^$important
 ! ||t.co^$important
-
-! End of file
+! ||rb.gy^$important
+! ||buff.ly^$important
+! ||rebrand.ly^$important
