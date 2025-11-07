@@ -1,7 +1,6 @@
 ! AdGuard Home - Locked TikTok Blocklist
-! Updated and enforced by Coly & ChatGPT - 2025-05-15
+! Updated and enforced by Coly 04/11/25
 ! Purpose: Block TikTok entirely across all platforms, CDNs, APIs, and app variants
-
 
 ! === Core TikTok Domains ===
 ||tiktok.com^$important
@@ -14,7 +13,9 @@
 ||tiktokcdn.com^$important
 ||tiktokcdn-eu.com^$important
 ||tiktokcdn-us.com^$important
-
+||tiktokcdn-in.com^$important
+||tiktokcdn-sg.com^$important
+||tiktokcdn-uk.com^$important
 
 ! === TikTok CDN & Media Delivery ===
 ||p16-tiktokcdn-com.akamaized.net^$important
@@ -35,7 +36,10 @@
 ||v39.tiktokcdn.com^$important
 ||tos-alisg-v-.tiktokcdn.com^$important
 ||tos-useast-v-.tiktokcdn.com^$important
-
+||v21.tiktokcdn.com^$important
+||v22.tiktokcdn.com^$important
+||cdn-tiktokcdn.com^$important
+||cdn-va.tiktokcdn.com^$important
 
 ! === APIs & Application Services ===
 ||api.tiktok.com^$important
@@ -50,7 +54,8 @@
 ||webcast.tiktok.com^$important
 ||webcast16-normal-c-useast1a.tiktokv.com^$important
 ||mcs-va.tiktok.com^$important
-
+||frontier.tiktokv.com^$important
+||mon-va.tiktokv.com^$important
 
 ! === Business, Ads & Analytics ===
 ||ads.tiktok.com^$important
@@ -60,14 +65,20 @@
 ||business-api.tiktok.com^$important
 ||analytics.tiktok.com^$important
 ||analytics-sg.tiktok.com^$important
-
+||metrics.tiktok.com^$important
+||insights.tiktok.com^$important
+||adpartner.tiktok.com^$important
+||creative.tiktok.com^$important
+||pixel.tiktok.com^$important
+||track.tiktok.com^$important
+||trk.tiktok.com^$important
 
 ! === Authentication & Security ===
 ||login.tiktok.com^$important
 ||secure.tiktok.com^$important
 ||oauth.tiktok.com^$important
 ||verify-sg.byteoversea.com^$important
-
+||verify-va.byteoversea.com^$important
 
 ! === Legacy & Associated Services ===
 ||musically.com^$important
@@ -83,14 +94,24 @@
 ||us.tiktok.com^$important
 ||tiktokd.org^$important
 ||bytedapm.com^$important
+||bytedance.com^$important
+||bytedanceapi.com^$important
+||bytedance.net^$important
+||bytedanceproxy.com^$important
+||mon.bytedance.com^$important
+||sentry.bytedance.com^$important
+||dm.bytedance.com^$important
+
+! === Downloader & Mirror Sites ===
 ||ssstik.io^$important
 ||snaptik.kim^$important
 ||tikcdn.io^$important
 ||savett.cc^$important
 ||dl4.savett.cc^$important
+||snaptik.app^$important
+||snaptik.io^$important
+||musicaldown.com^$important
+||tikmate.online^$important
+||ssyoutube.net^$important
+||ttsave.app^$important
 
-
-
-! === Notes ===
-! - This blocklist disables TikTok entirely: core domains, CDN, APIs, login, and app-level functionality
-! - Covers all regions, mobile endpoints, video servers, and legacy domains like Musical.ly
