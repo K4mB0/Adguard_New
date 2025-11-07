@@ -1,5 +1,5 @@
 ! AdGuard Home - Gmail Allowlist + Global Email Blocking
-! Updated and maintained by Coly & ChatGPT - 2025-05-15
+! Updated and categorized by Coly 04/11/25
 ! Purpose: Allow full Gmail functionality while completely blocking all other email platforms and infrastructure
 
 ! === ALLOWLIST: Google/Gmail Services ===
@@ -31,9 +31,13 @@
 
 ! === BLOCKLIST: Major Email Providers (Non-Gmail) ===
 ||outlook.com^$important
+||outlook.office.com^$important
+||outlook.office365.com^$important
 ||hotmail.com^$important
 ||live.com^$important
 ||yahoo.com^$important
+||mail.yahoo.co.uk^$important
+||mail.yahoo.co.jp^$important
 ||aol.com^$important
 ||icloud.com^$important
 ||mail.com^$important
@@ -46,7 +50,6 @@
 ||fastmail.com^$important
 ||hushmail.com^$important
 ||yopmail.com^$important
-||mailinator.com^$important
 ||10minutemail.com^$important
 ||tempmail.com^$important
 
@@ -70,9 +73,11 @@
 ||hostgator.com^$important
 ||ionos.com^$important
 ||1and1.com^$important
+||owa.*.com^$important
 
 ! === BLOCKLIST: Secure & Privacy-focused Email ===
 ||proton.me^$important
+||mail.proton.me^$important
 ||posteo.de^$important
 ||ctemplar.com^$important
 ||riseup.net^$important
@@ -81,10 +86,11 @@
 
 ! === BLOCKLIST: Disposable/Temporary Email ===
 ||temp-mail.org^$important
+||temp-mail.io^$important
 ||tempmailgen.com^$important
 ||guerrillamail.com^$important
 ||fakeinbox.com^$important
-||burnnermail.com^$important
+||burnermail.com^$important
 ||throwawaymail.com^$important
 ||maildrop.cc^$important
 ||dropmail.me^$important
@@ -96,10 +102,8 @@
 ||api.tuta.com^$important
 ||w16.api.tuta.com^$important
 ||app.tuta.com^$important
-||mailinator.com^$important
 ||www.mailinator.com^$important
 ||tmailor.com^$important
-||temp-mail.io^$important
 
 ! === BLOCKLIST: MailPlus / Email.nl Services ===
 ||mailplus.nl^$important
@@ -123,3 +127,11 @@
 ||activecampaign.com^$important
 ||klaviyo.com^$important
 ||constantcontact.com^$important
+
+! === Emerging/Experimental Email Services ===
+||twoblade.com^$important
+||sharp.email^$important
+||sharp-protocol.com^$important
+||thundermail.com^$important
+||tb.pro^$important
+||skiff.com^$important
