@@ -13,6 +13,8 @@
 ||modslocker.com^$important
 ||cdn.modslocker.com^$important
 ||dl1.modslocker.com^$important
+||mercurywork.shop^$important
+||scramjet.mercurywork.shop^$important
 
 ! === Twitch Circumvention Tools ===
 ||lunar.icu^$important
