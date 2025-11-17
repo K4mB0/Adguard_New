@@ -125,6 +125,10 @@
 ||juicychat.ai^$important
 ||chat.kink.ai^$important
 ||girlfriendgpt.com^$important
+||civitai.com^$important
+||genur.art^$important
+
+
 
 ! === Legacy / Chatbot Experiments ===
 ||cleverbot.com^$important
