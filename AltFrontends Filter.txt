@@ -17,7 +17,6 @@
 ||scramjet.mercurywork.shop^$important
 ||rl.tau2.workers.dev^$important
 ||tau2.workers.dev^$important
-||*.tau2.workers.dev^$important
 
 
 
