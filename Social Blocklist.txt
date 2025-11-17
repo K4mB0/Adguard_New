@@ -1,1 +1,1 @@
-bsky.app^$important
+||bsky.app^$important
