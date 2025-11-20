@@ -127,6 +127,8 @@
 ||girlfriendgpt.com^$important
 ||civitai.com^$important
 ||genur.art^$important
+||aimlapi.com^$important
+||localai.io^$important
 
 
 
