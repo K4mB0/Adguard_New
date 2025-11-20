@@ -3,6 +3,11 @@
 ! Last Updated: 04/11/25
 ! Author: Coly
 
+! === New ===
+||ish.chat^$important
+||ish-api.onrender.com^$important
+||longcat.chat^$important
+
 ! === Telegram ===
 ||telegram.org^$important
 ||web.telegram.org^$important
