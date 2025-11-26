@@ -129,6 +129,8 @@
 ||genur.art^$important
 ||aimlapi.com^$important
 ||localai.io^$important
+||leafcanfly.neocities.org^$important
+
 
 
 
