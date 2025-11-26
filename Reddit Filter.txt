@@ -58,6 +58,8 @@
 ||safereddit.com^$important
 ||claw.ovh^$important
 ||reddit.claw.ovh^$important
+||reddit.idevicehacked.com^$important
+
 
 ! === General Catch-All Frontend Families ===
 ||libreddit.*^$important
