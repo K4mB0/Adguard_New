@@ -39,6 +39,7 @@
 ||cdn.jannyai.com^$important
 ||api.jannyai.com^$important
 ||static.jannyai.com^$important
+||janny.alkane.workers.dev^$important
 
 ! === Replika & Clones ===
 ||replika.ai^$important
