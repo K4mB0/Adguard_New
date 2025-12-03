@@ -32,7 +32,9 @@
 ||epicplayplay.cfd^$important
 ||binimum.org^$important
 ||prigoana.com^$important
-r.alkane.workers.dev
+||r.alkane.workers.dev^$important
+||ouo.io^$important
+
 
 
 
