@@ -1,0 +1,45 @@
+! === New AdGuard rules added in December 2025 === !
+
+||workers.dev^$important
+||*.workers.dev^$important
+
+||alkane.workers.dev^$important
+||*.alkane.workers.dev^$important
+
+||oxylab.workers.dev^$important
+||*.oxylab.workers.dev^$important
+
+||sigma.workers.dev^$important
+||*.sigma.workers.dev^$important
+
+||proxy.workers.dev^$important
+||*.proxy.workers.dev^$important
+
+||relay.workers.dev^$important
+||*.relay.workers.dev^$important
+
+||shadow.workers.dev^$important
+||*.shadow.workers.dev^$important
+
+||edge.workers.dev^$important
+||*.edge.workers.dev^$important
+
+||gateway.workers.dev^$important
+||*.gateway.workers.dev^$important
+
+
+! === COMMENTED: MAY BREAK SOME WEB DEV / READMES / HARMLESS SITES ===
+# ||pages.dev^$important
+# ||*.pages.dev^$important
+# ||cloudflareworkers.com^$important
+# ||*.cloudflareworkers.com^$important
+
+
+! === COMMENTED (NUCLEAR) ===
+! These will kill almost anything hosted on Cloudflare Pages / Workers
+! DO NOT ENABLE unless bypass attempts continue
+# /.*workers\.dev$/$important
+# /.*\.workers\.dev$/$important
+
+
+
