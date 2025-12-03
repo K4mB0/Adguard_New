@@ -1,47 +1,72 @@
-! AdGuard Home – Locked JannyAI Blocklist
-! Purpose: Completely disable JannyAI (site, API, subdomains, future TLDs)
-! Maintained by Coly & ChatGPT – 2025-12-02
+! AdGuard Home – TOTAL JannyAI Lockdown
+! Completely blocks all JannyAI domains, APIs, assets, workers, and future TLDs
+! Maintained by Coly – 2025-12-02
 
-! === Core & wildcard domain rules (main protection) ===
-||jannyai^$important              ! any domain that contains "jannyai"
+! === Primary domains ===
+||jannyai^$important
 ||jannyai.com^$important
 ||www.jannyai.com^$important
 
-! === Known / likely platform subdomains ===
-||api.jannyai.com^$important      ! confirmed API endpoint
-||static.jannyai.com^$important
-||cdn.jannyai.com^$important
-||media.jannyai.com^$important
-||img.jannyai.com^$important
-||files.jannyai.com^$important
+! === TLD catch-all (future-proof) ===
+||jannyai.*^$important
+||*.jannyai.*^$important
+
+! === Subdomains (known + probable) ===
+||accounts.jannyai.com^$important
+||api.jannyai.com^$important
 ||assets.jannyai.com^$important
-||chat.jannyai.com^$important
 ||auth.jannyai.com^$important
+||beta.jannyai.com^$important
+||cdn.jannyai.com^$important
+||chat.jannyai.com^$important
+||edge.jannyai.com^$important
+||events.jannyai.com^$important
+||files.jannyai.com^$important
+||img.jannyai.com^$important
+||logs.jannyai.com^$important
+||media.jannyai.com^$important
+||mobile.jannyai.com^$important
+||static.jannyai.com^$important
+||status.jannyai.com^$important
+||staging.jannyai.com^$important
+||test.jannyai.com^$important
+||v1.jannyai.com^$important
+||v2.jannyai.com^$important
 ||ws.jannyai.com^$important
 ||ws-api.jannyai.com^$important
-||events.jannyai.com^$important
-||logs.jannyai.com^$important
-||status.jannyai.com^$important
-
-! Catch-all for any other subdomain they spin up
 ||*.jannyai.com^$important
 
-! === JannyAI workers / relay hosts seen in your logs ===
-! (Most of these are already covered by your workers.dev blocklist,
-! but we list them explicitly so they’re tied to JannyAI.)
+! === Cloudflare Workers (direct + indirect) ===
 ||janny.alkane.workers.dev^$important
 ||r.alkane.workers.dev^$important
 ||janny.oxylab.workers.dev^$important
 ||lr.oxylab.workers.dev^$important
+||janny.sigma.workers.dev^$important
+||janny.proxy.workers.dev^$important
+||janny.relay.workers.dev^$important
+||janny.shadow.workers.dev^$important
 
-! === Optional Janny keyword on workers (only needed if you ever relax workers.dev nukes) ===
-! Uncomment if you stop globally blocking workers.dev but still want to kill JannyAI workers.
-/janny.*\.workers\.dev$/$important
+! wildcard kills for their worker hosts
+||*.alkane.workers.dev^$important
+||*.oxylab.workers.dev^$important
+||*.sigma.workers.dev^$important
+||*.proxy.workers.dev^$important
+||*.relay.workers.dev^$important
+||*.shadow.workers.dev^$important
 
-! === Optional “paranoid mode” Janny keyword (can block unrelated sites) ===
-! These will block any host that contains "janny" or "janny-ai", not just JannyAI.
-! Leave commented unless you’re happy to overblock random personal domains.
+! keyword-based workers
+||janny.*.workers.dev^$important
+||*.janny*.workers.dev^$important
+
+! === API path patterns (domain-agnostic) ===
+/api/jannyai/$important
+/api/v1/janny/$important
+/api/v2/janny/$important
+/jannyai/api/$important
+/jannyai/endpoint/$important
+
+! === Overkill keyword blocking (optional but recommended for you) ===
 ||janny-ai^$important
 ||janny-ai.com^$important
 ||janny^$important
-
+||*janny*^$important
