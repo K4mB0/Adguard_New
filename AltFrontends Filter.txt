@@ -18,7 +18,20 @@
 ||rl.tau2.workers.dev^$important
 ||tau2.workers.dev^$important
 ||lr.ptr.moe^$important
-||sponsor.ajay.app^$importan
+||sponsor.ajay.app^$important
+||lr.oxylab.workers.dev^$important
+||janny.oxylab.workers.dev^$important
+||oxylab.workers.dev^$important
+||squid.wtf^$important
+||monochrome.tf^$important
+||lucida.to^$important
+||lucida.su^$important
+||qqdl.site^$important
+||giokko.ru^$important
+||dlhd.dad^$important
+||epicplayplay.cfd^$important
+||binimum.org^$important
+||prigoana.com^$important
 
 
 
