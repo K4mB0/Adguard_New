@@ -1,6 +1,6 @@
-! AdGuard Home – TOTAL JannyAI Lockdown
-! Completely blocks all JannyAI domains, APIs, assets, workers, and future TLDs
-! Maintained by Coly – 2025-12-02
+! === TOTAL JannyAI Lockdown (NUCLEAR EDITION) ===
+! Maintained by Coly — December 2025
+! Purpose: block JannyAI entirely across all domains, TLDs, mirrors, workers, and obfuscation tactics.
 
 ! === Primary domains ===
 ||jannyai^$important
@@ -10,8 +10,9 @@
 ! === TLD catch-all (future-proof) ===
 ||jannyai.*^$important
 ||*.jannyai.*^$important
+||*.jannyai.com^$important
 
-! === Subdomains (known + probable) ===
+! === Subdomains (explicit known/probable) ===
 ||accounts.jannyai.com^$important
 ||api.jannyai.com^$important
 ||assets.jannyai.com^$important
@@ -34,9 +35,8 @@
 ||v2.jannyai.com^$important
 ||ws.jannyai.com^$important
 ||ws-api.jannyai.com^$important
-||*.jannyai.com^$important
 
-! === Cloudflare Workers (direct + indirect) ===
+! === Cloudflare Workers (direct mirrors) ===
 ||janny.alkane.workers.dev^$important
 ||r.alkane.workers.dev^$important
 ||janny.oxylab.workers.dev^$important
@@ -46,7 +46,7 @@
 ||janny.relay.workers.dev^$important
 ||janny.shadow.workers.dev^$important
 
-! wildcard kills for their worker hosts
+! === Worker wildcard kills (entire hosting clusters) ===
 ||*.alkane.workers.dev^$important
 ||*.oxylab.workers.dev^$important
 ||*.sigma.workers.dev^$important
@@ -54,19 +54,9 @@
 ||*.relay.workers.dev^$important
 ||*.shadow.workers.dev^$important
 
-! keyword-based workers
+! === Generic worker pattern blocking (future-proof) ===
 ||janny.*.workers.dev^$important
 ||*.janny*.workers.dev^$important
 
-! === API path patterns (domain-agnostic) ===
-/api/jannyai/$important
-/api/v1/janny/$important
-/api/v2/janny/$important
-/jannyai/api/$important
-/jannyai/endpoint/$important
-
-! === Overkill keyword blocking (optional but recommended for you) ===
-||janny-ai^$important
-||janny-ai.com^$important
-||janny^$important
+! === NUCLEAR: blocks ANY domain containing "janny" ===
 ||*janny*^$important
