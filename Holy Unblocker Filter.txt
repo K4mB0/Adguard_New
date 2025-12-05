@@ -1,0 +1,49 @@
+! AdGuard Home – Holy Unblocker Total Lockdown
+! Blocks HolyUB, clones, mirrors, workers, Pages deployments
+! Updated: 2025-12-XX
+! Maintained by Coly
+
+! === Core domains ===
+||holyubofficial.net^$important
+||holyub.xyz^$important
+||holyub.com^$important
+||holyub.cc^$important
+||holyub.org^$important
+
+! === Hosted mirrors ===
+||holyub.gq^$important
+||holyub.tk^$important
+||holyub.repl.co^$important
+||holyunblocker.org^$important
+
+! === Cloudflare Pages ===
+||holyub.pages.dev^$important
+||*.holyub.pages.dev^$important
+||holyunblocker.pages.dev^$important
+||*.holyunblocker.pages.dev^$important
+
+! === Cloudflare Workers ===
+||holyub.workers.dev^$important
+||*.holyub.workers.dev^$important
+||holyunblocker.workers.dev^$important
+||*.holyunblocker.workers.dev^$important
+
+! === Engine / framework domains used by HolyUB ===
+||ultraviolet.pages.dev^$important
+||tomp.app^$important
+||corrosionhq.org^$important
+||womginx.org^$important
+||incognito.pages.dev^$important
+
+! === CDN loaders used by HolyUB deployments ===
+||rawcdn.githack.com^$important
+||raw.githack.com^$important
+||jsdelivr.net^$important
+
+! === Keyword shutdown (broad but safe) ===
+||*holyub*^$important
+||*holy-unblocker*^$important
+||*holy-unblock*^$important
+||*hubunblock*^$important
+
+! End of file
