@@ -27,6 +27,15 @@
 ||gateway.workers.dev^$important
 ||*.gateway.workers.dev^$important
 
+||helios-browser.pages.dev^$important
+||helios*.pages.dev^$important
+||helio*.pages.dev^$important
+
+! === Keyword Style === !
+||*helios*^$important
+||*helio-browser*^$important
+
+
 
 ! === COMMENTED: MAY BREAK SOME WEB DEV / READMES / HARMLESS SITES ===
 # ||pages.dev^$important
