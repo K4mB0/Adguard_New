@@ -1,0 +1,167 @@
+! AdGuard Home – Universal Unblocker / Proxy Evasion Blocklist
+! Excludes Helios & HolyUB (already handled separately)
+! Updated: 2025-12-XX
+! Maintained by Coly
+
+! ============================================================
+! ULTRAVIOLET (uv) – backbone of 90% of school bypass proxies
+! ============================================================
+||ultraviolet.pages.dev^$important
+||*.ultraviolet.pages.dev^$important
+||ultraviolet-uv.pages.dev^$important
+||uv.netlify.app^$important
+||*.uv.netlify.app^$important
+||uvac.uk^$important
+||uvac.eu^$important
+||*.uvac.*^$important
+||uvproxy.*^$important
+||ultravioletto.*^$important
+||uv-static.pages.dev^$important
+
+! UV project domains
+||tomp.app^$important
+||*.tomp.app^$important
+||uv.js.org^$important
+||uv.icu^$important
+||uvzone.*^$important
+
+! ============================================================
+! RAMMERHEAD (rh) – full browser-in-browser evasive engine
+! ============================================================
+||rammerhead.org^$important
+||*.rammerhead.org^$important
+||rhcloud.pages.dev^$important
+||*.rhcloud.pages.dev^$important
+||rh-net.pages.dev^$important
+||rh-worker.workers.dev^$important
+||*.rammer*.dev^$important
+||rhead.workers.dev^$important
+||rhdruntime.workers.dev^$important
+||rhammer.*^$important
+
+! ============================================================
+! INTERSTELLAR / COSMIC / SHUTTLE / ASTROID / LUNAR
+! ============================================================
+||interstellarsrc.net^$important
+||interstellarproxy.net^$important
+||interstellar.cx^$important
+||interstellar-network.*^$important
+||is-proxy.*^$important
+
+||shuttleproxy.*^$important
+||shuttle-network.*^$important
+||shuttle.pages.dev^$important
+||*.shuttle.pages.dev^$important
+
+||cosmicproxy.*^$important
+||cosmic-network.*^$important
+
+||lunarsrc.org^$important
+||lunarproxy.*^$important
+||lunar.pages.dev^$important
+||*.lunar.pages.dev^$important
+
+||nebulaunblocker.*^$important
+||nebula.pages.dev^$important
+||*.nebula.pages.dev^$important
+
+! ============================================================
+! WOMGINX – major school-bypass JS proxy
+! ============================================================
+||womginx.org^$important
+||*.womginx.org^$important
+||womginx.pages.dev^$important
+||*.womginx.pages.dev^$important
+||wproxy.*^$important
+
+! ============================================================
+! INC0GNITO PROXY (note: NOT incognito.org)
+! ============================================================
+||incognito.pages.dev^$important
+||*.incognito.pages.dev^$important
+||incog-proxy.*^$important
+||incog.workers.dev^$important
+
+! ============================================================
+! SHADOW / OBFUSCATED PROXY NETWORKS (NOT your own shadow rules)
+! ============================================================
+||shadow-network.pages.dev^$important
+||shadowunblocker.*^$important
+||shadowproxy.*^$important
+||shadow-x.*^$important
+
+! ============================================================
+! TITANIUM / TITAN / ASTRON / PROJECT TERMINAL
+! ============================================================
+||titaniumnetwork.org^$important
+||tnet.pages.dev^$important
+||titan-network.*^$important
+||titanproxy.*^$important
+
+||astronproxy.*^$important
+||astron.pages.dev^$important
+
+||terminal-proxy.*^$important
+||terminal.pages.dev^$important
+
+! ============================================================
+! NODE / WEBSOCKET PROXIES (common bypass platforms)
+! ============================================================
+||wssproxy.*^$important
+||ws-proxy.*^$important
+||nodeunblocker.com^$important
+||nodeunblocker.net^$important
+||unblocker-node.*^$important
+
+! ============================================================
+! CLOUDFLARE WORKERS / PAGES TEMP BLOCKERS (selective)
+! ============================================================
+||proxy.pages.dev^$important
+||*.proxy.pages.dev^$important
+||uv-worker.workers.dev^$important
+||uv-proxy.workers.dev^$important
+||rammer-worker.workers.dev^$important
+||womginx-worker.workers.dev^$important
+
+! (Your master workers.dev lockdown already covers the rest)
+
+! ============================================================
+! GATEWAY / TUNNEL / MIRROR INFRASTRUCTURE
+! ============================================================
+||goguardian-bypass.*^$important
+||ggbypass.*^$important
+||webtunnel.*^$important
+||tunneler.pages.dev^$important
+||proxybypass.*^$important
+||webproxy.*^$important
+||epicproxy.*^$important
+||go-bypass.*^$important
+
+! ============================================================
+! RAW CDN LOADERS (used heavily by proxies)
+! ============================================================
+||raw.githack.com^$important
+||rawcdn.githack.com^$important
+||raw.githubusercontent.com^$important
+||githubusercontent.com/proxy^$important
+||cdn.jsdelivr.net/npm/ultraviolet^$important
+
+! ============================================================
+! WIDE KEYWORD CATCHES (safe for your environment)
+! ============================================================
+||*unblocker*^$important
+||*unblock*proxy*^$important
+||*school-proxy*^$important
+||*bypass-proxy*^$important
+||*bypassfilter*^$important
+||*web-proxy*^$important
+||*proxy-site*^$important
+||*proxyengine*^$important
+||*rammerhead*^$important
+||*ultraviolet*^$important
+||*uv-proxy*^$important
+||*isproxy*^$important
+||*incog-proxy*^$important
+||*womginx*^$important
+
+! End of file
