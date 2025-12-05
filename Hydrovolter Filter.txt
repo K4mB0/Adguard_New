@@ -1,0 +1,32 @@
+! === HydroVolter – Complete Lockdown ===
+! Blocks main site, proxies, mirrors, workers, assets, APIs, and hidden subdomains
+
+||hydrovolter.com^$important
+||www.hydrovolter.com^$important
+
+! Core proxy endpoints
+||proxy.hydrovolter.com^$important
+||admin.proxy.hydrovolter.com^$important
+||rammerhead.hydrovolter.com^$important
+||uv.hydrovolter.com^$important
+||wisp.hydrovolter.com^$important
+||bare.hydrovolter.com^$important
+
+! Known alternates & infrastructure
+||arc-hydrovolter.com^$important
+||hydrovolter.github.io^$important
+||hydrovolter.netlify.app^$important
+||hydro-volter.pages.dev^$important
+
+! Workers (high probability)
+||hydrovolter.workers.dev^$important
+||*.hydrovolter.workers.dev^$important
+
+! Catch-all wildcard
+||*.hydrovolter.com^$important
+
+! === Optional (aggressive but VERY effective) === !
+
+# If you want 100% certainty nothing will slip through their infrastructure:
+
+# /.*hydrovolter.*/$important
