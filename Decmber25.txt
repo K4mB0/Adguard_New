@@ -50,5 +50,11 @@
 # /.*workers\.dev$/$important
 # /.*\.workers\.dev$/$important
 
+||interdoge.cfd^$important
+||prodregistryv2.org^$important
+||gg.poocloud.in^$important   
+||poocloud.in^$important    
+||*.poocloud.in^$important
+
 
 
