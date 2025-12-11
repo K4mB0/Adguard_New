@@ -1,70 +1,41 @@
-! AdGuard Home - Locked Reddit Blocklist
-! Updated and enforced by Coly 04/11/25
-! Purpose: Block Reddit and all known frontends, proxies, mirrors, media servers, and link shorteners.
+! ============================================================
+! AdGuard Home – Locked Reddit Blocklist
+! Cleaned + Optimised 03/12/2025
+! Purpose: Block Reddit and all official Reddit-owned domains.
+! (All unofficial frontends now live in your dedicated Redlib file.)
+! ============================================================
 
-! === Core Reddit Domains ===
+! ============== CORE REDDIT ==============
 ||reddit.com^$important
 ||www.reddit.com^$important
 ||old.reddit.com^$important
 ||new.reddit.com^$important
-||amp.reddit.com^$important
 ||oauth.reddit.com^$important
 ||gateway.reddit.com^$important
 ||meta.reddit.com^$important
+||amp.reddit.com^$important
 
-! === Reddit Shorteners and Media ===
+! ============== REDDIT MEDIA / ASSETS ==============
 ||redd.it^$important
 ||redditmedia.com^$important
+||i.redditmedia.com^$important
+||i.redd.it^$important
+||v.redd.it^$important
 ||preview.redd.it^$important
 ||external-preview.redd.it^$important
-||v.redd.it^$important
-||i.redd.it^$important
-||i.redditmedia.com^$important
 ||a.thumbs.redditmedia.com^$important
 ||thumbs.redditmedia.com^$important
 
-! === Reddit Frontends / Proxies / Mirrors ===
-||libreddit.net^$important
-||libreddit.com^$important
-||libreddit.miaoute.net^$important
-||libreddit.northboot.xyz^$important
-||libreddit.spike.codes^$important
-||libreddit.nl^$important
-||libreddit.freedit.eu^$important
-||libreddit.kylrth.com^$important
-||libreddit.pussthecat.org^$important
-||teddit.net^$important
-||teddit.ggc-project.de^$important
-||redlib.net^$important
-||redlib.perennialte.ch^$important
-||redlib.nadeko.net^$important
-||redlib.catsarch.com^$important
-||redlib.vimmer.dev^$important
-||snoo.habedieeh.re^$important
-||snoo.fediverse.eu^$important
-||r.genit.al^$important
-||redditurl.com^$important
-||redditsearch.io^$important
-||rdt.trom.tf^$important
-||redditproxy--.**.vercel.app^$important
-||red.artemislena.eu^$important
-||leddit.xyz^$important
-||redlibrary.xyz^$important
-||reddit.utsav2.dev^$important
-||reddit.rtrace.io^$important
-||reddit.owo.si^$important
-||reddit.nerdvpn.de^$important
-||reddit.adminforge.de^$important
-||safereddit.com^$important
-||claw.ovh^$important
-||reddit.claw.ovh^$important
-||reddit.idevicehacked.com^$important
+! ============== REDDIT NATIVE SERVICES ==============
+||redditstatic.com^$important
+||redditmap.com^$important
+||redditinc.com^$important
+||reddithelp.com^$important
+||redditblog.com^$important
+||reddituploads.com^$important
 
-
-! === General Catch-All Frontend Families ===
-||libreddit.*^$important
-||teddit.*^$important
-||redlib.*^$important
-||snoo.*^$important
-||leddit.*^$important
-
+! ============== REDDIT TRACKING / TELEMETRY ==============
+||snoo-analytics.reddit.com^$important
+||events.reddit.com^$important
+||pixel.reddit.com^$important
+||advertising-api.reddit.com^$important
