@@ -1,0 +1,81 @@
+! ============================================================
+! Reddit Frontend Blocklist
+! Covers Redlib, Libreddit, Pirate mirrors, Forks, and auto-
+! generating mirror domains used to bypass Reddit NSFW controls.
+! Maintained by Coly — December 2025
+! ============================================================
+
+! =====================
+! PRIMARY REDLIB HOSTS
+! =====================
+||redlib.dev^$important
+||redlib.kavin.rocks^$important
+||redlib.marcusj.tech^$important
+||redlib.frontendfriendly.xyz^$important
+||redlib.tux.pizza^$important
+||redlib.foss.wtf^$important
+||redlib.shop^$important
+||redlib.garudalinux.org^$important
+||redlib.privacyfreak.org^$important
+
+! =============================
+! PIRATE / UNOFFICIAL FRONTS
+! (Includes the one discovered:
+!     pirate.vodka )
+! =============================
+||pirate.vodka^$important
+||pirate.red^$important
+||pirate-front.xyz^$important
+||pirate.libreddit.one^$important
+||libreddit.pirate.network^$important
+
+! =====================
+! LIBREDDIT MAIN HOSTS
+! =====================
+||libreddit.kavin.rocks^$important
+||libreddit.gr^$important
+||libreddit.nl^$important
+||libreddit.pussthecat.org^$important
+||libreddit.lunar.icu^$important
+||libreddit.dothq.co^$important
+||libreddit.privacydev.net^$important
+||libreddit.oxymoron.app^$important
+||libreddit.freedit.eu^$important
+||libreddit.search.funami.tech^$important
+||libreddit.zzls.xyz^$important
+
+! ========================================
+! LIBREDDIT / REDLIB WILDCARD PROTECTION
+! Captures new mirrors instantly
+! ========================================
+||libreddit.*^$important
+||*.libreddit.*^$important
+||*libreddit*^$important
+||redlib.*^$important
+||*.redlib.*^$important
+||*redlib*^$important
+
+! ==========================
+! OTHER REDDIT FRONTENDS /
+! FORKS / REDDIT MIRRORING
+! ==========================
+||redact.social^$important
+||r-imm.reddit-mirror.app^$important
+||redradio.app^$important
+||redtrends.*^$important
+||rdt.trom.tf^$important
+
+! ===================================================
+! FRONTEND AGGREGATORS (These index new Redlib links)
+! ===================================================
+||frontends.net^$important
+||frontendfriendly.xyz^$important
+||privacyredirect.com^$important
+
+! ===================================================
+! WILDCARD “NUCLEAR” BLOCK (Enable if new mirrors
+! continue to appear — recommended for your setup)
+! ===================================================
+||*reddit-mirror*^$important
+||*redditfrontend*^$important
+
