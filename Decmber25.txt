@@ -55,6 +55,7 @@
 ||gg.poocloud.in^$important   
 ||poocloud.in^$important    
 ||*.poocloud.in^$important
+||char-archive.evulid.cc^$important
 
 
 
