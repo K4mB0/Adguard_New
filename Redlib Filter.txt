@@ -78,4 +78,5 @@
 ! ===================================================
 ||*reddit-mirror*^$important
 ||*redditfrontend*^$important
+||*reddit.idevicehacked.com
 
