@@ -1,0 +1,51 @@
+! =========================================================
+! AdGuard Home – Hugging Face Mirror / AI Model Bypass Blocklist
+! Purpose: Block Hugging Face mirrors, alternate endpoints,
+!          and model distribution backends commonly used
+!          to bypass content controls.
+! Maintained by Coly – 2025-12
+! =========================================================
+
+! === Core Hugging Face ===
+||huggingface.co^$important
+||www.huggingface.co^$important
+
+! === Hugging Face API / CDN ===
+||hf.co^$important
+||cdn-lfs.huggingface.co^$important
+||lfs.huggingface.co^$important
+||cdn-lfs.hf.co^$important
+
+! === Known Hugging Face Mirrors (seen in logs / abuse cases) ===
+||hf-mirror.com^$important
+||www.hf-mirror.com^$important
+||hf-mirror.net^$important
+||hfmirror.com^$important
+
+! === GitHub-backed Hugging Face distribution ===
+||cas-bridge.xethub.hf.co^$important
+||xethub.hf.co^$important
+||objects.githubusercontent.com^$important
+
+! === Alternate / community mirrors ===
+||huggingface-mirror.com^$important
+||hfmirror.xyz^$important
+||hfmirror.cc^$important
+||hfmirror.site^$important
+||hfmirror.cfd^$important
+
+! === Wildcard mirror family (future-proof) ===
+||*hf-mirror*^$important
+||*huggingface-mirror*^$important
+||*hfmirror*^$important
+
+! === API abuse endpoints ===
+||api.huggingface.co^$important
+||inference.huggingface.co^$important
+||spaces.huggingface.co^$important
+
+! === COMMENTED (OPTIONAL / NUCLEAR) ===
+! These will break *all* Hugging Face access including docs
+! Uncomment ONLY if bypass attempts continue
+# ||huggingfaceusercontent.com^$important
+# ||*.huggingfaceusercontent.com^$important
