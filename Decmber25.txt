@@ -60,6 +60,23 @@
 ||evulid.cc^$important
 ||*.evulid.cc^$important
 
+! Character / roleplay / companion AI
+||aicharactercards.com^$important
+||characterhub.org^$important
+||charhub.io^$important
+||avatars.charhub.io^$important
+||compendium.skinship.xyz^$important
+
+! AI roleplay / chatbot wrappers on Neocities
+||chatbots.neocities.org^$important
+||foxbots.neocities.org^$important
+||aicg.neocities.org^$important
+||deberiasbots.neocities.org^$important
+||jiriro7912.neocities.org^$important
+||partyintheanchorhold.neocities.org^$important
+||kopye.neocities.org^$important
+
+
 
 
 
