@@ -76,6 +76,12 @@
 ||partyintheanchorhold.neocities.org^$important
 ||kopye.neocities.org^$important
 
+! AI / ML mirror and evasion infrastructure
+||hf-mirror.com^$important
+||xethub.hf.co^$important
+||cas-bridge.xethub.hf.co^$important
+
+
 
 
 
