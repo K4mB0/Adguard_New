@@ -1,0 +1,16 @@
+! Character / roleplay / companion AI
+||aicharactercards.com^$important
+||char-archive.evulid.cc^$important
+||perchance.org^$important
+||wyvern.chat^$important
+||sillytavern.app^$important
+
+! Static-hosted AI / roleplay wrappers (confirmed abuse)
+||neocities.org^$important
+
+! File / paste / transfer services used for bypass
+||pixeldrain.com^$important
+||pixeldrain-bypass.cybar.xyz^$important
+||catbox.moe^$important
+||files.catbox.moe^$important
+||rentry.org^$important
