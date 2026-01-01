@@ -1,0 +1,12 @@
+||github.com^$important,client=192.168.50.11
+||githubusercontent.com^$important,client=192.168.50.11
+||githubassets.com^$important,client=192.168.50.11
+||github.dev^$important,client=192.168.50.11
+||app.github.dev^$important,client=192.168.50.11
+||assets.github.dev^$important,client=192.168.50.11
+||raw.githubusercontent.com^$important,client=192.168.50.11
+||codeload.github.com^$important,client=192.168.50.11
+||release-assets.githubusercontent.com^$important,client=192.168.50.11
+||avatars.githubusercontent.com^$important,client=192.168.50.11
+||objects.githubusercontent.com^$important,client=192.168.50.11
+||github.io^$important,client=192.168.50.11
