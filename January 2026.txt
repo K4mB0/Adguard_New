@@ -4,6 +4,9 @@
 ||perchance.org^$important
 ||wyvern.chat^$important
 ||sillytavern.app^$important
+||characterhub.com^$important
+||character-hub.org^$important
+
 
 ! Static-hosted AI / roleplay wrappers (confirmed abuse)
 ||neocities.org^$important
@@ -11,6 +14,8 @@
 ! File / paste / transfer services used for bypass
 ||pixeldrain.com^$important
 ||pixeldrain-bypass.cybar.xyz^$important
+||pixeldrainbypass.org^$important
+||speeddrain.vercel.app^$important
 ||catbox.moe^$important
 ||files.catbox.moe^$important
 ||rentry.org^$important
