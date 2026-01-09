@@ -19,3 +19,16 @@
 ||catbox.moe^$important
 ||files.catbox.moe^$important
 ||rentry.org^$important
+
+||cdn.jsdelivr.xyz^$important
+||generator.email^$important
+||mail.tm^$important
+||fakemailgenerator.com^$important
+||ilovelittlekids.buzz^$important
+
+! Suspicious low-rep domains (stage)
+||localghost.org^$important
+||radiohapure.com^$important
+||quality-electronics.com^$important
+||root.sx^$important
+||itafricagroup.com^$important
