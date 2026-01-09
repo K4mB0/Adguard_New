@@ -32,3 +32,5 @@
 ||quality-electronics.com^$important
 ||root.sx^$important
 ||itafricagroup.com^$important
+||straw.page^$important
+||strawcdn.com^$important
