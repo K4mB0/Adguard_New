@@ -1,69 +1,92 @@
-! AdGuard Home - Optimized Adult Content Blocklist
-! Updated and categorized by Coly 04/11/25
-! Purpose: Block access to explicit adult content, cam sites, adult social platforms, and delivery CDNs
+! =======================================================================================
+! AdGuard Home - Optimized Adult Content Blocklist (Standalone, Consolidated)
+! Maintainer: Coly
+! Last updated: 10/01/2026 (Europe/London)
+!
+! Purpose:
+!  - Block explicit adult content platforms, cam sites, adult social platforms, porn CDNs,
+!    porn discovery hubs, and common mirror/fallback domains.
+!
+! Notes:
+!  - DNS-level only
+!  - Prefer family rules + $important
+! =======================================================================================
 
 
-! === Major Adult Platforms ===
+! =========================
+! MAJOR ADULT PLATFORMS
+! =========================
 ||pornhub.com^$important
 ||phncdn.com^$important
 ||pornhubpremium.com^$important
+
 ||xvideos.com^$important
 ||xvideos-cdn.com^$important
+||xvideos2.com^$important
+||xvideos3.com^$important
+||xvideos.red^$important
+||xvideos.in^$important
+
 ||xnxx.com^$important
 ||xnxx-cdn.com^$important
+||xnxx2.com^$important
+||xnxx.health^$important
+||xnxx.tv^$important
+
 ||xhamster.com^$important
 ||xhamster.desi^$important
 ||xhcdn.com^$important
-||stripchat.com^$important
-||chaturbate.com^$important
-||highwebmedia.com^$important
+
 ||youporn.com^$important
 ||redtube.com^$important
 ||tube8.com^$important
 ||youjizz.com^$important
+
 ||spankbang.com^$important
 ||beeg.com^$important
+||eporner.com^$important
+
+||porn.com^$important
+||pornhd.com^$important
 ||porntrex.com^$important
 ||pornone.com^$important
 ||motherless.com^$important
-||xmoviesforyou.com^$important
-||xozilla.com^$important
 ||daftsex.com^$important
-||eporner.com^$important
+
 ||porndig.com^$important
 ||pornbest.org^$important
 ||porn300.com^$important
 ||porngo.com^$important
-||porn.com^$important
-||pornhd.com^$important
 ||pornerbros.com^$important
 ||pornhat.com^$important
 ||pornktube.com^$important
 ||pornmate.com^$important
 ||porntube.com^$important
 ||pornwhite.com^$important
+
 ||perfectgirls.net^$important
 ||pichunter.com^$important
 ||playvids.com^$important
 ||pornpics.com^$important
 ||pornpictureshq.com^$important
+
 ||sex.com^$important
 ||nudostar.tv^$important
+
 ||bongacams11.com^$important
 ||faponic.com^$important
 ||javseen.tv^$important
-||media.theporndude.com^$important
 ||pics.dmm.co.jp^$important
-||kemono.su^$important
-||coomer.su^$important
-||coom.subsonic.workers.dev^$important
-||jav.subsonic.workers.dev^$important
-||kem.subsonic.workers.dev^$important
 
-! === Premium Networks ===
+
+! =========================
+! PREMIUM NETWORKS
+! =========================
 ||brazzers.com^$important
 ||bangbros.com^$important
+||bang.com^$important
 ||bangcdn.com^$important
+
 ||reality-kings.com^$important
 ||rk.com^$important
 ||mofos.com^$important
@@ -78,7 +101,13 @@
 ||kink.com^$important
 
 
-! === Webcam & Live Cams ===
+! =========================
+! WEBCAM & LIVE CAMS
+! =========================
+||stripchat.com^$important
+||chaturbate.com^$important
+||highwebmedia.com^$important
+
 ||mydirtyhobby.com^$important
 ||cam4.com^$important
 ||myfreecams.com^$important
@@ -92,19 +121,24 @@
 ||slutroulette.com^$important
 
 
-! === Adult Social/Dating Platforms ===
+! =========================
+! ADULT SOCIAL / DATING
+! =========================
 ||fetlife.com^$important
 ||adultfriendfinder.com^$important
 ||alt.com^$important
 ||ashleymadison.com^$important
 ||seeking.com^$important
+
 ||onlyfans.com^$important
 ||of-cdn.com^$important
 ||fansly.com^$important
 ||manyvids.com^$important
 
 
-! === Image Boards & Forums ===
+! =========================
+! IMAGE BOARDS / FORUMS
+! =========================
 ||rule34.xxx^$important
 ||gelbooru.com^$important
 ||danbooru.donmai.us^$important
@@ -113,17 +147,32 @@
 ||yiffit.net^$important
 
 
-! === General Adult Content Delivery (CDNs) ===
+! =========================
+! GENERAL ADULT CONTENT DELIVERY (CDNs / IMAGE HOSTS)
+! =========================
 ||redgifs.com^$important
 ||gifdeliverynetwork.com^$important
 ||gfycat.com^$important
+
 ||imgbox.com^$important
 ||imagetwist.com^$important
 ||imagevenue.com^$important
 ||imagebam.com^$important
 
+! From logs / hardening:
+||mmcdn.com^$important
+||hotleak.vip^$important
 
-! === Adult Advertising Networks ===
+! Common adult image host fallbacks (strict mode):
+||imgsrc.ru^$important
+||imgspice.com^$important
+||pixhost.to^$important
+||imgur.com^$important
+
+
+! =========================
+! ADULT ADVERTISING NETWORKS
+! =========================
 ||trafficjunky.com^$important
 ||trafficfactory.biz^$important
 ||exoclick.com^$important
@@ -133,14 +182,48 @@
 ||etahub.com^$important
 
 
-! === Legacy / Gray Area Domains (Optional) ===
+! =========================
+! PORN DISCOVERY / INDEX HUBS (HIGH YIELD)
+! =========================
+||theporndude.com^$important
+||porndude.com^$important
+||pornmd.com^$important
+||pornzog.com^$important
+||pornkai.com^$important
+||media.theporndude.com^$important
+
+
+! =========================
+! TELEGRAM/ARCHIVE DISTRIBUTION (PORN SPREAD)
+! =========================
+||tgstat.com^$important
+||telemetr.io^$important
+||tg-archive.com^$important
+
+
+! =========================
+! "COOMER/KEMONO" + WORKER MIRRORS (AS REQUESTED)
+! =========================
+||kemono.su^$important
+||coomer.su^$important
+
+||coom.subsonic.workers.dev^$important
+||jav.subsonic.workers.dev^$important
+||kem.subsonic.workers.dev^$important
+
+
+! =========================
+! LEGACY / GRAY AREA (OPTIONAL)
+! =========================
 ||4chan.org^$important
 ||4channel.org^$important
 ||planetsuzy.org^$important
 ||playboy.com^$important
 
 
-! === Expansion Candidates (Under Review) ===
+! =========================
+! EXPANSION CANDIDATES (PROMOTED FROM YOUR LIST + SWEEP)
+! =========================
 ||hqporner.com^$important
 ||tnaflix.com^$important
 ||xrares.com^$important
@@ -149,15 +232,7 @@
 ||drtuber.com^$important
 ||sleazyneasy.com^$important
 ||creepshots.com^$important
+
 ||coomer.st^$important
-||img.coomer.st^$important
-||n1.coomer.st^$important
-||n3.coomer.st^$important
-||n4.coomer.st^$important
 ||kemono.cr^$important
-||n1.kemono.cr^$important
-||n2.kemono.cr^$important
-||n3.kemono.cr^$important
-||n4.kemono.cr^$important
-||img.kemono.cr^$important
 ||safebooru.org^$important
