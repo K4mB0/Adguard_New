@@ -34,3 +34,21 @@
 ||itafricagroup.com^$important
 ||straw.page^$important
 ||strawcdn.com^$important
+
+! Reddit alt-frontends
+||redlib.*^$important
+
+! Adult / porn CDNs
+||xvideos-cdn.com^$important
+||mmcdn.com^$important
+||hotleak.vip^$important
+||bang.com^$important
+
+! Abused Cloudflare Workers
+||download.tau2.workers.dev^$important
+||nit.subsonic.workers.dev^$important
+
+! Low-reputation spam
+||itafricagroup.com^$important
+||root.sx^$important
+
