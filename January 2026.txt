@@ -52,3 +52,13 @@
 ||itafricagroup.com^$important
 ||root.sx^$important
 
+! GitHub raw mirror bypass
+||rawcdn.githack.com^$important
+
+! Paste / redirect shortener
+||ptr.moe^$important
+
+! Holy Unblocker Cloudflare Worker (exact host)
+||worker-holy-smoke-5eb3.pres1234569.workers.dev^$important
+
+
