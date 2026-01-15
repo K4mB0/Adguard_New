@@ -61,4 +61,7 @@
 ! Holy Unblocker Cloudflare Worker (exact host)
 ||worker-holy-smoke-5eb3.pres1234569.workers.dev^$important
 
+! Abused Cloudflare Worker (exact host)
+||loc2.thapi.workers.dev^$important
+
 
