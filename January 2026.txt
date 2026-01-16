@@ -64,4 +64,11 @@
 ! Abused Cloudflare Worker (exact host)
 ||loc2.thapi.workers.dev^$important
 
+! Proxy / bootstrap infrastructure
+||prodregistryv2.org^$important
+
+! Generic asset/config CDNs used for evasion
+||assetsconfigcdn.org^$important
+||featureassets.org^$important
+
 
