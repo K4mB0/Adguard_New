@@ -71,4 +71,11 @@
 ||assetsconfigcdn.org^$important
 ||featureassets.org^$important
 
+! Aggregation / index hub
+||fmhy.xyz^$important
+
+! Lightweight chat / proxy relay
+||ish.chat^$important
+
+
 
