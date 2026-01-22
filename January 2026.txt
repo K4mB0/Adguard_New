@@ -73,6 +73,7 @@
 
 ! Aggregation / index hub
 ||fmhy.xyz^$important
+||fmhy.net^$important
 
 ! Lightweight chat / proxy relay
 ||ish.chat^$important
