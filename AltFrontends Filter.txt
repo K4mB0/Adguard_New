@@ -99,3 +99,10 @@
 ||reddit.utsav2.dev^$important
 ||reddit.rtrace.io^$important
 
+! Web proxy frontends (confirmed in ALLOW)
+||nebulaproxy.io^$important
+||corsproxy.io^$important
+
+! Cloudflare Quick Tunnels (proxy/tunnel abuse)
+||trycloudflare.com^$important
+
