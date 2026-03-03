@@ -101,6 +101,7 @@
 
 ! Web proxy frontends (confirmed in ALLOW)
 ||nebulaproxy.io^$important
+||nebulaproxy.vercel.app^$important
 ||corsproxy.io^$important
 
 ! Cloudflare Quick Tunnels (proxy/tunnel abuse)
