@@ -1,0 +1,24 @@
+! Proxy / bypass frontends
+||bypass.city^$important
+||api2.bypass.city^$important
+||bypass.link^$important
+||proxy-api-taupe.vercel.app^$important
+||x3no.pages.dev^$important
+||executorstatusmodal.vercel.app^$important
+
+! Monetised redirect / download gates
+||linkvertise.com^$important
+||publisher.linkvertise.com^$important
+||work.ink^$important
+||redirect-api.work.ink^$important
+||loot-link.com^$important
+||direct-link.net^$important
+||link-center.net^$important
+||thebypasser.com^$important
+
+! Suspicious file / tool distribution
+||modsfire.com^$important
+||filedm.com^$important
+||yuishare.com^$important
+||z-lib.ai^$important
+||z-lib.cv^$important
