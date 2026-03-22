@@ -22,3 +22,17 @@
 ||yuishare.com^$important
 ||z-lib.ai^$important
 ||z-lib.cv^$important
+
+! === FMHY / AGGREGATION MIRRORS ===
+||fmhyclone.pages.dev^$important
+||fmhy.vercel.app^$important
+
+! === PROXY / BYPASS FRONTEND ===
+||proxy-api-taupe.vercel.app^$important
+
+! === SUSPICIOUS / LOW-VALUE DOMAINS (SEEN ON FIRESTICK BUT SAFE TO GLOBAL BLOCK) ===
+||baylib.top^$important
+||paps.binary-person.dev^$important
+||truffle.lol^$important
+||truffled.lol^$important
+||schoology.lat^$important
