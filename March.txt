@@ -27,12 +27,37 @@
 ||fmhyclone.pages.dev^$important
 ||fmhy.vercel.app^$important
 
-! === PROXY / BYPASS FRONTEND ===
-||proxy-api-taupe.vercel.app^$important
+||api.cors.lol^$important
+||cors.lol^$important
+||api.puter.com^$important
+||puter.com^$important
+||api.tapc.art^$important
+||tapc.art^$important
 
-! === SUSPICIOUS / LOW-VALUE DOMAINS (SEEN ON FIRESTICK BUT SAFE TO GLOBAL BLOCK) ===
-||baylib.top^$important
-||paps.binary-person.dev^$important
+||vdo.ninja^$important
+||*.vdo.ninja^$important
+
+||monochrome.pages.dev^$important
+||monochromemusic.pages.dev^$important
+
+||fmhy.vercel.app^$important
 ||truffle.lol^$important
 ||truffled.lol^$important
-||schoology.lat^$important
+||dropdead.world^$important
+||limits.minmaxify.com^$important
+
+||p1nkhamster.xyz^$important
+||samidy.com^$important
+||binary-person.dev^$important
+
+||assettolab.cc^$important
+||windhawk.net^$important
+
+||cdn.grok.com^$important
+||cdn.leonardo.ai^$important
+||assets-proxy.anthropic.com^$important
+
+||libreddit^$important
+||teddit^$important
+||redlib^$important
+||nitter^$important
