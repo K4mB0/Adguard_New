@@ -61,3 +61,12 @@
 ||teddit^$important
 ||redlib^$important
 ||nitter^$important
+
+||p1nkhamster.xyz^$important
+||minmaxify.com^$important
+||pillows.su^$important
+||cloudfunctions.net^$important
+||modelscope.cn^$important
+||aliyuncs.com^$important
+||fmhyclone.pages.dev^$important
+||samidy.com^$important
