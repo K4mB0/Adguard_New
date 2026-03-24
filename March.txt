@@ -70,3 +70,13 @@
 ||aliyuncs.com^$important
 ||fmhyclone.pages.dev^$important
 ||samidy.com^$important
+
+||modelscope.cn^$important
+||oss-cn-zhangjiakou.aliyuncs.com^$important
+||oss-accelerate.aliyuncs.com^$important
+||chub.ai^$important
+||greasyfork.org^$important
+||tampermonkey.net^$important
+||uncenter.dev^$important
+||cloudfunctions.net^$important
+
