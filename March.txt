@@ -80,3 +80,8 @@
 ||uncenter.dev^$important
 ||cloudfunctions.net^$important
 
+||sendit.sh^$important
+||eminentpercentvandalism.com^$important
+||workers.dev^$important
+||execute-api.us-east-1.amazonaws.com^$important
+
