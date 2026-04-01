@@ -1,21 +1,90 @@
+! Title: Kids Network — New Block Rules (Log 2 Analysis)
+! Date: 2026-04-01
+! These are NEW recommendations only — not rules already in your existing lists
+! Syntax: AdGuard Home — all rules $important
+! NOTE: DoH bypass rules (Section 4) intentionally excluded — apply separately
+!
+! =========================================================
+! SECTION 1 — ADULT / EXPLICIT CONTENT
+! =========================================================
+!
 ||pornerome.com^$important
-
-
-||talkie-ai.com^$important
+||coomer.st^$important
+||coomer.party^$important
+||privateleaks.net^$important
+||mlpchag.neocities.org^$important
+!
+! =========================================================
+! SECTION 2 — NSFW AI / ROLEPLAY / COMPANION PLATFORMS
+! =========================================================
+!
+||crushon.ai^$important
+||jannyai.com^$important
+||spicychat.ai^$important
+||sakura.fm^$important
+||harpy.chat^$important
+||botify.ai^$important
+||bot3.ai^$important
+||joyland.ai^$important
+||charhub.io^$important
+||wyvern.chat^$important
+||nyai.me^$important
 ||xoul.ai^$important
-||backyard.ai^$important
-||character-tavern.com^$important
-||charavault.net^$important
-||jina.ai^$important
-||quillgen.app^$important
+||risuai.xyz^$important
+||risuai.net^$important
 ||polybuzz.ai^$important
+||saucepan.ai^$important
+||quillgen.app^$important
 ||grok.com^$important
 ||x.ai^$important
-
+!
+! =========================================================
+! SECTION 3 — CORS PROXY / WEB PROXY BYPASS
+! =========================================================
+!
 ||corsproxy.io^$important
 ||cors.lol^$important
-||cloudflare-dns.com^$important
-
-||bastaff.ru^$important
-||ghadirfoods.com^$important
-||trabun.org^$important
+||cors.eu.org^$important
+||jina.ai^$important
+||puter.com^$important
+||cdn.jsdelivr.xyz^$important
+||featureassets.org^$important
+||prodregistryv2.org^$important
+||limits.minmaxify.com^$important
+!
+! =========================================================
+! SECTION 4 — CHINESE INFRASTRUCTURE (UNEXPLAINED)
+! =========================================================
+!
+||iflow.cn^$important
+||apis.iflow.cn^$important
+||aliyuncs.com^$important
+||alicdn.com^$important
+!
+! =========================================================
+! SECTION 5 — SUSPICIOUS / UNIDENTIFIED DOMAINS
+! =========================================================
+!
+||smack.bastaff.ru^$important
+||nuku.trabun.org^$important
+||truf.ghadirfoods.com^$important
+!
+! =========================================================
+! SECTION 6 — ANONYMOUS FILE HOSTING
+! =========================================================
+!
+||catbox.moe^$important
+||privateleaks.net^$important
+!
+! =========================================================
+! [ DEFERRED — APPLY WEEKEND ] DoH Bypass Endpoints
+! =========================================================
+!
+! ||cloudflare-dns.com^$important
+! ||dns.google^$important
+! ||doh.cleanbrowsing.org^$important
+! ||doh.opendns.com^$important
+! ||doh.familyshield.opendns.com^$important
+! ||doh.sb^$important
+! ||dns.quad9.net^$important
+! ||adguard-dns.io^$important
