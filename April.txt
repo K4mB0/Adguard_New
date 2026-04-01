@@ -9,6 +9,8 @@
 ||jina.ai^$important
 ||quillgen.app^$important
 ||polybuzz.ai^$important
+||grok.com^$important
+||x.ai^$important
 
 ||corsproxy.io^$important
 ||cors.lol^$important
