@@ -1,22 +1,11 @@
-! AdGuard Home - Optimized Adult AI Roleplay Blocklist
-! Updated and categorized by Coly 04/11/25
-! Purpose: Block AI chat/roleplay services used for NSFW, pseudo-romantic, and fetish scenarios
+# CATEGORY: Adult AI / NSFW AI Roleplay Blocking
+# PURPOSE: Block AI chat, companion, roleplay, and image generation services
+#          used for NSFW, pseudo-romantic, and fetish scenarios.
+#          Covers AI platforms, open-source LLM frontends, and adult
+#          AI image generators.
 
-! === Ollama.AI ===
-||ollama.com^$important
-
-! === Genit.AL ===
-||genit.al^$important
-
-! === Open.AI ===
-||openaicommunities.space^$important
-
-! === Character.AI and Mirrors ===
+# --- CHARACTER AI & MIRRORS ---
 ||character.ai^$important
-||beta.character.ai^$important
-||cdn.character.ai^$important
-||static.character.ai^$important
-||api.character.ai^$important
 ||characterai.io^$important
 ||api.characterai.com^$important
 ||api.characterai.io^$important
@@ -24,81 +13,50 @@
 ||charakter.ai^$important
 ||t3.chat^$important
 ||wyvernchat.com^$important
+||wyvern.chat^$important
 
-! === JanitorAI ===
+# --- JANITOR AI ---
 ||janitorai.com^$important
 ||janitor.ai^$important
-||api.janitorai.com^$important
-||static.janitorai.com^$important
-||cdn.janitorai.com^$important
 
-! === JannyAI ===
+# --- JANNY AI ---
 ||jannyai.com^$important
-||image.jannyai.com^$important
-||anal.jannyai.com^$important
-||cdn.jannyai.com^$important
-||api.jannyai.com^$important
-||static.jannyai.com^$important
 ||janny.alkane.workers.dev^$important
 
-! === Replika & Clones ===
+# --- REPLIKA & CLONES ---
 ||replika.ai^$important
 ||replika.com^$important
-||my.replika.ai^$important
-||api.replika.ai^$important
-||cdn.replika.ai^$important
-||storage.replika.ai^$important
-||media.replika.ai^$important
-||static.replika.ai^$important
 ||botify.ai^$important
 ||chai.ml^$important
 ||replai.ai^$important
 ||anima.ai^$important
 
-! === KoboldAI Ecosystem ===
+# --- KOBOLDAI ECOSYSTEM ---
 ||koboldai.net^$important
-||lite.koboldai.net^$important
 ||fiction.live^$important
 ||textgen.dev^$important
 ||oobabooga.net^$important
 
-! === NovelAI & Derivatives ===
+# --- NOVELAI & DERIVATIVES ---
 ||novelai.net^$important
 ||novelai.io^$important
-||api.novelai.net^$important
-||image.novelai.net^$important
-||opus.novelai.net^$important
 ||scenario.gg^$important
 
-! === AI Dungeon / Latitude ===
+# --- AI DUNGEON / LATITUDE ---
 ||aidungeon.io^$important
-||play.aidungeon.io^$important
-||api.aidungeon.io^$important
-||scenarios.aidungeon.io^$important
 ||latitude.io^$important
 
-! === Hugging Face & Open AI Hosting Repositories ===
-! Consider moving these to an “AI Infrastructure” category instead of Adult AI Roleplay
-||huggingface.co^$important
-||spaces.huggingface.co^$important
-||datasets-server.huggingface.co^$important
-||cdn-lfs.huggingface.co^$important
-||cdn-assets.huggingface.co^$important
-
-! === Additional AI Roleplay Platforms ===
+# --- ADDITIONAL AI ROLEPLAY PLATFORMS ---
 ||charstar.ai^$important
 ||pov.chat^$important
 ||aihub.chat^$important
 ||sillytavern.app^$important
 ||sillytavern.ai^$important
-||openrouter.ai^$important
 ||open-assistant.io^$important
-||oasst-sandbox.open-assistant.io^$important
 ||characterforge.ai^$important
 ||dreamgf.ai^$important
 ||paradot.ai^$important
 ||romantic.ai^$important
-||beta.romantic.ai^$important
 ||soulgen.ai^$important
 ||dreamily.ai^$important
 ||withai.com^$important
@@ -114,14 +72,11 @@
 ||proxiai.app^$important
 ||proxiai.com^$important
 ||yourcharacter.ai^$important
-||beta.yourcharacter.ai^$important
 ||aisekai.ai^$important
 ||aisekai.chat^$important
 ||aiwaifu.dev^$important
 ||aiwaifu.net^$important
 ||waifu.im^$important
-||www.waifu.im^$important
-||docs.waifu.im^$important
 ||crushon.ai^$important
 ||juicychat.ai^$important
 ||chat.kink.ai^$important
@@ -132,28 +87,27 @@
 ||localai.io^$important
 ||leafcanfly.neocities.org^$important
 
-
-
-
-! === Legacy / Chatbot Experiments ===
+# --- LEGACY / CHATBOT EXPERIMENTS ---
 ||cleverbot.com^$important
 ||eviebot.com^$important
 ||boibot.com^$important
 ||jenniferbot.com^$important
 ||personalityforge.com^$important
-||api.wyvern.chat^$important
+
+# --- MISCELLANEOUS / AI BYPASS INFRASTRUCTURE ---
+||ollama.com^$important
+||genit.al^$important
+||openaicommunities.space^$important
+||openrouter.ai^$important
 ||api.featherless.ai^$important
 ||sacrilegious.uwu.ai^$important
 ||chat.qwen.ai^$important
 ||qwen.ai^$important
-||qianwen-res.oss-accelerate-overseas.aliyuncs.com^$important
-||qianwen-res.oss-cn-beijing.aliyuncs.com^$important
-||wyvern.chat^$important
-||app.wyvern.chat^$important
-||blog.wyvern.chat^$important
 ||ytapi.org^$important
-||cdn.ytapi.org^$important
 ||mp3api.ytjar.info^$important
 ||oh.fuuuuuck.com^$important
-! Edgy domain name — flagged for AI bypass infra
 ||flagsmith-proxy-worker.inventive.workers.dev^$important
+
+# --- AI IMAGE / MODEL HOSTING (HIGH RISK) ---
+# ⚠️ huggingface.co is flagged — see notes below
+||huggingface.co^$important
