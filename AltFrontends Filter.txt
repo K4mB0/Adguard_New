@@ -1,24 +1,20 @@
-! AdGuard Home - Alt Frontends & Censorship Bypass Proxies Blocklist
-! Updated and categorized by Coly 04/11/25
-! Purpose: Block alternative frontends, mirror gateways, and clearnet proxies that circumvent platform restrictions or content filtering
+# CATEGORY: Alt Frontends & Bypass Proxies
+# PURPOSE: Block alternative frontends (Invidious, Nitter, Libreddit etc.)
+#          and web proxy/tunnel tools that allow users to access blocked
+#          platforms through a different URL, bypassing DNS enforcement.
+#          Critical layer — without this, most other blocks can be walked around.
 
-! === New Frontends ===
+# --- NEW / MISC FRONTENDS ---
 ||zerotrace.org^$important
 ||cdn-zerotrace.pressidium.com^$important
 ||snoo.habedieeh.re^$important
 ||whatever.social^$important
-||discuss.whatever.social^$important
 ||bypass.vip^$important
-||api.bypass.vip^$important
 ||modslocker.com^$important
-||cdn.modslocker.com^$important
-||dl1.modslocker.com^$important
 ||mercurywork.shop^$important
-||scramjet.mercurywork.shop^$important
 ||rl.tau2.workers.dev^$important
 ||tau2.workers.dev^$important
 ||lr.ptr.moe^$important
-||sponsor.ajay.app^$important
 ||lr.oxylab.workers.dev^$important
 ||janny.oxylab.workers.dev^$important
 ||oxylab.workers.dev^$important
@@ -35,13 +31,10 @@
 ||r.alkane.workers.dev^$important
 ||ouo.io^$important
 
-
-
-
-! === Twitch Circumvention Tools ===
+# --- TWITCH CIRCUMVENTION ---
 ||lunar.icu^$important
 
-! === Alt Frontends & Censorship Proxies ===
+# --- ALT FRONTENDS & CENSORSHIP PROXIES ---
 ||ajay.app^$important
 ||tux.pizza^$important
 ||cloudflare-ipfs.com^$important
@@ -59,7 +52,7 @@
 ||proxitok.pabloferreiro.es^$important
 ||sneedflix.cc^$important
 
-! === Nitter & Other Frontend Families ===
+# --- NITTER & TWITTER FRONTEND MIRRORS ---
 ||nitter.poast.org^$important
 ||nitter.privacydev.net^$important
 ||nitter.eu^$important
@@ -67,43 +60,41 @@
 ||nitter.snopyta.org^$important
 ||privacyredirect.com^$important
 
-! === Additional Frontends & Circumvention Sites ===
+# --- REDDIT FRONTENDS & PROXIES ---
 ||red4u.xyz^$important
 ||thekitty.zone^$important
 ||reddit.claw.ovh^$important
 ||red.artemislena.eu^$important
 ||claw.ovh^$important
 ||lightbrd.com^$important
-||twiiit.com^$important
-||diasporafoundation.org^$important
-||joinmastodon.org^$important
-||tunnel.googlezip.net^$important
-||invidio.us^$important
-||instances.invidio.us^$important
-||piped-instances.kavin.rocks^$important
-||reddit.nerdvpn.de^$important
-||reddit.adminforge.de^$important
 ||safereddit.com^$important
-||wikiless.org^$important
-||nadeko.net^$important
-||us1.noblo.cc^$important
-||redgifsdownloader.net^$important
-||redgifdownloader.com^$important
-||sounddownmp3.com^$important
-
-! === New Reddit Forks & Proxies (2025-06-01) ===
 ||leddit.xyz^$important
 ||redlibrary.xyz^$important
 ||lr.n8pjl.ca^$important
 ||reddit.owo.si^$important
 ||reddit.utsav2.dev^$important
 ||reddit.rtrace.io^$important
+||reddit.nerdvpn.de^$important
+||reddit.adminforge.de^$important
 
-! Web proxy frontends (confirmed in ALLOW)
+# --- MISC FRONTENDS ---
+||twiiit.com^$important
+||diasporafoundation.org^$important
+||joinmastodon.org^$important
+||invidio.us^$important
+||piped-instances.kavin.rocks^$important
+||wikiless.org^$important
+||nadeko.net^$important
+||us1.noblo.cc^$important
+||tunnel.googlezip.net^$important
+
+# --- WEB PROXIES ---
 ||nebulaproxy.io^$important
 ||nebulaproxy.vercel.app^$important
 ||corsproxy.io^$important
+||redgifsdownloader.net^$important
+||redgifdownloader.com^$important
+||sounddownmp3.com^$important
 
-! Cloudflare Quick Tunnels (proxy/tunnel abuse)
+# --- CLOUDFLARE TUNNEL ABUSE ---
 ||trycloudflare.com^$important
-
