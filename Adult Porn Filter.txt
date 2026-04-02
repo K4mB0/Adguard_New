@@ -1,31 +1,23 @@
-! =======================================================================================
-! AdGuard Home - Optimized Adult Content Blocklist (Standalone, Consolidated)
-! Maintainer: Coly
-! Last updated: 10/01/2026 (Europe/London)
-!
-! Purpose:
-!  - Block explicit adult content platforms, cam sites, adult social platforms, porn CDNs,
-!    porn discovery hubs, and common mirror/fallback domains.
-!
-! Notes:
-!  - DNS-level only
-!  - Prefer family rules + $important
-! =======================================================================================
+# CATEGORY: Adult / Porn Content Blocking
+# PURPOSE: Block explicit adult platforms, cam sites, adult social networks,
+#          porn CDNs, image boards, adult ad networks, discovery hubs,
+#          hentai/anime adult content, and JAV sites at the DNS level
+#          for parental enforcement.
+# Last updated: April 2026
 
-
-! =========================
-! MAJOR ADULT PLATFORMS
-! =========================
+# --- MAJOR ADULT PLATFORMS ---
 ||pornhub.com^$important
 ||phncdn.com^$important
 ||pornhubpremium.com^$important
 
 ||xvideos.com^$important
 ||xvideos-cdn.com^$important
+||xvideos-cdn.com^$important
 ||xvideos2.com^$important
 ||xvideos3.com^$important
 ||xvideos.red^$important
 ||xvideos.in^$important
+||xvideos.net^$important
 
 ||xnxx.com^$important
 ||xnxx-cdn.com^$important
@@ -34,6 +26,7 @@
 ||xnxx.tv^$important
 
 ||xhamster.com^$important
+||xhamster2.com^$important
 ||xhamster.desi^$important
 ||xhcdn.com^$important
 
@@ -72,16 +65,17 @@
 
 ||sex.com^$important
 ||nudostar.tv^$important
+||thisvid.com^$important
+||tktube.com^$important
+||hdporn.tv^$important
+||pornopen.com^$important
 
 ||bongacams11.com^$important
 ||faponic.com^$important
 ||javseen.tv^$important
 ||pics.dmm.co.jp^$important
 
-
-! =========================
-! PREMIUM NETWORKS
-! =========================
+# --- PREMIUM NETWORKS ---
 ||brazzers.com^$important
 ||bangbros.com^$important
 ||bang.com^$important
@@ -100,13 +94,12 @@
 ||evilangel.com^$important
 ||kink.com^$important
 
-
-! =========================
-! WEBCAM & LIVE CAMS
-! =========================
+# --- WEBCAM & LIVE CAMS ---
 ||stripchat.com^$important
 ||chaturbate.com^$important
 ||highwebmedia.com^$important
+||jerkmate.com^$important
+||jerkmate.io^$important
 
 ||mydirtyhobby.com^$important
 ||cam4.com^$important
@@ -120,10 +113,7 @@
 ||naked.com^$important
 ||slutroulette.com^$important
 
-
-! =========================
-! ADULT SOCIAL / DATING
-! =========================
+# --- ADULT SOCIAL / DATING ---
 ||fetlife.com^$important
 ||adultfriendfinder.com^$important
 ||alt.com^$important
@@ -135,44 +125,48 @@
 ||fansly.com^$important
 ||manyvids.com^$important
 
-
-! =========================
-! IMAGE BOARDS / FORUMS
-! =========================
+# --- IMAGE BOARDS / FORUMS ---
 ||rule34.xxx^$important
 ||gelbooru.com^$important
 ||danbooru.donmai.us^$important
 ||e621.net^$important
 ||sankakucomplex.com^$important
 ||yiffit.net^$important
+||4chan.org^$important
+||4channel.org^$important
 
+# --- HENTAI / ADULT ANIME ---
+||nhentai.net^$important
+||nhentai.xxx^$important
+||e-hentai.org^$important
+||exhentai.org^$important
+||hanime.tv^$important
+||hitomi.la^$important
+||hentaifox.com^$important
+||hentai2read.com^$important
+||hentaiera.com^$important
+||hentai.name^$important
+||luscious.net^$important
+||allporncomic.com^$important
 
-! =========================
-! GENERAL ADULT CONTENT DELIVERY (CDNs / IMAGE HOSTS)
-! =========================
+# --- JAV (JAPANESE ADULT VIDEO) ---
+||tokyomotion.net^$important
+||javbangers.com^$important
+||njav.tv^$important
+
+# --- ADULT CDNs / IMAGE HOSTS ---
 ||redgifs.com^$important
-||gifdeliverynetwork.com^$important
-||gfycat.com^$important
-
 ||imgbox.com^$important
 ||imagetwist.com^$important
 ||imagevenue.com^$important
 ||imagebam.com^$important
-
-! From logs / hardening:
 ||mmcdn.com^$important
 ||hotleak.vip^$important
-
-! Common adult image host fallbacks (strict mode):
 ||imgsrc.ru^$important
 ||imgspice.com^$important
 ||pixhost.to^$important
-||imgur.com^$important
 
-
-! =========================
-! ADULT ADVERTISING NETWORKS
-! =========================
+# --- ADULT AD NETWORKS ---
 ||trafficjunky.com^$important
 ||trafficfactory.biz^$important
 ||exoclick.com^$important
@@ -181,10 +175,7 @@
 ||plugrush.com^$important
 ||etahub.com^$important
 
-
-! =========================
-! PORN DISCOVERY / INDEX HUBS (HIGH YIELD)
-! =========================
+# --- PORN DISCOVERY / INDEX HUBS ---
 ||theporndude.com^$important
 ||porndude.com^$important
 ||pornmd.com^$important
@@ -192,38 +183,21 @@
 ||pornkai.com^$important
 ||media.theporndude.com^$important
 
-
-! =========================
-! TELEGRAM/ARCHIVE DISTRIBUTION (PORN SPREAD)
-! =========================
+# --- TELEGRAM PORN DISTRIBUTION ---
 ||tgstat.com^$important
 ||telemetr.io^$important
 ||tg-archive.com^$important
 
-
-! =========================
-! "COOMER/KEMONO" + WORKER MIRRORS (AS REQUESTED)
-! =========================
+# --- COOMER / KEMONO MIRRORS ---
 ||kemono.su^$important
 ||coomer.su^$important
-
+||coomer.st^$important
+||kemono.cr^$important
 ||coom.subsonic.workers.dev^$important
 ||jav.subsonic.workers.dev^$important
 ||kem.subsonic.workers.dev^$important
 
-
-! =========================
-! LEGACY / GRAY AREA (OPTIONAL)
-! =========================
-||4chan.org^$important
-||4channel.org^$important
-||planetsuzy.org^$important
-||playboy.com^$important
-
-
-! =========================
-! EXPANSION CANDIDATES (PROMOTED FROM YOUR LIST + SWEEP)
-! =========================
+# --- ADDITIONAL ADULT SITES ---
 ||hqporner.com^$important
 ||tnaflix.com^$important
 ||xrares.com^$important
@@ -232,7 +206,8 @@
 ||drtuber.com^$important
 ||sleazyneasy.com^$important
 ||creepshots.com^$important
-
-||coomer.st^$important
-||kemono.cr^$important
+||planetsuzy.org^$important
+||playboy.com^$important
 ||safebooru.org^$important
+||incestflix.com^$important
+||tabooflix.org^$important
