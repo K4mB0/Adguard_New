@@ -77,6 +77,34 @@
 ||privateleaks.net^$important
 !
 ! =========================================================
+! New Block Rules 02/04/26
+! =========================================================
+
+! Proxy / bypass — newly identified
+||tunnel.googlezip.net^$important
+||proxy.snrbox.com^$important
+||snrbox.com^$important
+||whatcani.run^$important
+
+! Reddit mirror — new frontend not previously seen
+||red.artemislena.eu^$important
+
+! Securly bypass spoofing domains
+||fixbigoil.com^$important
+||phi-taiwan.com^$important
+
+! Suspicious / unidentified — newly appearing
+||bugpuk.ru^$important
+||educateandlearnallabout.sciencevictory.com^$important
+||sciencevictory.com^$important
+||us1.gb-ingest.com^$important
+||api.safecomms.dev^$important
+||vsthemes.org^$important
+
+! Pastebin — script/payload delivery risk in this context
+||pastebin.com^$important
+!
+! =========================================================
 ! [ DEFERRED — APPLY WEEKEND ] DoH Bypass Endpoints
 ! =========================================================
 !
