@@ -1,12 +1,16 @@
-! AdGuard Home - Unlock/Gating Link Shorteners (Strict)
-! Updated and enforced by Coly 04/11/25
-! Purpose: Block monetized “link locker” / “unlock to continue” / ad-gated shorteners used to bypass parental controls or funnel to blocked destinations.
+# CATEGORY: Link Shorteners & Link Lockers
+# PURPOSE: Block monetised link lockers (that gate content behind
+#           surveys/ads/subscriptions to hide destination URLs) and
+#           bio link aggregators (used by adult creators and blocked
+#           platforms to collect links in one place).
+# Last updated: April 2026
+#
+# NOTE: General-purpose shorteners (bit.ly, tinyurl etc.) are NOT
+#       blocked — they have too much legitimate use. Only link lockers
+#       and bio aggregators with clear bypass/adult use cases are blocked.
 
-! === ACTIVE ===
-||ouo.io^$important
+# --- BIO LINK AGGREGATORS ---
 ||linktr.ee^$important
-||ugc.production.linktr.ee^$important
-||assets.production.linktr.ee^$important
 ||linkr.bio^$important
 ||beacons.ai^$important
 ||beacons.page^$important
@@ -16,36 +20,27 @@
 ||taplink.cc^$important
 ||linkfly.to^$important
 ||allmylinks.com^$important
+||lnk.bio^$important
+||bio.link^$important
+||lnk.to^$important
 
-! === COMMENTED (enable one-by-one as needed) ===
-! ||linkvertise.com^$important
-! ||work.ink^$important
-! ||rekonise.com^$important
-! ||lootlabs.gg^$important
-! ||loot-link.com^$important
-! ||lootdest.org^$important
-! ||lootlinks.net^$important
+# --- LINK LOCKERS (AD-GATED / SURVEY-GATED) ---
+||ouo.io^$important
+||linkvertise.com^$important
+||work.ink^$important
+||rekonise.com^$important
+||adf.ly^$important
+||adfoc.us^$important
+||shorte.st^$important
 
-! === Sub2Unlock Family (multi-TLD) ===
-! ||sub2unlock.io^$important
-! ||sub2unlock.org^$important
-! ||sub2unlock.net^$important
-! ||sub2unlock.me^$important
+# --- LOOT/GAMING LINK LOCKERS ---
+||lootlabs.gg^$important
+||loot-link.com^$important
+||lootdest.org^$important
+||lootlinks.net^$important
 
-! === Legacy / High-Risk Monetized Shorteners ===
-! ||adf.ly^$important
-! ||adfoc.us^$important
-! ||shorte.st^$important
-! ||lnk.bio^$important
-! ||bio.link^$important
-! ||lnk.to^$important
-
-! === Optional (broad-use shorteners; usually keep disabled)
-! ||bit.ly^$important
-! ||tinyurl.com^$important
-! ||cutt.ly^$important
-! ||is.gd^$important
-! ||t.co^$important
-! ||rb.gy^$important
-! ||buff.ly^$important
-! ||rebrand.ly^$important
+# --- SUB2UNLOCK FAMILY ---
+||sub2unlock.io^$important
+||sub2unlock.org^$important
+||sub2unlock.net^$important
+||sub2unlock.me^$important
