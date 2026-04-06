@@ -1,23 +1,20 @@
-! AdGuard Home - Locked Facebook/Meta Blocklist
-! Updated and enforced by Coly 04/11/25
-! Purpose: Fully block Facebook, Messenger, Meta services, and all connected APIs, CDNs, tracking, and mobile apps
+# CATEGORY: Facebook / Meta — Full Block
+# PURPOSE: Zero-tolerance block of all Facebook, Messenger, and Meta
+#           services including CDN, API, advertising, authentication,
+#           and subsidiary platforms.
 
-! === Core Facebook Domains ===
+# --- CORE FACEBOOK DOMAINS ---
 ||facebook.com^$important
-||www.facebook.com^$important
-||m.facebook.com^$important
-||mobile.facebook.com^$important
-||mbasic.facebook.com^$important
-||touch.facebook.com^$important
-||free.facebook.com^$important
-||zero.facebook.com^$important
-||d.facebook.com^$important
 ||fb.com^$important
 ||fb.me^$important
 ||facebook.net^$important
+||connect.facebook.net^$important
 
-! === Facebook CDN & Media ===
+# --- FACEBOOK CDN ---
 ||fbcdn.net^$important
+
+# --- LEGACY AKAMAI CDN (Facebook-specific, pre-2019 infrastructure) ---
+# These are mostly defunct but kept as a precaution
 ||fbcdn-creative-a.akamaihd.net^$important
 ||fbcdn-photos-a.akamaihd.net^$important
 ||fbcdn-photos-e-a.akamaihd.net^$important
@@ -40,39 +37,10 @@
 ||fbcdn-video-h.akamaihd.net^$important
 ||fbstatic-a.akamaihd.net^$important
 
-! === Facebook API & App Services ===
-||api.facebook.com^$important
-||apps.facebook.com^$important
-||developers.facebook.com^$important
-||graph.facebook.com^$important
-||connect.facebook.com^$important
-||connect.facebook.net^$important
-||upload.facebook.com^$important
-||vupload.facebook.com^$important
-||vupload2.facebook.com^$important
-||star.facebook.com^$important
-
-! === Facebook Advertising & Analytics ===
-||ads.facebook.com^$important
-||business.facebook.com^$important
-||creative.ak.facebook.com^$important
-||pixel.facebook.com^$important
-||an.facebook.com^$important
-||scontent.facebook.com^$important
-||static.facebook.com^$important
-
-! === Authentication Services ===
-||login.facebook.com^$important
-||oauth.facebook.com^$important
-||sso.facebook.com^$important
-
-! === Facebook Messenger ===
+# --- MESSENGER ---
 ||messenger.com^$important
-||www.messenger.com^$important
-||m.messenger.com^$important
-||api.messenger.com^$important
 
-! === Meta & Other Subsidiaries ===
+# --- META & SUBSIDIARIES ---
 ||meta.com^$important
 ||threads.net^$important
 ||threads.com^$important
