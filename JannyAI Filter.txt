@@ -1,42 +1,15 @@
-! === TOTAL JannyAI Lockdown (NUCLEAR EDITION) ===
-! Maintained by Coly — December 2025
-! Purpose: block JannyAI entirely across all domains, TLDs, mirrors, workers, and obfuscation tactics.
+# CATEGORY: JannyAI — NSFW AI Platform Block
+# PURPOSE: Block JannyAI and all its known Cloudflare Workers
+#           infrastructure. JannyAI is an unfiltered AI roleplay
+#           platform with explicit adult content and zero age
+#           verification. Operates across multiple worker domains
+#           making it persistent even if the main domain changes.
+# Last updated: April 2026
 
-! === Primary domains ===
-||jannyai^$important
+# --- CORE DOMAIN ---
 ||jannyai.com^$important
-||www.jannyai.com^$important
 
-! === TLD catch-all (future-proof) ===
-||jannyai.*^$important
-||*.jannyai.*^$important
-||*.jannyai.com^$important
-
-! === Subdomains (explicit known/probable) ===
-||accounts.jannyai.com^$important
-||api.jannyai.com^$important
-||assets.jannyai.com^$important
-||auth.jannyai.com^$important
-||beta.jannyai.com^$important
-||cdn.jannyai.com^$important
-||chat.jannyai.com^$important
-||edge.jannyai.com^$important
-||events.jannyai.com^$important
-||files.jannyai.com^$important
-||img.jannyai.com^$important
-||logs.jannyai.com^$important
-||media.jannyai.com^$important
-||mobile.jannyai.com^$important
-||static.jannyai.com^$important
-||status.jannyai.com^$important
-||staging.jannyai.com^$important
-||test.jannyai.com^$important
-||v1.jannyai.com^$important
-||v2.jannyai.com^$important
-||ws.jannyai.com^$important
-||ws-api.jannyai.com^$important
-
-! === Cloudflare Workers (direct mirrors) ===
+# --- CLOUDFLARE WORKERS INFRASTRUCTURE ---
 ||janny.alkane.workers.dev^$important
 ||r.alkane.workers.dev^$important
 ||janny.oxylab.workers.dev^$important
@@ -45,18 +18,3 @@
 ||janny.proxy.workers.dev^$important
 ||janny.relay.workers.dev^$important
 ||janny.shadow.workers.dev^$important
-
-! === Worker wildcard kills (entire hosting clusters) ===
-||*.alkane.workers.dev^$important
-||*.oxylab.workers.dev^$important
-||*.sigma.workers.dev^$important
-||*.proxy.workers.dev^$important
-||*.relay.workers.dev^$important
-||*.shadow.workers.dev^$important
-
-! === Generic worker pattern blocking (future-proof) ===
-||janny.*.workers.dev^$important
-||*.janny*.workers.dev^$important
-
-! === NUCLEAR: blocks ANY domain containing "janny" ===
-||*janny*^$important
