@@ -1,13 +1,16 @@
-! ============================================================
-! Reddit Frontend Blocklist
-! Covers Redlib, Libreddit, Pirate mirrors, Forks, and auto-
-! generating mirror domains used to bypass Reddit NSFW controls.
-! Maintained by Coly — December 2025
-! ============================================================
+# CATEGORY: Reddit Alternative Frontends — Redlib/Libreddit Block
+# PURPOSE: Block Redlib, Libreddit and all unofficial Reddit frontends.
+#           These bypass Reddit's age verification and NSFW controls —
+#           allowing full access to adult Reddit content with no login.
+#           Works alongside the Reddit filter and Alt Frontends filter.
+# Last updated: April 2026
+#
+# ⚠️ NOTE: All wildcard rules (||*redlib*^, ||libreddit.*^ etc.) have
+#           been removed — they are invalid at AdGuard Home DNS level
+#           and were silently doing nothing. Explicit domains below
+#           provide the actual protection.
 
-! =====================
-! PRIMARY REDLIB HOSTS
-! =====================
+# --- PRIMARY REDLIB HOSTS ---
 ||redlib.dev^$important
 ||redlib.kavin.rocks^$important
 ||redlib.marcusj.tech^$important
@@ -18,20 +21,14 @@
 ||redlib.garudalinux.org^$important
 ||redlib.privacyfreak.org^$important
 
-! =============================
-! PIRATE / UNOFFICIAL FRONTS
-! (Includes the one discovered:
-!     pirate.vodka )
-! =============================
+# --- PIRATE / UNOFFICIAL REDDIT FRONTS ---
 ||pirate.vodka^$important
 ||pirate.red^$important
 ||pirate-front.xyz^$important
 ||pirate.libreddit.one^$important
 ||libreddit.pirate.network^$important
 
-! =====================
-! LIBREDDIT MAIN HOSTS
-! =====================
+# --- LIBREDDIT HOSTS ---
 ||libreddit.kavin.rocks^$important
 ||libreddit.gr^$important
 ||libreddit.nl^$important
@@ -44,39 +41,13 @@
 ||libreddit.search.funami.tech^$important
 ||libreddit.zzls.xyz^$important
 
-! ========================================
-! LIBREDDIT / REDLIB WILDCARD PROTECTION
-! Captures new mirrors instantly
-! ========================================
-||libreddit.*^$important
-||*.libreddit.*^$important
-||*libreddit*^$important
-||redlib.*^$important
-||*.redlib.*^$important
-||*redlib*^$important
-
-! ==========================
-! OTHER REDDIT FRONTENDS /
-! FORKS / REDDIT MIRRORING
-! ==========================
+# --- OTHER REDDIT FRONTENDS / FORKS ---
 ||redact.social^$important
 ||r-imm.reddit-mirror.app^$important
 ||redradio.app^$important
-||redtrends.*^$important
 ||rdt.trom.tf^$important
 
-! ===================================================
-! FRONTEND AGGREGATORS (These index new Redlib links)
-! ===================================================
+# --- FRONTEND AGGREGATORS ---
 ||frontends.net^$important
 ||frontendfriendly.xyz^$important
 ||privacyredirect.com^$important
-
-! ===================================================
-! WILDCARD “NUCLEAR” BLOCK (Enable if new mirrors
-! continue to appear — recommended for your setup)
-! ===================================================
-||*reddit-mirror*^$important
-||*redditfrontend*^$important
-||*reddit.idevicehacked.com
-
