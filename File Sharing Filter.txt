@@ -1,96 +1,153 @@
-! AdGuard Home - File Sharing Services Blocklist (Strict)
-! Updated and enforced by Coly 04/11/25
-! Purpose: Block all file sharing and cloud transfer platforms except Google Drive (explicitly allowed)
+# CATEGORY: File Sharing — Block All Except Google Drive
+# PURPOSE: Block all file sharing and cloud storage platforms except
+#           Google Drive. Prevents downloading/distributing pirated content,
+#           adult material, or bypassing device controls via file hosts.
+#           GitHub remains allowed per global policy.
+# Last updated: April 2026
 
-! === ALLOWLIST: Google Drive Only ===
+# --- ALLOWLIST: GOOGLE DRIVE ONLY ---
 @@||drive.google.com^$important
 @@||docs.google.com^$important
 @@||googleusercontent.com^$important
-@@||ssl.gstatic.com^$important
 @@||googleapis.com^$important
 
-! === BLOCKLIST: MEGA ===
+# --- MEGA ---
 ||mega.nz^$important
 ||mega.io^$important
 ||mega.co.nz^$important
 
-! === BLOCKLIST: MediaFire ===
+# --- MEDIAFIRE ---
 ||mediafire.com^$important
 ||mfi.re^$important
 ||mediafirecdn.com^$important
 
-! === BLOCKLIST: Zippyshare ===
-||zippyshare.com^$important
-
-! === BLOCKLIST: 4shared ===
-||4shared.com^$important
-||4shared-china.com^$important
-||4shared.info^$important
-
-! === BLOCKLIST: Dropbox ===
+# --- DROPBOX ---
 ||dropbox.com^$important
 ||dropboxusercontent.com^$important
 ||dropboxstatic.com^$important
 
-! === BLOCKLIST: WeTransfer ===
+# --- ONEDRIVE / MICROSOFT ---
+||onedrive.com^$important
+||onedrive.live.com^$important
+||sharepoint.com^$important
+
+# --- WETRANSFER ---
 ||wetransfer.com^$important
 ||we.tl^$important
 ||wt.social^$important
 
-! === BLOCKLIST: RapidShare ===
-||rapidshare.com^$important
-||rapidshare.de^$important
-
-! === BLOCKLIST: SendSpace ===
-||sendspace.com^$important
-||sendspace.pl^$important
-
-! === BLOCKLIST: Box ===
+# --- BOX ---
 ||box.com^$important
 ||boxcdn.net^$important
 ||box.net^$important
 
-! === BLOCKLIST: pCloud ===
+# --- PCLOUD ---
 ||pcloud.com^$important
 ||pcloud.link^$important
 ||pc.cd^$important
 
-! === BLOCKLIST: FileFactory ===
+# --- 4SHARED ---
+||4shared.com^$important
+||4shared-china.com^$important
+||4shared.info^$important
+
+# --- FILEFACTORY ---
 ||filefactory.com^$important
 ||ff.im^$important
 
-! === BLOCKLIST: 1fichier ===
+# --- 1FICHIER ---
 ||1fichier.com^$important
 ||1fichier.net^$important
 
-! === BLOCKLIST: Uploaded ===
+# --- UPLOADED ---
 ||uploaded.net^$important
 ||uploaded.to^$important
 ||ul.to^$important
 
-! === BLOCKLIST: Rapidgator ===
+# --- RAPIDGATOR ---
 ||rapidgator.net^$important
 ||rg.to^$important
 
-! === BLOCKLIST: Turbobit ===
+# --- TURBOBIT ---
 ||turbobit.net^$important
 ||turb.to^$important
 
-! === BLOCKLIST: Other Major File Hosts ===
+# --- ZIPPYSHARE (DEFUNCT BUT KEPT) ---
+||zippyshare.com^$important
+
+# --- RAPIDSHARE (DEFUNCT BUT KEPT) ---
+||rapidshare.com^$important
+||rapidshare.de^$important
+
+# --- SENDSPACE ---
+||sendspace.com^$important
+||sendspace.pl^$important
+
+# --- APPLE / ICLOUD ---
+||icloud.com^$important
+
+# --- PRIVACY CLOUD STORAGE ---
+||proton.me^$important
+||internxt.com^$important
+||icedrive.net^$important
+||sync.com^$important
+||tresorit.com^$important
+||drime.cloud^$important
+||hidrive.com^$important
+
+# --- FILE TRANSFER SERVICES ---
+||fromsmash.com^$important
+||smash.to^$important
+||swisst.net^$important
+||swisstransfer.com^$important
+||hightail.com^$important
+||multcloud.com^$important
+||multcloud.net^$important
+||gofile.io^$important
+||filetransfer.io^$important
+||transfer.sh^$important
+||file.io^$important
+||transferxl.com^$important
+||txl.tools^$important
+||transfernow.net^$important
+||transfernow.com^$important
+||send-anywhere.com^$important
+||send-anywhere.net^$important
+||send-anywhere.io^$important
+||send.cm^$important
+||sendfiles.ai^$important
+||sendgb.com^$important
+||filemail.com^$important
+||filemail.net^$important
+||dropmefiles.com^$important
+||wikisend.com^$important
+
+# --- ANONYMOUS / NO-ACCOUNT FILE HOSTS ---
+||catbox.moe^$important
+||litterbox.catbox.moe^$important
+||pixeldrain.com^$important
+||pixeldrain.net^$important
+||pomf.cat^$important
+||uguu.se^$important
+||vikingfile.com^$important
+||buzzheavier.com^$important
+||workupload.com^$important
+||megaup.net^$important
+||anonfiles.com^$important
+||anon.to^$important
+||0x0.st^$important
+||pone.rs^$important
+||pillows.su^$important
+||rentry.co^$important
+
+# --- OTHER MAJOR FILE HOSTS ---
 ||fileupload.com^$important
 ||upload.ee^$important
 ||uptobox.com^$important
 ||uptostream.com^$important
 ||uptodown.com^$important
-||openload.co^$important
-||oload.tv^$important
-||openload.io^$important
 ||datafilehost.com^$important
 ||dfh.to^$important
-||0x0.st^$important
-||catbox.moe^$important
-||pixeldrain.com^$important
-||pixeldrain.net^$important
 ||mixdrop.ag^$important
 ||mixdrop.my^$important
 ||megadb.net^$important
@@ -100,12 +157,59 @@
 ||downr.org^$important
 ||clicknupload.click^$important
 ||file.garden^$important
+||akirabox.com^$important
+||bestfile.io^$important
+||bowfile.com^$important
+||datavaults.co^$important
+||desiupload.co^$important
+||dfiles.com^$important
+||drop.download^$important
+||dropmb.com^$important
+||easyupload.io^$important
+||fex.net^$important
+||filebin.net^$important
+||hexload.com^$important
+||devuploads.com^$important
+||solidfiles.com^$important
+||usersdrive.com^$important
+||dbr.ee^$important
+||letsupload.cc^$important
+||uploadhaven.com^$important
+||uploadfiles.io^$important
+||krakenfiles.com^$important
+||rapidus.to^$important
+||filehorst.de^$important
+||dl.free.fr^$important
+||files.fm^$important
+||terabox.com^$important
+||1024tera.com^$important
+||bytetube.com^$important
+
+# --- IMAGE / FILE HOSTING BYPASS ---
 ||i.postimg.cc^$important
-||files.savemp4.red^$important
 ||i.ibb.co^$important
-||i.imgur.com^$important
 ||freeimage.host^$important
-||cdn.discordapp.com^$important
+||imgbox.com^$important
+||imagetwist.com^$important
+
+# --- UNLOCK / GATING SERVICES ---
+||sub2unlock.io^$important
+
+# --- VIDEO / FILE SAVE MIRRORS ---
+||files.savemp4.red^$important
+
+# --- AI / CDN MIRRORS USED FOR FILE HOSTING ---
+||cdn-avatars.hf-mirror.com^$important
+||de5282c3ca0c.edge.sdk.hf-mirror.com^$important
+
+# --- SUBSONIC WORKER FILE MIRRORS ---
+||coom2.subsonic.workers.dev^$important
+||down.subsonic.workers.dev^$important
+||lr.subsonic.workers.dev^$important
+||kem2.subsonic.workers.dev^$important
+
+# --- MISCELLANEOUS ---
+||count.getloli.com^$important
 ||extensions.socalifornian.live^$important
 ||cybar.xyz^$important
 ||vern.cc^$important
@@ -114,70 +218,4 @@
 ||unblocc.com^$important
 ||unblocc.cc^$important
 ||unblocc.net^$important
-
-! === BLOCKLIST: Cloud Transfer / Temp Sharing ===
-||multcloud.com^$important
-||multcloud.net^$important
-||anonfiles.com^$important
-||anon.to^$important
-||gofile.io^$important
-||filetransfer.io^$important
-||transfer.sh^$important
-||file.io^$important
-||transferxl.com^$important
-||txl.tools^$important
-
-! === BLOCKLIST: Image/File Hosting Bypass ===
-||file.garden^$important
-||i.postimg.cc^$important
-||i.ibb.co^$important
-||i.imgur.com^$important
-||freeimage.host^$important
 ||media.tenor.com^$important
-
-! === BLOCKLIST: Unlock/Gating Services ===
-||sub2unlock.io^$important
-
-! === BLOCKLIST: Video/File Save Mirrors ===
-||files.savemp4.red^$important
-
-! === BLOCKLIST: AI/CDN Mirrors Used for File Hosting ===
-||cdn-avatars.hf-mirror.com^$important
-||de5282c3ca0c.edge.sdk.hf-mirror.com^$important
-
-! === BLOCKLIST: Subsonic Worker File Mirrors ===
-||coom2.subsonic.workers.dev^$important
-||down.subsonic.workers.dev^$important
-||lr.subsonic.workers.dev^$important
-||kem2.subsonic.workers.dev^$important
-
-! === BLOCKLIST: Counters / Trackers in File Sharing ===
-||count.getloli.com^$important
-
-! === BLOCKLIST: New/Emerging File Sharing Services (2025) ===
-||dropmefiles.com^$important
-||sendgb.com^$important
-||filemail.com^$important
-||filemail.net^$important
-||files.fm^$important
-||transfernow.net^$important
-||transfernow.com^$important
-||wikisend.com^$important
-||dl.free.fr^$important
-||filehorst.de^$important
-||rapidus.to^$important
-||krakenfiles.com^$important
-||letsupload.cc^$important
-||uploadhaven.com^$important
-||uploadfiles.io^$important
-||usersdrive.com^$important
-||dbr.ee^$important
-||solidfiles.com^$important
-||send-anywhere.com^$important
-||send-anywhere.net^$important
-||send-anywhere.io^$important
-||send.cm^$important
-||sendfiles.ai^$important
-||terabox.com^$important
-||1024tera.com^$important
-||bytetube.com^$important
