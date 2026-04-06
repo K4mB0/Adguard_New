@@ -1,18 +1,25 @@
-! AdGuard Home - NoBlocc / UnBlocc Proxy Blocklist
-! Updated and enforced by Coly 04/11/25
-! Purpose: Block all known NoBlocc / UnBlocc proxy domains and mirrors used to evade DNS-level filtering
+# CATEGORY: NoBlocc / UnBlocc — Proxy Bypass Block
+# PURPOSE: Block NoBlocc and UnBlocc — UK-based school proxy bypass
+#           services designed to circumvent DNS filtering. Particularly
+#           relevant for UK/Ireland users. Covers all known TLD variants,
+#           mirror domains, and Cloudflare infrastructure.
+# Last updated: April 2026
 
-! === Core Domains ===
+# --- NOBLOCC CORE DOMAINS ---
 ||noblocc.uk^$important
 ||noblocc.co.uk^$important
 ||noblocc.com^$important
 ||noblocc.me^$important
 ||noblo.cc^$important
+
+# --- UNBLOCC CORE DOMAINS ---
 ||unblocc.uk^$important
 ||unblocc.co.uk^$important
 ||unblocc.com^$important
 ||unblocc.net^$important
 ||unblocc.cc^$important
+
+# --- RELATED ALIAS DOMAINS ---
 ||antiblocc.uk^$important
 ||deblocc.uk^$important
 ||stopblocc.uk^$important
@@ -21,35 +28,7 @@
 ||phantomcaravan.uk^$important
 ||coccblocc.men^$important
 
-! === Known Active Subdomains / Mirrors ===
-||api.noblocc.com^$important
-||api.noblocc.me^$important
-||api.noblocc.uk^$important
-||api.unblocc.uk^$important
-||api.stopblocc.uk^$important
-||admin-286ea7.noblocc.uk^$important
-||g.noblocc.uk^$important
-||ghgi.noblocc.uk^$important
-||maintenance.noblocc.uk^$important
-||uk1.noblocc.com^$important
-||uk2.noblocc.com^$important
-||us1.noblocc.com^$important
-||us2.noblocc.com^$important
-||uk1.unblocc.com^$important
-||uk2.unblocc.com^$important
-||us1.unblocc.com^$important
-||us2.unblocc.com^$important
-||cdn.noblocc.uk^$important
-||cache.noblocc.uk^$important
-||node.noblocc.uk^$important
-||proxy.noblocc.uk^$important
-||files.unblocc.uk^$important
-||cdn.unblocc.uk^$important
-||edge.unblocc.uk^$important
-||gateway.unblocc.uk^$important
-||worker.unblocc.uk^$important
-
-! === Cloudflare Workers / Pages variants observed in public lists (explicit examples)
+# --- CLOUDFLARE PAGES / WORKERS MIRRORS ---
 ||unblocc-worker.pages.dev^$important
 ||noblocc-worker.pages.dev^$important
 ||proxy-noblocc.workers.dev^$important
@@ -59,10 +38,9 @@
 ||unblocker-demo.pages.dev^$important
 ||nativerelay.pages.dev^$important
 
-! === Other proxy / unblocker-style domains seen in circulation
+# --- OTHER PROXY / UNBLOCKER DOMAINS ---
 ||cookiesfor.me^$important
 ||proxy-unblocker.github.io^$important
 ||unblockit.page^$important
 ||unblockgo.xyz^$important
 ||collagehelper.com^$important
-||api.collagehelper.com^$important
