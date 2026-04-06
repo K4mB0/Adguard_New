@@ -1,128 +1,90 @@
-! AdGuard Home - Gaming Services Whitelist
-! Updated and maintained by Coly 04/11/25
-! Purpose: Ensure full access to major online gaming services (Steam, Epic, Xbox, etc.) for uninterrupted play
+# CATEGORY: Gaming — Allowlist
+# PURPOSE: Explicitly whitelist gaming platforms to ensure they are never
+#           accidentally blocked by other $important rules. Covers Steam,
+#           Epic, EA, Minecraft, Xbox, PlayStation, Nintendo, Ubisoft,
+#           Blizzard, and Roblox as per environment policy.
+# Last updated: April 2026
 
-! === Epic Games (Fortnite / Store / Engine) ===
+# --- EPIC GAMES / FORTNITE ---
 @@||epicgames.com^$important
+@@||epicgames.dev^$important
 @@||unrealengine.com^$important
-@@||ol.epicgames.com^$important
-@@||tracking.epicgames.com^$important
-@@||download.epicgames.com^$important
-@@||cdn.unrealengine.com^$important
-@@||cdn1.unrealengine.com^$important
-@@||cdn2.unrealengine.com^$important
-@@||cdn3.unrealengine.com^$important
-@@||datarouter.ol.epicgames.com^$important
-@@||api.epicgames.dev^$important
-@@||static-assets-prod.epicgames.com^$important
-@@||store-content.ak.epicgames.com^$important
-@@||fastly-download.epicgames.com^$important
-@@||account-public-service-prod.ol.epicgames.com^$important
-@@||fortnite-public-service-prod.ol.epicgames.com^$important
-
-! === EA Games ===
-@@||account-public-service-prod03.ol.epicgames.com^$important
-@@||akamaihd.net^$important
-@@||api.kws.ol.epicgames.com^$important
-@@||autopatch.juno.ea.com^$important
-@@||bakkesplugins.com^$important
-@@||catalog-public-service-prod06.ol.epicgames.com^$important
 @@||cloudflare.epicgamescdn.com^$important
-@@||cloudsync-prod.s3.us-east-1.amazonaws.com^$important
-@@||cloudsync.juno.ea.com^$important
-@@||confluence.ea.com^$important
-@@||connect.ol.epicgames.com^$important
-@@||desktop-config.juno.ea.com^$important
-@@||download.epicgames.com^$important
+@@||epicgames-download1.akamaized.net^$important
+
+# --- EA GAMES ---
 @@||ea.com^$important
-@@||eaanticheat.ac.ea.com^$important
+@@||origin.com^$important
 @@||eaassets-a.akamaihd.net^$important
 @@||eaavatarservice.akamaized.net^$important
-@@||epicgames-download1.akamaized.net^$important
-@@||eulatracking-public-service-prod06.ol.epicgames.com^$important
-@@||events.statsigapi.net^$important
-@@||fastly-download.epicgames.com^$important
-@@||fcas.mob.v4.prd.futc-ext.gcp.ea.com^$important
-@@||friends-public-service-prod06.ol.epicgames.com^$important
-@@||gcs.ea.com^$important
-@@||graphql.epicgames.com^$important
-@@||library-service.live.use1a.on.epicgames.com^$important
-@@||lightswitch-public-service-prod06.ol.epicgames.com^$important
-@@||origin.com^$important
-@@||pin-river.data.ea.com^$important
-@@||presence-public-service-prod.ol.epicgames.com^$important
-@@||priceengine-public-service-ecomprod01.ol.epicgames.com^$important
-@@||ratt.juno.ea.com^$important
-@@||s3.alphaconsole.io^$important
-@@||sentry.io^$important
-@@||service-aggregation-layer-subs.juno.ea.com^$important
-@@||service-aggregation-layer.juno.ea.com^$important
-@@||social-overlay-launchdarkly-api-prod.ol.epicgames.com^$important
-@@||social-overlay-token-exchange-api-prod.ol.epicgames.com^$important
-@@||statsigapi.net^$important
-@@||utas.mob.v4.prd.futc-ext.gcp.ea.com^$important
 
-! === Minecraft / Mojang ===
+# --- EA / ROCKET LEAGUE EXTRAS ---
+@@||bakkesplugins.com^$important
+@@||s3.alphaconsole.io^$important
+@@||statsigapi.net^$important
+@@||events.statsigapi.net^$important
+
+# --- MINECRAFT / MOJANG ---
 @@||minecraft.net^$important
 @@||mojang.com^$important
 @@||minecraftservices.com^$important
 @@||minecraft-services.net^$important
-@@||aws.minecraft.net^$important
-@@||session.minecraft.net^$important
-@@||textures.minecraft.net^$important
-@@||api.mojang.com^$important
-@@||authserver.mojang.com^$important
-@@||sessionserver.mojang.com^$important
-@@||libraries.minecraft.net^$important
-@@||resources.minecraft.net^$important
-@@||dl.minecraft.net^$important
-@@||realms.minecraft.net^$important
 
-! === Assetto Corsa / AC Mods ===
+# --- ASSETTO CORSA ---
 @@||kunos-simulazioni.com^$important
 @@||acstuff.ru^$important
 @@||assettocorsa.net^$important
 @@||game.acstuff.ru^$important
 @@||content.assettocorsa.net^$important
-@@||lobby.kunos-simulazioni.com^$important
-@@||api.kunos-simulazioni.com^$important
-@@||auth.kunos-simulazioni.com^$important
-@@||cdn.kunos-simulazioni.com^$important
-@@||multiplayer.kunos-simulazioni.com^$important
-@@||services.kunos-simulazioni.com^$important
 
-! === Steam (Valve) ===
+# --- STEAM / VALVE ---
 @@||steampowered.com^$important
 @@||steamcontent.com^$important
 @@||steamstatic.com^$important
 @@||steam-api.com^$important
-@@||steamcdn-a.akamaihd.net^$important
-@@||cdn.steampowered.com^$important
 @@||steamcommunity.com^$important
+@@||steamcdn-a.akamaihd.net^$important
 
-! === Shared CDNs / Infrastructure ===
+# --- ROBLOX ---
+@@||roblox.com^$important
+@@||rbxcdn.com^$important
+@@||rbxtrk.com^$important
+@@||robloxlabs.com^$important
+
+# --- XBOX / MICROSOFT GAMING ---
+@@||xbox.com^$important
+@@||xboxlive.com^$important
+@@||live.com^$important
+
+# --- PLAYSTATION ---
+@@||playstation.com^$important
+@@||psn.com^$important
+@@||sonyentertainmentnetwork.com^$important
+
+# --- NINTENDO ---
+@@||nintendo.com^$important
+@@||nintendo.net^$important
+
+# --- UBISOFT ---
+@@||ubisoft.com^$important
+@@||ubi.com^$important
+@@||uplay.com^$important
+
+# --- BLIZZARD / BATTLE.NET ---
+@@||blizzard.com^$important
+@@||battle.net^$important
+@@||battlenet.com^$important
+
+# --- SHARED CDN INFRASTRUCTURE ---
+# ⚠️ These are broad CDN allowlists — they may undermine some blocks
+# that rely on CloudFront or Fastly delivery. Monitor carefully.
 @@||akamaihd.net^$important
 @@||cloudfront.net^$important
 @@||fastly.net^$important
 @@||edgesuite.net^$important
 
-! === Xbox / PlayStation / Nintendo / Ubisoft / Blizzard ===
-@@||xbox.com^$important
-@@||live.com^$important
-@@||xboxlive.com^$important
-@@||assets1.xboxlive.com^$important
-@@||playstation.com^$important
-@@||psn.com^$important
-@@||sonyentertainmentnetwork.com^$important
-@@||nintendo.com^$important
-@@||nintendo.net^$important
-@@||ubisoft.com^$important
-@@||ubi.com^$important
-@@||battlenet.com^$important
-@@||blizzard.com^$important
-@@||battle.net^$important
-@@||cdn.blizzard.com^$important
-@@||launcher.battlenet.com^$important
-@@||api.blizzard.com^$important
-@@||cdn.ubisoft.com^$important
-@@||uplay.com^$important
+# --- MONITORING / CRASH REPORTING ---
+@@||sentry.io^$important
+
+# --- AWS S3 (GAME CLOUD SYNC) ---
+@@||cloudsync-prod.s3.us-east-1.amazonaws.com^$important
