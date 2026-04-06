@@ -1,10 +1,15 @@
-! AdGuard Home - PayPal Blocking Filter
-! Created and enforced by Coly 04/11/25
-! Purpose: Fully block PayPal and related services including APIs, CDN, mobile apps, and regional domains
+# CATEGORY: PayPal — Full Block
+# PURPOSE: Completely block PayPal and all related payment services
+#           including Venmo and Zettle. Prevents all online payments
+#           via PayPal infrastructure on kids' devices.
+# Last updated: April 2026
+#
+# ⚠️ NOTE: This is a complete PayPal block — any site using PayPal
+#           as a payment method will have that payment option broken.
+#           Monitor if legitimate gaming purchases fail.
 
-! === Core PayPal Domains ===
+# --- CORE PAYPAL DOMAINS ---
 ||paypal.com^$important
-||www.paypal.com^$important
 ||paypal.me^$important
 ||paypalobjects.com^$important
 ||paypal-communication.com^$important
@@ -12,93 +17,12 @@
 ||paypalcommunity.com^$important
 ||paypal-prepaid.com^$important
 ||paypallabs.com^$important
-||t.paypal.com^$important
-||h.paypal.com^$important
 
-! === API & Service Endpoints ===
-||api.paypal.com^$important
-||api-m.paypal.com^$important
-||api-3t.paypal.com^$important
-||svcs.paypal.com^$important
-||ipnpb.paypal.com^$important
-||notify.paypal.com^$important
-||tracking.paypal.com^$important
-||metrics.paypal.com^$important
-||events.paypal.com^$important
-
-! === CDN & Static Resources ===
-||cdn.paypal.com^$important
-||images.paypal.com^$important
-||pics.paypal.com^$important
-||c.paypal.com^$important
-||b.stats.paypal.com^$important
-||www.paypalobjects.com^$important
-||cdn.paypalobjects.com^$important
-
-! === Authentication & Checkout ===
-||login.paypal.com^$important
-||secure.paypal.com^$important
-||checkout.paypal.com^$important
-||clientscripts.paypal.com^$important
-||pilot-payflowpro.paypal.com^$important
-||pilot-payflowlink.paypal.com^$important
-||payflowpro.paypal.com^$important
-||payflowlink.paypal.com^$important
-||auth.paypal.com^$important
-||id.paypal.com^$important
-
-! === Business / Merchant Services ===
-||business.paypal.com^$important
-||merchant.paypal.com^$important
-||merchantbenefits.paypal.com^$important
-||resolutioncenter.paypal.com^$important
-||marketingpreferences.paypal.com^$important
-||shopping.paypal.com^$important
-||invoice.paypal.com^$important
-||invoicing.paypal.com^$important
-||reports.paypal.com^$important
-
-! === Mobile & Application Interfaces ===
-||m.paypal.com^$important
-||wallet.paypal.com^$important
-||webapp.paypal.com^$important
-||mobile.paypal.com^$important
-||onetouch.paypal.com^$important
-||webintents.paypal.com^$important
-||app.paypal.com^$important
-||link.paypal.com^$important
-||deeplink.paypal.com^$important
-
-! === Developer / Partner Tools ===
-||developer.paypal.com^$important
-||sandbox.paypal.com^$important
-||pilot.sandbox.paypal.com^$important
-||pilot-3t.sandbox.paypal.com^$important
-||partner.paypal.com^$important
-||partnernet.paypal.com^$important
-||api.sandbox.paypal.com^$important
+# --- BRAINTREE (PAYPAL PAYMENT GATEWAY) ---
 ||braintreepayments.com^$important
-||api.braintreepayments.com^$important
-||assets.braintreegateway.com^$important
-||js.braintreegateway.com^$important
+||braintreegateway.com^$important
 
-! === Security, Compliance, Disputes ===
-||verify.paypal.com^$important
-||disputes.paypal.com^$important
-||compliance.paypal.com^$important
-||smart.paypal-communication.com^$important
-||src.paypal-communication.com^$important
-||prm.paypal-communication.com^$important
-||policy.paypal.com^$important
-
-! === Additional PayPal & Donation Services ===
-||donate.paypal.com^$important
-||giving.paypal.com^$important
-||mobilegiving.paypal.com^$important
-||registries.paypal.com^$important
-||fundraiser.paypal.com^$important
-
-! === Regional PayPal Domains ===
+# --- REGIONAL PAYPAL DOMAINS ---
 ||paypal.co.uk^$important
 ||paypal.de^$important
 ||paypal.fr^$important
@@ -112,16 +36,8 @@
 ||paypal.sg^$important
 ||paypal.com.br^$important
 
-! === Venmo (PayPal subsidiary) ===
+# --- VENMO (PAYPAL SUBSIDIARY) ---
 ||venmo.com^$important
-||api.venmo.com^$important
-||account.venmo.com^$important
-||secure.venmo.com^$important
-||cdn.venmo.com^$important
 
-! === Zettle by PayPal (POS / merchant) ===
+# --- ZETTLE BY PAYPAL ---
 ||zettle.com^$important
-||api.zettle.com^$important
-||cdn.zettle.com^$important
-||dashboard.zettle.com^$important
-||assets.zettle.com^$important
