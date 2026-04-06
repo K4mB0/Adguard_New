@@ -1,9 +1,14 @@
-! AdGuard Home - Locked Gambling Blocklist
-! Updated and enforced by Coly 04/11/25
-! Purpose: Completely block online gambling, poker, crypto casinos, and betting platforms across web, mobile, and app interfaces
+# CATEGORY: Gambling — Full Block
+# PURPOSE: Block all online gambling, sports betting, poker, lottery,
+#           bingo, and crypto casino platforms. Critical for kids'
+#           devices — crypto casinos in particular are designed for
+#           anonymous no-KYC play which makes them especially accessible.
+# Last updated: April 2026
 
-! === Online Casinos ===
+# --- ONLINE CASINOS ---
 ||bet365.com^$important
+||bet365cdn.com^$important
+||bet365static.com^$important
 ||betway.com^$important
 ||bovada.lv^$important
 ||casumo.com^$important
@@ -13,7 +18,6 @@
 ||ladbrokes.com^$important
 ||mansion.com^$important
 ||paddypower.com^$important
-||partypoker.com^$important
 ||pokerstars.com^$important
 ||skybet.com^$important
 ||unibet.com^$important
@@ -22,8 +26,22 @@
 ||888casino.com^$important
 ||888poker.com^$important
 ||bwin.com^$important
+||jackpotcity.com^$important
+||royalvegas.com^$important
+||platincasino.com^$important
+||casinoluck.com^$important
+||mrplay.com^$important
+||leovegas.com^$important
+||grosvenorcasinos.com^$important
+||spin.casino^$important
 
-! === Sports Betting ===
+# --- US MAJOR OPERATORS ---
+||betmgm.com^$important
+||caesarscasino.com^$important
+||betrivers.com^$important
+||pointsbet.com^$important
+
+# --- SPORTS BETTING ---
 ||betfair.com^$important
 ||betonline.ag^$important
 ||pinnacle.com^$important
@@ -37,8 +55,24 @@
 ||betsson.com^$important
 ||betsafe.com^$important
 ||nordicbet.com^$important
+||1xbet.com^$important
+||22bet.com^$important
+||melbet.com^$important
+||betwinner.com^$important
+||parimatch.com^$important
+||mostbet.com^$important
+||hollywoodbets.net^$important
+||betano.com^$important
+||supabets.com^$important
+||sportybet.com^$important
+||bangbet.com^$important
+||betking.com^$important
+||nairabet.com^$important
+||xbet.ag^$important
+||betus.com^$important
+||nationalbet.com^$important
 
-! === Online Poker ===
+# --- ONLINE POKER ---
 ||wsop.com^$important
 ||fulltilt.com^$important
 ||globalpoker.com^$important
@@ -46,11 +80,12 @@
 ||americascardroom.eu^$important
 ||ggpoker.com^$important
 ||winamax.com^$important
+||partypoker.com^$important
 ||partypoker.net^$important
 ||pokernow.club^$important
 ||pokerbaazi.com^$important
 
-! === Lottery & Bingo ===
+# --- LOTTERY & BINGO ---
 ||lottoland.com^$important
 ||national-lottery.co.uk^$important
 ||lottery.com^$important
@@ -62,20 +97,15 @@
 ||jackpotjoy.com^$important
 ||meccabingo.com^$important
 
-! === Gambling CDNs & Static Resources ===
-||bet365cdn.com^$important
-||bet365static.com^$important
-||static.skybet.com^$important
-||cdn.williamhill.com^$important
-||media.unibet.com^$important
-||static.unibet.com^$important
-||cdn.bwin.com^$important
-||cdn.pokerstars.com^$important
-||static.pokerstars.com^$important
-
-! === Crypto Casinos ===
+# --- CRYPTO CASINOS ---
 ||stake.com^$important
+||stake.games^$important
+||stake.bet^$important
+||stake.run^$important
 ||roobet.com^$important
+||roobet.fun^$important
+||roobet.org^$important
+||roobet.co^$important
 ||bc.game^$important
 ||rollbit.com^$important
 ||trustdice.win^$important
@@ -95,14 +125,28 @@
 ||bets.io^$important
 ||casino.io^$important
 ||betplay.io^$important
+||bitstarz.com^$important
+||wild.io^$important
+||wolf.io^$important
+||jackbit.com^$important
+||luckyblock.com^$important
+||coincasino.com^$important
+||cryptorino.com^$important
+||betpanda.io^$important
+||casinopunkz.com^$important
+||betninja.io^$important
+||instantcasino.com^$important
+||telbet.io^$important
+||biggerz.io^$important
+||bitz.io^$important
+||flush.com^$important
+||duelbits.com^$important
+||luckyrebel.com^$important
+||betwhale.com^$important
+||vipcasino.io^$important
+||1xbit.com^$important
 
-! === Mirror & Regional Variants ===
-||stake.games^$important
-||stake.bet^$important
-||stake.run^$important
-||roobet.fun^$important
-||roobet.org^$important
-||roobet.co^$important
+# --- REGIONAL TLD VARIANTS ---
 ||pokerstars.net^$important
 ||pokerstars.eu^$important
 ||pokerstars.uk^$important
@@ -127,36 +171,3 @@
 ||bet365.dk^$important
 ||bet365.uk^$important
 ||bet365.mx^$important
-
-! === Gambling Tracking & Affiliate Networks ===
-||affiliates.bet365.com^$important
-||affiliates.williamhill.com^$important
-||affiliates.888.com^$important
-||partners.unibet.com^$important
-||partners.betsson.com^$important
-||affiliates.betway.com^$important
-||affiliates.bwin.com^$important
-||track.bet365.com^$important
-||tracking.williamhill.com^$important
-||track.bwin.com^$important
-||media.betsson.com^$important
-||adserver.bet365.com^$important
-||tracking.betway.com^$important
-||ads.unibet.com^$important
-||ads.888.com^$important
-
-! === Gambling Apps / Mobile Endpoints ===
-||api.bet365.com^$important
-||api.betway.com^$important
-||api.williamhill.com^$important
-||api.unibet.com^$important
-||mobile.betfair.com^$important
-||m.unibet.com^$important
-||m.bet365.com^$important
-||m.betway.com^$important
-||m.williamhill.com^$important
-||app.roobet.com^$important
-||app.stake.com^$important
-||m.stake.com^$important
-||api.stake.com^$important
-||api.roobet.com^$important
