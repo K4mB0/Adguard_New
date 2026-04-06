@@ -1,41 +1,20 @@
-! ============================================================
-! AdGuard Home – Locked Reddit Blocklist
-! Cleaned + Optimised 03/12/2025
-! Purpose: Block Reddit and all official Reddit-owned domains.
-! (All unofficial frontends now live in your dedicated Redlib file.)
-! ============================================================
+# CATEGORY: Reddit — Full Block
+# PURPOSE: Block Reddit and all official Reddit-owned domains.
+#           Unofficial Reddit frontends (Redlib, Teddit etc.) are
+#           handled separately in the Alt Frontends filter.
+# Last updated: April 2026
 
-! ============== CORE REDDIT ==============
+# --- CORE REDDIT ---
 ||reddit.com^$important
-||www.reddit.com^$important
-||old.reddit.com^$important
-||new.reddit.com^$important
-||oauth.reddit.com^$important
-||gateway.reddit.com^$important
-||meta.reddit.com^$important
-||amp.reddit.com^$important
-
-! ============== REDDIT MEDIA / ASSETS ==============
 ||redd.it^$important
-||redditmedia.com^$important
-||i.redditmedia.com^$important
-||i.redd.it^$important
-||v.redd.it^$important
-||preview.redd.it^$important
-||external-preview.redd.it^$important
-||a.thumbs.redditmedia.com^$important
-||thumbs.redditmedia.com^$important
 
-! ============== REDDIT NATIVE SERVICES ==============
+# --- REDDIT MEDIA & ASSETS ---
+||redditmedia.com^$important
+
+# --- REDDIT NATIVE SERVICES ---
 ||redditstatic.com^$important
 ||redditmap.com^$important
 ||redditinc.com^$important
 ||reddithelp.com^$important
 ||redditblog.com^$important
 ||reddituploads.com^$important
-
-! ============== REDDIT TRACKING / TELEMETRY ==============
-||snoo-analytics.reddit.com^$important
-||events.reddit.com^$important
-||pixel.reddit.com^$important
-||advertising-api.reddit.com^$important
