@@ -1,58 +1,26 @@
-! Title: Allow Google Services
-! Description: Comprehensive allowlist for all major Google services including Gmail, Drive, Classroom, Docs, Meet, and supporting APIs.
-! Updated: 04/11/25
-! Author: Coly
+# CATEGORY: Google Services — Allowlist
+# PURPOSE: Ensure all Google services are never accidentally blocked
+#           by other $important rules. Covers Gmail, Drive, Docs, Meet,
+#           Classroom, YouTube, APIs, Firebase, and supporting CDNs.
+# Last updated: April 2026
 
+# --- CORE GOOGLE ---
+@@||google.com^$important
+@@||googleapis.com^$important
+@@||googleusercontent.com^$important
+@@||gstatic.com^$important
+@@||ggpht.com^$important
+
+# --- GMAIL ---
 @@||gmail.com^$important
 @@||googlemail.com^$important
-@@||mail.google.com^$important
-@@||m.gmail.com^$important
-@@||mobile.gmail.com^$important
-@@||smtp.gmail.com^$important
-@@||imap.gmail.com^$important
-@@||pop.gmail.com^$important
 
-@@||accounts.google.com^$important
-@@||myaccount.google.com^$important
-@@||google.com^$important
-@@||www.google.com^$important
-@@||clients1.google.com^$important
-@@||clients2.google.com^$important
-@@||clients3.google.com^$important
-@@||clients4.google.com^$important
-@@||clients6.google.com^$important
-
-@@||classroom.google.com^$important
-@@||classroom.googleapis.com^$important
-@@||drive.google.com^$important
-@@||docs.google.com^$important
-@@||meet.google.com^$important
-@@||calendar.google.com^$important
-@@||contacts.google.com^$important
-@@||chat.google.com^$important
-@@||mail-attachment.googleusercontent.com^$important
-
-@@||ssl.gstatic.com^$important
-@@||fonts.gstatic.com^$important
-@@||gstatic.com^$important
-@@||lh3.googleusercontent.com^$important
-@@||lh4.googleusercontent.com^$important
-@@||lh5.googleusercontent.com^$important
-@@||lh6.googleusercontent.com^$important
-
-@@||googleapis.com^$important
-@@||apis.google.com^$important
-@@||www.googleapis.com^$important
-@@||oauth2.googleapis.com^$important
-@@||content.googleapis.com^$important
-@@||storage.googleapis.com^$important
+# --- YOUTUBE ---
+@@||youtube.com^$important
+@@||youtu.be^$important
+@@||ytimg.com^$important
+@@||googlevideo.com^$important
 @@||accounts.youtube.com^$important
-@@||accounts.googleusercontent.com^$important
 
-@@||notifications.google.com^$important
-@@||firebaseinstallations.googleapis.com^$important
-@@||firebase.googleapis.com^$important
-@@||android.clients.google.com^$important
-@@||android.googleapis.com^$important
-@@||update.googleapis.com^$important
-@@||ggpht.com^$important
+# --- GOOGLE WORKSPACE CDN ---
+@@||googleworkspace.com^$important
