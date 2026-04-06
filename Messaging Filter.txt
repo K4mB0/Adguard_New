@@ -1,71 +1,47 @@
-! Title: Messaging_Apps_Filter.txt
-! Description: Fully blocks all known messaging applications and platforms including APIs, CDNs, and web portals. Built to enforce total messaging blackout for parental control and device lockdown.
-! Last Updated: 04/11/25
-! Author: Coly
+# CATEGORY: Messaging Apps — Full Block
+# PURPOSE: Block all messaging and communication platforms at DNS level.
+#           Total messaging lockdown for parental enforcement across
+#           all kids' devices.
+# Last updated: April 2026
 
-! === New ===
+# --- NEW / MISC ---
 ||ish.chat^$important
 ||ish-api.onrender.com^$important
 ||longcat.chat^$important
 
-! === Telegram ===
+# --- TELEGRAM ---
 ||telegram.org^$important
-||web.telegram.org^$important
 ||t.me^$important
 ||telegram.me^$important
 ||cdn-telegram.org^$important
 ||tdesktop.com^$important
 ||tg.dev^$important
 
-! === WhatsApp ===
+# --- WHATSAPP ---
 ||whatsapp.com^$important
 ||whatsapp.net^$important
 ||wa.me^$important
-||web.whatsapp.com^$important
-||business.whatsapp.com^$important
-||api.whatsapp.com^$important
 ||whatsappbusiness.com^$important
-||media.whatsapp.net^$important
-||static.whatsapp.net^$important
-||graph.whatsapp.com^$important
-||mqtt-mini.facebook.com^$important
 
-! === Signal ===
+# --- SIGNAL ---
 ||signal.org^$important
-||cdn.signal.org^$important
-||chat.signal.org^$important
-||updates.signal.org^$important
 
-! === Facebook Messenger ===
+# --- FACEBOOK MESSENGER ---
 ||messenger.com^$important
 ||m.me^$important
-||chat.facebook.com^$important
-||messaging.facebook.com^$important
-||connect.facebook.net^$important
 
-! === Discord ===
-||discord.com^$important
-||discord.gg^$important
-||discordapp.com^$important
-||cdn.discordapp.com^$important
-
-! === Kik ===
+# --- KIK ---
 ||kik.com^$important
-||api.kik.com^$important
 
-! === Viber ===
+# --- VIBER ---
 ||viber.com^$important
-||api.viber.com^$important
-||secure.viber.com^$important
 
-! === Snapchat ===
+# --- SNAPCHAT ---
 ||snapchat.com^$important
-||app.snapchat.com^$important
-||story.snapchat.com^$important
 ||sc-cdn.net^$important
 ||snapkit.com^$important
 
-! === WeChat ===
+# --- WECHAT ---
 ||wechat.com^$important
 ||weixin.com^$important
 ||wx.qq.com^$important
@@ -77,110 +53,84 @@
 ||long.weixin.qq.com^$important
 ||short.weixin.qq.com^$important
 
-! === LINE ===
+# --- LINE ---
 ||line.me^$important
 ||line.naver.jp^$important
 ||naver.jp^$important
 ||line-apps.com^$important
 
-! === Google Hangouts / Chat ===
-||hangouts.google.com^$important
-||chat.google.com^$important
-
-! === Skype ===
+# --- SKYPE ---
 ||skype.com^$important
-||web.skype.com^$important
-||api.skype.com^$important
-||swx.cdn.skype.com^$important
 
-! === Tapatalk ===
+# --- TAPATALK ---
 ||tapatalk.com^$important
-||cdn.tapatalk.com^$important
 ||groups.tapatalk-cdn.com^$important
 
-! === IMO ===
+# --- IMO ---
 ||imo.im^$important
 
-! === Chatango ===
+# --- CHATANGO ---
 ||chatango.com^$important
-||st.chatango.com^$important
 
-! === Threema ===
+# --- THREEMA ---
 ||threema.ch^$important
-||app.threema.ch^$important
 
-! === Wickr ===
+# --- WICKR ---
 ||wickr.com^$important
 ||wickrapp.com^$important
 
-! === Wire ===
+# --- WIRE ---
 ||wire.com^$important
-||app.wire.com^$important
 
-! === Session ===
+# --- SESSION ---
 ||getsession.org^$important
 ||llarp.dev^$important
 
-! === Element / Matrix ===
+# --- ELEMENT / MATRIX ---
 ||element.io^$important
 ||matrix.org^$important
-||synapse.matrix.org^$important
 ||modular.im^$important
 ||matrix.to^$important
 
-! === Briar ===
+# --- BRIAR ---
 ||briarproject.org^$important
 
-! === SimpleX ===
+# --- SIMPLEX ---
 ||simplex.chat^$important
 ||simplex.im^$important
 
-! === Delta Chat ===
+# --- DELTA CHAT ---
 ||delta.chat^$important
-||accounts.delta.chat^$important
 
-! === Olvid ===
+# --- OLVID ---
 ||olvid.io^$important
-||api.olvid.io^$important
 
-! === Berty ===
+# --- BERTY ---
 ||berty.tech^$important
-||api.berty.tech^$important
 
-! === Voxer ===
+# --- VOXER ---
 ||voxer.com^$important
 
-! === GroupMe ===
+# --- GROUPME ---
 ||groupme.com^$important
 
-! === Zalo (Vietnam) ===
+# --- ZALO ---
 ||zalo.me^$important
 ||zaloapp.com^$important
 
-! === Hike (India, deprecated but resurfaces) ===
+# --- HIKE ---
 ||hike.in^$important
 
-! === Beeper ===
+# --- BEEPER ---
 ||beeper.com^$important
-||api.beeper.com^$important
 
-! === Band (Naver Group Messenger) ===
+# --- BAND ---
 ||band.us^$important
-||cdn.band.us^$important
 
-! === Threads (Meta Messenger) ===
-||threads.net^$important
-||api.threads.net^$important
-||cdn.threads.net^$important
-
-! === Rocket.Chat / Mattermost ===
+# --- ROCKET.CHAT / MATTERMOST ---
 ||rocket.chat^$important
 ||mattermost.com^$important
 
-! === Zulip ===
+# --- ZULIP ---
 ||zulip.com^$important
-||chat.zulip.org^$important
-
-! === TeamSpeak / Mumble ===
-||teamspeak.com^$important
-||mumble.info^$important
+||zulip.org^$important
