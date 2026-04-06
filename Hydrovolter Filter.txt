@@ -1,32 +1,18 @@
-! === HydroVolter – Complete Lockdown ===
-! Blocks main site, proxies, mirrors, workers, assets, APIs, and hidden subdomains
+# CATEGORY: Hydrovolter — School/Parental Bypass Tool Block
+# PURPOSE: Block Hydrovolter web proxy and all its known deployments.
+#           Hydrovolter uses Rammerhead, Ultraviolet, and bare server
+#           proxy frameworks — same tech stack as Holy Unblocker.
+#           Hosted across GitHub Pages, Netlify, and Cloudflare Workers.
+# Last updated: April 2026
 
+# --- CORE DOMAIN ---
 ||hydrovolter.com^$important
-||www.hydrovolter.com^$important
 
-! Core proxy endpoints
-||proxy.hydrovolter.com^$important
-||admin.proxy.hydrovolter.com^$important
-||rammerhead.hydrovolter.com^$important
-||uv.hydrovolter.com^$important
-||wisp.hydrovolter.com^$important
-||bare.hydrovolter.com^$important
-
-! Known alternates & infrastructure
+# --- KNOWN ALTERNATE DOMAINS & INFRASTRUCTURE ---
 ||arc-hydrovolter.com^$important
+
+# --- HOSTED DEPLOYMENTS ---
 ||hydrovolter.github.io^$important
 ||hydrovolter.netlify.app^$important
 ||hydro-volter.pages.dev^$important
-
-! Workers (high probability)
 ||hydrovolter.workers.dev^$important
-||*.hydrovolter.workers.dev^$important
-
-! Catch-all wildcard
-||*.hydrovolter.com^$important
-
-! === Optional (aggressive but VERY effective) === !
-
-# If you want 100% certainty nothing will slip through their infrastructure:
-
-# /.*hydrovolter.*/$important
