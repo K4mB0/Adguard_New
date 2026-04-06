@@ -1,29 +1,23 @@
-! AdGuard Home - Search Bypass Filter
-! Updated and categorized by Coly 04/11/25
-! Purpose: Block DuckDuckGo and similar services used to bypass search or filter restrictions
+# CATEGORY: Search Bypass — DuckDuckGo Block
+# PURPOSE: Block DuckDuckGo and related services to prevent bypassing
+#           SafeSearch enforcement. DDG has no SafeSearch equivalent,
+#           its image proxy and AI chat (duck.ai) can surface adult
+#           content, and it bypasses Google SafeSearch DNS enforcement.
 
+# --- CORE DUCKDUCKGO DOMAINS ---
 ||duckduckgo.com^$important
-||html.duckduckgo.com^$important
-||lite.duckduckgo.com^$important
+||ddg.gg^$important
+||ddg-api.com^$important
+||duck.ai^$important
+||unduck.link^$important
+
+# --- DUCKDUCKGO INFRASTRUCTURE DOMAINS ---
 ||duckduckgo-owned-server.com^$important
 ||duckduckgo-owned-server.net^$important
 ||duckduckgo-owned-server.org^$important
+||duckduckgo-api.com^$important
+
+# --- DUCKDUCKGO THIRD-PARTY / ALIAS DOMAINS ---
 ||duckduckgo.eu.org^$important
 ||duckduckgo.startpageapi.com^$important
-||external-content.duckduckgo.com^$important
-||proxy.duckduckgo.com^$important
-||links.duckduckgo.com^$important
-||safe.duckduckgo.com^$important
-||safe.duckduckgo-api.com^$important
-||images.duckduckgo.com^$important
-||images-api.duckduckgo.com^$important
-||proxy-images.duckduckgo.com^$important
-||mobile-api.duckduckgo.com^$important
-||improving.duckduckgo.com^$important
-||start.duckduckgo.com^$important
-||next.duckduckgo.com^$important
 ||ddg-api.herokuapp.com^$important
-||ddg-api.com^$important
-||ddg.gg^$important
-||duck.ai^$important
-||unduck.link^$important
