@@ -1,20 +1,18 @@
-! AdGuard Home - SMS Verification Bypass Blocklist
-! Updated and categorized by Coly 04/11/25
-! Purpose: Blocks access to online SMS verification and disposable number services.
+# CATEGORY: eSIM & SMS Verification Bypass
+# PURPOSE: Block virtual phone number and disposable SMS services used
+#           to bypass phone verification on blocked platforms. Without
+#           this, kids can create new accounts on blocked sites using
+#           fake phone numbers to pass SMS verification checks.
+# Last updated: April 2026
 
-! --- Core domains ---
+# --- CORE SMS BYPASS SERVICES ---
 ||onlinesim.io^$important
-
-! --- Similar services ---
 ||sms-man.com^$important
-||zadarma.com^$important
 ||5sim.net^$important
+||5sim.biz^$important
 ||sms-activate.org^$important
 ||online-sms.org^$important
 ||smsbest.ru^$important
-||5sim.biz^$important
-||callhippo.com^$important
-||krispcall.com^$important
 ||quackr.io^$important
 ||sms-numbers.com^$important
 ||sms-reg.com^$important
@@ -30,6 +28,8 @@
 ||smspva.com^$important
 ||smstome.com^$important
 ||receivesms.org^$important
+||receivesms.co^$important
+||receivesms.cc^$important
 ||virtual-temporary-number.com^$important
 ||freephonenum.com^$important
 ||sellaite.com^$important
@@ -38,6 +38,18 @@
 ||freitempsms.com^$important
 ||mytrashmobile.com^$important
 ||sms-verification.com^$important
+||smsreceivefree.com^$important
+||smsreceive.net^$important
+||receive-sms.com^$important
+||receive-smss.com^$important
+||receive-smss.live^$important
+||sms24.me^$important
+||receivefreesms.net^$important
+||receive-a-sms.com^$important
+||receive-sms-online.info^$important
+||esimplus.me^$important
+
+# --- VOIP / VIRTUAL NUMBER APPS ---
 ||textnow.com^$important
 ||textplus.com^$important
 ||textfree.us^$important
@@ -45,17 +57,31 @@
 ||sideline.com^$important
 ||phoner.com^$important
 ||dingtone.me^$important
+||zadarma.com^$important
+||callhippo.com^$important
+||krispcall.com^$important
+||hushed.com^$important
+||burnerapp.com^$important
+||cloaked.app^$important
+||vsimapp.com^$important
+||cloudsim.com^$important
+||smsvirtual.online^$important
 
-! --- New additions (2025) ---
-||receivesms.co^$important
-||receivesms.cc^$important
-||smsreceivefree.com^$important
-||smsreceive.net^$important
-||receive-sms.com^$important
-||receive-smss.com^$important
-||sms24.me^$important
-||receivefreesms.net^$important
-||receive-a-sms.com^$important
-||receive-sms-online.info^$important
-||esimplus.me^$important
-||receive-smss.live^$important
+# --- NEW 2025/2026 ADDITIONS ---
+||smspool.net^$important
+||smspool.org^$important
+||getsmscode.com^$important
+||smspinverify.com^$important
+||oksms.org^$important
+||receivesms.online^$important
+||receivesms.net^$important
+||smser.net^$important
+||tempnumber.org^$important
+||virtualsim.net^$important
+||onlinesim.ru^$important
+||smsverification.online^$important
+||receivetxt.com^$important
+||temp-number.org^$important
+||temp-number.com^$important
+||freesmsverification.com^$important
+||smscodeonline.com^$important
