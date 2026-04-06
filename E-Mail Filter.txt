@@ -1,43 +1,42 @@
-! AdGuard Home - Gmail Allowlist + Global Email Blocking
-! Updated and categorized by Coly 04/11/25
-! Purpose: Allow full Gmail functionality while completely blocking all other email platforms and infrastructure
+# CATEGORY: Email — Gmail Only
+# PURPOSE: Allowlist Gmail and all Google services while blocking all
+#           other email platforms, disposable/temp mail services, and
+#           email infrastructure. Prevents kids creating secret accounts
+#           on alternative email providers to bypass other blocks.
+# Last updated: April 2026
 
-! === ALLOWLIST: Google/Gmail Services ===
+# --- ALLOWLIST: GMAIL & GOOGLE SERVICES ---
 @@||gmail.com^$important
 @@||googlemail.com^$important
 @@||mail.google.com^$important
-@@||smtp.gmail.com^$important
-@@||imap.gmail.com^$important
-@@||pop.gmail.com^$important
 @@||accounts.google.com^$important
 @@||myaccount.google.com^$important
 @@||googleapis.com^$important
 @@||gstatic.com^$important
 @@||google.com^$important
 @@||www.google.com^$important
-@@||ssl.gstatic.com^$important
-@@||fonts.gstatic.com^$important
 @@||contacts.google.com^$important
 @@||calendar.google.com^$important
 @@||drive.google.com^$important
 @@||docs.google.com^$important
 @@||meet.google.com^$important
-@@||m.gmail.com^$important
-@@||mobile.gmail.com^$important
-@@||oauth2.googleapis.com^$important
-@@||content.googleapis.com^$important
 @@||apis.google.com^$important
-@@||www.googleapis.com^$important
 
-! === BLOCKLIST: Major Email Providers (Non-Gmail) ===
+# ============================================================
+# ⚠️ REVIEW GROUP — Remove if Xbox/Microsoft logins break
+# live.com  = Microsoft auth backbone (Xbox Live uses this)
+# sky.com   = Full Sky platform block (not just Sky email)
+# ============================================================
+||live.com^$important
+||sky.com^$important
+
+# --- BLOCKLIST: MAJOR EMAIL PROVIDERS ---
 ||outlook.com^$important
-||outlook.office.com^$important
 ||outlook.office365.com^$important
 ||hotmail.com^$important
-||live.com^$important
 ||yahoo.com^$important
-||mail.yahoo.co.uk^$important
-||mail.yahoo.co.jp^$important
+||yahoo.co.uk^$important
+||yahoo.co.jp^$important
 ||aol.com^$important
 ||icloud.com^$important
 ||mail.com^$important
@@ -52,8 +51,15 @@
 ||yopmail.com^$important
 ||10minutemail.com^$important
 ||tempmail.com^$important
+||startmail.com^$important
+||mailbox.org^$important
+||atomicmail.io^$important
+||runbox.com^$important
+||kolabnow.com^$important
+||thexyz.com^$important
+||privatemail.com^$important
 
-! === BLOCKLIST: ISP Email Providers ===
+# --- BLOCKLIST: ISP EMAIL PROVIDERS ---
 ||att.net^$important
 ||comcast.net^$important
 ||verizon.net^$important
@@ -62,9 +68,8 @@
 ||shaw.ca^$important
 ||btinternet.com^$important
 ||talktalk.net^$important
-||sky.com^$important
 
-! === BLOCKLIST: Enterprise & Hosting Email ===
+# --- BLOCKLIST: ENTERPRISE & HOSTING EMAIL ---
 ||office365.com^$important
 ||exchange.com^$important
 ||zimbra.com^$important
@@ -73,18 +78,17 @@
 ||hostgator.com^$important
 ||ionos.com^$important
 ||1and1.com^$important
-||owa.*.com^$important
 
-! === BLOCKLIST: Secure & Privacy-focused Email ===
+# --- BLOCKLIST: SECURE & PRIVACY EMAIL ---
 ||proton.me^$important
-||mail.proton.me^$important
 ||posteo.de^$important
 ||ctemplar.com^$important
 ||riseup.net^$important
 ||mailfence.com^$important
 ||disroot.org^$important
+||skiff.com^$important
 
-! === BLOCKLIST: Disposable/Temporary Email ===
+# --- BLOCKLIST: DISPOSABLE / TEMP EMAIL ---
 ||temp-mail.org^$important
 ||temp-mail.io^$important
 ||tempmailgen.com^$important
@@ -99,27 +103,57 @@
 ||dispostable.com^$important
 ||trashmail.com^$important
 ||tuta.com^$important
-||api.tuta.com^$important
-||w16.api.tuta.com^$important
-||app.tuta.com^$important
-||www.mailinator.com^$important
+||mailinator.com^$important
 ||tmailor.com^$important
+||emailondeck.com^$important
+||10minutemail.net^$important
+||10minemail.com^$important
+||fakeemail.com^$important
+||fakemail.net^$important
+||spamgourmet.com^$important
+||spamgourmet.net^$important
+||spamgourmet.org^$important
+||nada.email^$important
+||inboxkitten.com^$important
+||tempr.email^$important
+||discard.email^$important
+||spamex.com^$important
+||mintemail.com^$important
+||33mail.com^$important
+||gmailnator.com^$important
+||e4ward.com^$important
+||mohmal.com^$important
+||sharklasers.com^$important
+||guerrillamailblock.com^$important
+||grr.la^$important
+||spam4.me^$important
+||tempemail.co^$important
+||tempemail.net^$important
+||getairmail.com^$important
+||mailnull.com^$important
+||filzmail.com^$important
+||spamotron.com^$important
+||trashmail.at^$important
+||trashmail.io^$important
+||trashmail.me^$important
+||trashmail.net^$important
+||wegwerfmail.de^$important
+||wegwerfmail.net^$important
+||wegwerfmail.org^$important
+||yopmail.fr^$important
+||yopmail.pp.ua^$important
 
-! === BLOCKLIST: MailPlus / Email.nl Services ===
+# --- BLOCKLIST: MAILPLUS ---
 ||mailplus.nl^$important
-||m1.mailplus.nl^$important
-||track.mailplus.nl^$important
-||image.mailplus.nl^$important
-||cdn.mailplus.nl^$important
 
-! === BLOCKLIST: Email Infrastructure ===
+# --- BLOCKLIST: EMAIL INFRASTRUCTURE ---
 ||emailsrvr.com^$important
 ||sendgrid.net^$important
 ||mailgun.com^$important
 ||postmarkapp.com^$important
 ||sparkpost.com^$important
 
-! === BLOCKLIST: Email Marketing Platforms ===
+# --- BLOCKLIST: EMAIL MARKETING ---
 ||mailchimp.com^$important
 ||list-manage.com^$important
 ||aweber.com^$important
@@ -128,10 +162,9 @@
 ||klaviyo.com^$important
 ||constantcontact.com^$important
 
-! === Emerging/Experimental Email Services ===
+# --- BLOCKLIST: EMERGING EMAIL SERVICES ---
 ||twoblade.com^$important
 ||sharp.email^$important
 ||sharp-protocol.com^$important
 ||thundermail.com^$important
 ||tb.pro^$important
-||skiff.com^$important
