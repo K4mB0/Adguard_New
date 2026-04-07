@@ -98,3 +98,14 @@
 
 # --- CLOUDFLARE TUNNEL ABUSE ---
 ||trycloudflare.com^$important
+
+# --- DECEMBER 2025 ADDITIONS ---
+||interdoge.cfd^$important
+||prodregistryv2.org^$important
+||gg.poocloud.in^$important
+||poocloud.in^$important
+||char-archive.evulid.cc^$important
+||evulid.cc^$important
+||helios-browser.pages.dev^$important
+||edge.workers.dev^$important
+||gateway.workers.dev^$important
