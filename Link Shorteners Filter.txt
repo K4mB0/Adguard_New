@@ -44,3 +44,9 @@
 ||sub2unlock.org^$important
 ||sub2unlock.net^$important
 ||sub2unlock.me^$important
+
+# --- MARCH 2026 ADDITIONS ---
+||publisher.linkvertise.com^$important
+||redirect-api.work.ink^$important
+||direct-link.net^$important
+||link-center.net^$important
