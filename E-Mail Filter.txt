@@ -162,6 +162,11 @@
 ||klaviyo.com^$important
 ||constantcontact.com^$important
 
+# --- JANUARY 2026 ADDITIONS ---
+||generator.email^$important
+||mail.tm^$important
+||fakemailgenerator.com^$important
+
 # --- BLOCKLIST: EMERGING EMAIL SERVICES ---
 ||twoblade.com^$important
 ||sharp.email^$important
