@@ -1,7 +1,11 @@
-! AdGuard Home - Locked VoIP & Virtual Number Providers Blocklist
-! Updated and enforced by Coly 04/11/25
-! Purpose: Block shady VoIP providers and virtual number services used for anonymous or verification-bypass communication.
+# CATEGORY: VoIP Services — Full Block
+# PURPOSE: Block VoIP and virtual number providers used for anonymous
+#           communication and verification bypass. Works alongside the
+#           eSIM & SMS filter which covers disposable SMS services.
+#           Blocks both consumer and business VoIP infrastructure.
+# Last updated: April 2026
 
+# --- CONSUMER & BUSINESS VOIP ---
 ||zadarma.com^$important
 ||nextiva.com^$important
 ||callhippo.com^$important
@@ -15,6 +19,7 @@
 ||voicehost.co.uk^$important
 ||voip.ms^$important
 ||voipstudio.com^$important
+||voipstunt.com^$important
 ||openphone.co^$important
 ||ringover.com^$important
 ||unitedworldtelecom.com^$important
@@ -25,9 +30,8 @@
 ||exotel.com^$important
 ||broadvoice.com^$important
 ||ooma.com^$important
-||stun.voipstunt.com^$important
 
-! --- Infrastructure / low-trust providers ---
+# --- INFRASTRUCTURE / SIP PROVIDERS ---
 ||sipgate.co.uk^$important
 ||sipgate.com^$important
 ||sip2sip.info^$important
