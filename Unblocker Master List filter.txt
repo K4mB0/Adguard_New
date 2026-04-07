@@ -92,5 +92,11 @@
 ||char-archive.evulid.cc^$important
 ||evulid.cc^$important
 
+# --- JANUARY 2026 ADDITIONS ---
+||download.tau2.workers.dev^$important
+||nit.subsonic.workers.dev^$important
+||worker-holy-smoke-5eb3.pres1234569.workers.dev^$important
+||loc2.thapi.workers.dev^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||cdn.jsdelivr.xyz^$important
