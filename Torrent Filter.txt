@@ -1,8 +1,10 @@
-! AdGuard Home - Locked P2P, Torrent & Tor Access Blocklist
-! Fully maintained by Coly 04/11/25
-! Purpose: Block all public torrent infrastructure, P2P trackers, Tor network, proxies, bridges, and client updates
+# CATEGORY: Torrents, P2P & Tor Network — Full Block
+# PURPOSE: Block torrent sites, P2P trackers, torrent client downloads,
+#           and the Tor Project/network. Prevents piracy, uncontrolled
+#           P2P downloads, and anonymous network access via Tor.
+# Last updated: April 2026
 
-! === Major Torrent Sites ===
+# --- MAJOR TORRENT SITES ---
 ||1337x.to^$important
 ||thepiratebay.org^$important
 ||rarbg.to^$important
@@ -33,7 +35,7 @@
 ||torrentbay.st^$important
 ||kickasst.net^$important
 
-! === Additional Torrent Sites ===
+# --- ADDITIONAL TORRENT SITES ---
 ||zamunda.net^$important
 ||arenabg.com^$important
 ||kinozal.tv^$important
@@ -51,26 +53,19 @@
 ||bittorrentdownload.net^$important
 ||fasttorrent.ru^$important
 
-! === Torrent Trackers and Infrastructure ===
-||router.bittorrent.com^$important
-||router.utorrent.com^$important
+# --- TORRENT TRACKERS & INFRASTRUCTURE ---
 ||tracker.openbittorrent.com^$important
 ||tracker.opentrackr.org^$important
 ||tracker.publicbt.com^$important
-||dht.transmissionbt.com^$important
 ||tracker.leechers-paradise.org^$important
 ||tracker.internetwarriors.net^$important
 ||tracker.torrent.eu.org^$important
 ||tracker.cyberia.is^$important
 ||tracker.dler.org^$important
 
-! === BitTorrent Clients & Updates ===
-||update.utorrent.com^$important
-||update.bittorrent.com^$important
-||desktop.utorrent.com^$important
-||download.utorrent.com^$important
-||download.bittorrent.com^$important
-||download-new.utorrent.com^$important
+# --- TORRENT CLIENTS & DOWNLOADS ---
+||utorrent.com^$important
+||bittorrent.com^$important
 ||vuze.com^$important
 ||bitcomet.com^$important
 ||deluge-torrent.org^$important
@@ -82,7 +77,7 @@
 ||aria2.github.io^$important
 ||biglybt.com^$important
 
-! === Tor Project & Mirror Domains ===
+# --- TOR PROJECT ---
 ||torproject.org^$important
 ||torproject.net^$important
 ||torproject.ch^$important
@@ -97,13 +92,8 @@
 ||tornodes.net^$important
 ||torexit.net^$important
 
-! === Tor Bridges, Relays & Proxies ===
-||bridges.torproject.org^$important
-||obfs4.torproject.org^$important
-||snowflake.torproject.org^$important
-||bridge.torproject.org^$important
+# --- TOR BRIDGES, RELAYS & PROXIES ---
 ||meek.azureedge.net^$important
-||proxy.torproject.org^$important
 ||torservers.net^$important
 ||privoxy.org^$important
 ||tor2web.io^$important
@@ -111,20 +101,3 @@
 ||onion.pet^$important
 ||onion.cab^$important
 ||onion.ws^$important
-
-! === Tor Metrics, Status & Docs ===
-||metrics.torproject.org^$important
-||status.torproject.org^$important
-||compass.torproject.org^$important
-||atlas.torproject.org^$important
-||collector.torproject.org^$important
-||exonerator.torproject.org^$important
-||support.torproject.org^$important
-||onionoo.torproject.org^$important
-||tb-manual.torproject.org^$important
-||blog.torproject.org^$important
-||media.torproject.org^$important
-||manual.torproject.org^$important
-||gettor.torproject.org^$important
-||dist.torproject.org^$important
-
