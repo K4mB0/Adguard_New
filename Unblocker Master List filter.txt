@@ -73,3 +73,21 @@
 # --- CDN LOADERS USED BY PROXIES ---
 ||raw.githack.com^$important
 ||rawcdn.githack.com^$important
+
+# --- CLOUDFLARE WORKERS ROOT (December 2025) ---
+# ⚠️ Broad block — kills ALL Cloudflare Workers deployments
+# Monitor for legitimate breakage
+||workers.dev^$important
+||edge.workers.dev^$important
+||gateway.workers.dev^$important
+
+# --- HELIOS BROWSER BYPASS TOOL ---
+||helios-browser.pages.dev^$important
+
+# --- MISC BYPASS INFRASTRUCTURE ---
+||interdoge.cfd^$important
+||prodregistryv2.org^$important
+||gg.poocloud.in^$important
+||poocloud.in^$important
+||char-archive.evulid.cc^$important
+||evulid.cc^$important
