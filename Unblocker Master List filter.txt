@@ -98,5 +98,9 @@
 ||worker-holy-smoke-5eb3.pres1234569.workers.dev^$important
 ||loc2.thapi.workers.dev^$important
 
+# --- MARCH 2026 ADDITIONS ---
+||api.cors.lol^$important
+||uncenter.dev^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||cdn.jsdelivr.xyz^$important
