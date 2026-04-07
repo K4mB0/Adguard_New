@@ -118,6 +118,27 @@
 ||fmhy.net^$important
 ||assetsconfigcdn.org^$important
 
+# --- MARCH 2026 ADDITIONS ---
+||bypass.city^$important
+||bypass.link^$important
+||proxy-api-taupe.vercel.app^$important
+||x3no.pages.dev^$important
+||executorstatusmodal.vercel.app^$important
+||thebypasser.com^$important
+||fmhyclone.pages.dev^$important
+||fmhy.vercel.app^$important
+||api.tapc.art^$important
+||tapc.art^$important
+||vdo.ninja^$important
+||monochrome.pages.dev^$important
+||monochromemusic.pages.dev^$important
+||truffle.lol^$important
+||truffled.lol^$important
+||dropdead.world^$important
+||binary-person.dev^$important
+||sendit.sh^$important
+||eminentpercentvandalism.com^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||cors.lol^$important
 ||cors.eu.org^$important
