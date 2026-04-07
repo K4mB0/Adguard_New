@@ -111,3 +111,18 @@
 # --- AI IMAGE / MODEL HOSTING (HIGH RISK) ---
 # ⚠️ huggingface.co is flagged — see notes below
 ||huggingface.co^$important
+
+# --- AI CHARACTER CARD REPOSITORIES ---
+||aicharactercards.com^$important
+||characterhub.org^$important
+||charhub.io^$important
+||compendium.skinship.xyz^$important
+
+# --- NSFW AI CHATBOT WRAPPERS (NEOCITIES HOSTED) ---
+||chatbots.neocities.org^$important
+||foxbots.neocities.org^$important
+||aicg.neocities.org^$important
+||deberiasbots.neocities.org^$important
+||jiriro7912.neocities.org^$important
+||partyintheanchorhold.neocities.org^$important
+||kopye.neocities.org^$important
