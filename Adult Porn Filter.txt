@@ -211,3 +211,8 @@
 ||safebooru.org^$important
 ||incestflix.com^$important
 ||tabooflix.org^$important
+
+# --- APRIL 2026 ADDITIONS ---
+||pornerome.com^$important
+||coomer.party^$important
+||privateleaks.net^$important
