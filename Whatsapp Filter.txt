@@ -1,24 +1,23 @@
-! AdGuard Home - Locked WhatsApp Blocklist
-! Fully enforced by Coly - 2025-11-05
-! Purpose: Fully disable WhatsApp access across all apps, APIs, web portals, CDNs, and Meta backends.
+# CATEGORY: WhatsApp — Full Block
+# PURPOSE: Complete block of WhatsApp across all apps, web portals,
+#           APIs, CDN and Meta backends. WhatsApp uses end-to-end
+#           encryption with no content controls — all communication
+#           is unmonitorable. High priority block for kids' devices.
+# Last updated: April 2026
+#
+# NOTE: Facebook/Meta infrastructure (fbcdn.net, graph.facebook.com
+#       etc.) is already covered by the Facebook filter root block.
+#       WhatsApp-specific domains are the focus here.
 
-! === Core WhatsApp Domains ===
+# --- CORE WHATSAPP DOMAINS ---
 ||whatsapp.com^$important
-||www.whatsapp.com^$important
 ||whatsapp.net^$important
 ||wa.me^$important
 ||whatsappcdn.net^$important
-
-! === Business & API Services ===
-||business.whatsapp.com^$important
-||api.whatsapp.com^$important
 ||whatsappbusiness.com^$important
-||business-api.whatsapp.com^$important
-||waba.wa.me^$important
 
-! === Web & Desktop ===
-||web.whatsapp.com^$important
-||web.whatsapp.net^$important
+# --- WHATSAPP WEB TLD VARIANTS ---
+# These are separate domain registrations not covered by root
 ||web.whatsapp.org^$important
 ||web.whatsapp.in^$important
 ||web.whatsapp.biz^$important
@@ -27,47 +26,3 @@
 ||web.whatsapp.co^$important
 ||web.whatsapp.io^$important
 ||web.whatsapp.link^$important
-
-! === Media CDN ===
-||media-whatsapp.cdn.whatsapp.net^$important
-||media-*.cdn.whatsapp.net^$important
-||media.whatsapp.net^$important
-||static.whatsapp.net^$important
-||mmg.whatsapp.net^$important
-||pps.whatsapp.net^$important
-||v.whatsapp.net^$important
-||voip.whatsapp.net^$important
-
-! === Messaging, Presence, Voice & Status ===
-||chat.whatsapp.com^$important
-||status.whatsapp.com^$important
-||notify.whatsapp.com^$important
-||translate.whatsapp.com^$important
-||crashlogs.whatsapp.net^$important
-||presence.whatsapp.net^$important
-||edge-mqtt.facebook.com^$important
-
-! === Payments ===
-||payments.whatsapp.com^$important
-||payments.whatsapp.net^$important
-||upi.whatsapp.com^$important
-||merchant.whatsapp.com^$important
-
-! === Meta (Facebook) Infrastructure Used by WhatsApp ===
-||graph.whatsapp.com^$important
-||graph.facebook.com^$important
-||mqtt-mini.facebook.com^$important
-||mqtt-edge.facebook.com^$important
-||connect.facebook.net^$important
-||scontent.xx.fbcdn.net^$important
-||fbcdn.net^$important
-||star.c10r.facebook.com^$important
-||b-api.facebook.com^$important
-||b-graph.facebook.com^$important
-
-! === Misc / Regional Edge Services ===
-||cdn.whatsapp.net^$important
-||g.whatsapp.net^$important
-||a.whatsapp.net^$important
-||b.whatsapp.net^$important
-||edge.whatsapp.net^$important
