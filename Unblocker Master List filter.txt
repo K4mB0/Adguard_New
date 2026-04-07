@@ -91,3 +91,6 @@
 ||poocloud.in^$important
 ||char-archive.evulid.cc^$important
 ||evulid.cc^$important
+
+# --- APRIL 2026 ADDITIONS ---
+||cdn.jsdelivr.xyz^$important
