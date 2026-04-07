@@ -126,3 +126,17 @@
 ||jiriro7912.neocities.org^$important
 ||partyintheanchorhold.neocities.org^$important
 ||kopye.neocities.org^$important
+
+# --- APRIL 2026 ADDITIONS ---
+||mlpchag.neocities.org^$important
+||spicychat.ai^$important
+||harpy.chat^$important
+||bot3.ai^$important
+||joyland.ai^$important
+||nyai.me^$important
+||xoul.ai^$important
+||risuai.xyz^$important
+||risuai.net^$important
+||polybuzz.ai^$important
+||saucepan.ai^$important
+||quillgen.app^$important
