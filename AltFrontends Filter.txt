@@ -109,3 +109,12 @@
 ||helios-browser.pages.dev^$important
 ||edge.workers.dev^$important
 ||gateway.workers.dev^$important
+
+# --- APRIL 2026 ADDITIONS ---
+||cors.lol^$important
+||cors.eu.org^$important
+||jina.ai^$important
+||puter.com^$important
+||limits.minmaxify.com^$important
+||snrbox.com^$important
+||whatcani.run^$important
