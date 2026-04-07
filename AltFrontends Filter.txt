@@ -110,6 +110,14 @@
 ||edge.workers.dev^$important
 ||gateway.workers.dev^$important
 
+# --- JANUARY 2026 ADDITIONS ---
+||speeddrain.vercel.app^$important
+||pixeldrainbypass.org^$important
+||ptr.moe^$important
+||fmhy.xyz^$important
+||fmhy.net^$important
+||assetsconfigcdn.org^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||cors.lol^$important
 ||cors.eu.org^$important
