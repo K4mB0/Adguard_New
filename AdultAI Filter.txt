@@ -132,6 +132,11 @@
 ||characterhub.com^$important
 ||character-hub.org^$important
 
+# --- MARCH 2026 ADDITIONS ---
+||chub.ai^$important
+||p1nkhamster.xyz^$important
+||samidy.com^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||mlpchag.neocities.org^$important
 ||spicychat.ai^$important
