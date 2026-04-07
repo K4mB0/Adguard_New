@@ -1,8 +1,11 @@
-! AdGuard Home - Total VPN & Proxy Access Blocklist
-! Updated and enforced by Coly - 2025-11-05
-! Purpose: Block all commercial VPNs, proxies, and encrypted-tunnel apps while allowing 1.1.1.1 DNS resolution.
+# CATEGORY: VPN & Proxy Services — Full Block
+# PURPOSE: Block all commercial VPN providers, proxy services, and
+#           encrypted tunnel apps. VPNs are the primary tool kids use
+#           to bypass DNS-level parental controls — blocking their
+#           download/setup domains prevents installation and use.
+# Last updated: April 2026
 
-! === NordVPN Family ===
+# --- NORDVPN FAMILY ---
 ||nordvpn.com^$important
 ||nordcdn.com^$important
 ||nord-dns.com^$important
@@ -13,97 +16,117 @@
 ||nordpass.com^$important
 ||nordlocker.com^$important
 
-! === ExpressVPN ===
+# --- EXPRESSVPN ---
 ||expressvpn.com^$important
 ||expresscdn.com^$important
 ||express-vpn.com^$important
 ||expressvpn.net^$important
 ||expressconnect.com^$important
 
-! === ProtonVPN (Also blocks ProtonMail) ===
+# --- PROTONVPN ---
 ||protonvpn.com^$important
 ||protonvpn.net^$important
 ||proton.me^$important
 ||protonmail.com^$important
 ||protonstatus.com^$important
 
-! === Surfshark / Atlas ===
+# --- SURFSHARK / ATLAS ---
 ||surfshark.com^$important
 ||surfshark.net^$important
 ||surfsharkdns.com^$important
 ||atlasvpn.com^$important
 ||atlaskvpn.com^$important
-||wgs.prod.surfshark.com^$important
-||api.surfshark.com^$important
-||stats.surfshark.com^$important
-||downloads.surfshark.com^$important
 
-! === CyberGhost ===
+# --- CYBERGHOST ---
 ||cyberghost.com^$important
 ||cyberghostvpn.com^$important
 ||cgvpn.net^$important
 ||cyberghost.network^$important
 
-! === Private Internet Access ===
+# --- PRIVATE INTERNET ACCESS ---
 ||privateinternetaccess.com^$important
 ||piavpn.net^$important
 ||piaservers.net^$important
+||pia.com^$important
 
-! === IPVanish ===
+# --- IPVANISH ---
 ||ipvanish.com^$important
 ||ipvanish.net^$important
 ||ipvanishcdn.com^$important
 
-! === TunnelBear ===
+# --- TUNNELBEAR ---
 ||tunnelbear.com^$important
 ||tunnelbear.net^$important
 ||tbear.io^$important
 
-! === Windscribe ===
+# --- WINDSCRIBE ---
 ||windscribe.com^$important
 ||wndsr.com^$important
 ||windscribe.net^$important
 
-! === Hotspot Shield / AnchorFree ===
+# --- HOTSPOT SHIELD / ANCHORFREE ---
 ||hotspotshield.com^$important
 ||anchorfree.com^$important
 ||hsselite.com^$important
 ||hotspotshield.net^$important
 ||pango.co^$important
 
-! === VyprVPN / GoldenFrog ===
+# --- VYPRVPN / GOLDENFROG ---
 ||vyprvpn.com^$important
 ||goldenfrog.com^$important
 ||vyprvpn.net^$important
 
-! === Hide.me / Hide.io ===
+# --- HIDE.ME ---
 ||hide.me^$important
 ||hide.io^$important
 ||hideservers.net^$important
 
-! === StrongVPN ===
+# --- STRONGVPN ---
 ||strongvpn.com^$important
 ||strongconnect.com^$important
 ||strongvpn.net^$important
 
-! === PureVPN ===
+# --- PUREVPN ---
 ||purevpn.com^$important
 ||purevpn.net^$important
 ||purevpn.io^$important
 
-! === Mullvad ===
+# --- MULLVAD ---
 ||mullvad.net^$important
 ||mullvad.com^$important
 ||mullvadvpn.net^$important
 
-! === Other Major VPN Providers ===
+# --- ASTRILL ---
+||astrill.com^$important
+||astrill.net^$important
+
+# --- ZENMATE ---
+||zenmate.com^$important
+||zenmate.net^$important
+
+# --- BROWSEC ---
+||browsec.com^$important
+||browsec.net^$important
+
+# --- SPEEDIFY ---
+||speedify.com^$important
+||speedify.net^$important
+
+# --- GAMING VPNs (LAN EMULATORS) ---
+||radmin-vpn.com^$important
+||vpn.net^$important
+||hamachi.com^$important
+
+# --- OTHER MAJOR VPN PROVIDERS ---
 ||airvpn.org^$important
 ||perfect-privacy.com^$important
 ||vpnunlimited.com^$important
 ||vpnarea.com^$important
 ||ivpn.net^$important
+||ivacy.com^$important
 ||mozilla-vpn.net^$important
 ||torguard.net^$important
+||torguard.com^$important
 ||privatekvpn.com^$important
 ||openvpn.net^$important
 ||opera-proxy.net^$important
@@ -130,21 +153,21 @@
 ||getflix.com.au^$important
 ||anonine.com^$important
 ||unlocator.com^$important
+||astrill.com^$important
+||ovpn.com^$important
+||vpn.ac^$important
+||hidemy.name^$important
+||anonymousvpn.org^$important
+||freevpnplanet.com^$important
+||vpn.ht^$important
 
-! === Cloudflare Warp (VPN/Proxy Components Only) ===
+# --- CLOUDFLARE WARP ---
 ||warp.plus^$important
 ||warp.cloudflare.com^$important
 ||cloudflarewarp.com^$important
 ||cloudflareclient.com^$important
-||developers.cloudflare.com/warp^$important
 
-! (Safe for AdGuard Home – allows standard Cloudflare DNS resolution)
-! DO NOT block these:
-! cloudflare-dns.com
-! cloudflare-gateway.com
-! 1dot1dot1dot1.cloudflare-dns.com
-
-! === Miscellaneous Proxy / VPN Aggregators ===
+# --- MISCELLANEOUS PROXY / VPN AGGREGATORS ---
 ||vpnproxy.net^$important
 ||vpnmonster.com^$important
 ||supervpn.net^$important
@@ -162,4 +185,3 @@
 ||binternet.ducks.party^$important
 ||cf-web-proxy.pages.dev^$important
 ||devprod.cloudflare.dev^$important
-
