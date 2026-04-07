@@ -127,6 +127,11 @@
 ||partyintheanchorhold.neocities.org^$important
 ||kopye.neocities.org^$important
 
+# --- JANUARY 2026 ADDITIONS ---
+||perchance.org^$important
+||characterhub.com^$important
+||character-hub.org^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||mlpchag.neocities.org^$important
 ||spicychat.ai^$important
