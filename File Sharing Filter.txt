@@ -219,3 +219,9 @@
 ||unblocc.cc^$important
 ||unblocc.net^$important
 ||media.tenor.com^$important
+
+# --- MARCH 2026 ADDITIONS ---
+||filedm.com^$important
+||yuishare.com^$important
+||z-lib.ai^$important
+||z-lib.cv^$important
