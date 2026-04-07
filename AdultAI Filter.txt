@@ -136,6 +136,7 @@
 ||chub.ai^$important
 ||p1nkhamster.xyz^$important
 ||samidy.com^$important
+||leonardo.ai^$important
 
 # --- APRIL 2026 ADDITIONS ---
 ||mlpchag.neocities.org^$important
