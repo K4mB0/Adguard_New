@@ -1,0 +1,43 @@
+# CATEGORY: Bluesky / AT Protocol — Full Block
+# PURPOSE: Block Bluesky social network and all AT Protocol infrastructure
+#           operated by Bluesky PBC. Bluesky allows adult content with
+#           no age verification — all access points blocked including
+#           third-party clients which all route through bsky.app APIs.
+# Created: April 2026
+
+# --- CORE BLUESKY DOMAINS ---
+||bsky.app^$important
+||bsky.social^$important
+||bsky.network^$important
+||blueskyweb.xyz^$important
+||bluesky.com^$important
+
+# --- AT PROTOCOL INFRASTRUCTURE ---
+||atproto.com^$important
+||did.plc.directory^$important
+||plc.directory^$important
+
+# --- BLUESKY CDN & MEDIA ---
+||cdn.bsky.app^$important
+||video.bsky.app^$important
+
+# --- KNOWN THIRD-PARTY CLIENTS & FRONTENDS ---
+# All of these route through bsky.app APIs —
+# blocking bsky.app covers them at protocol level,
+# but these web frontends are blocked explicitly too
+||deck.blue^$important
+||skyview.social^$important
+||staging.bsky.app^$important
+||graysky.app^$important
+||klearsky.app^$important
+||flat.blue^$important
+||psky.app^$important
+||tokimeki-mastodon.vercel.app^$important
+||firesky.tv^$important
+||skyfeed.app^$important
+||skythread.app^$important
+||bsky.cool^$important
+||whtwnd.com^$important
+||frontpage.fyi^$important
+||smokesignal.events^$important
+||streamplace.app^$important
