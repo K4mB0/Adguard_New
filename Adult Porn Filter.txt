@@ -212,6 +212,10 @@
 ||incestflix.com^$important
 ||tabooflix.org^$important
 
+# --- JANUARY 2026 ADDITIONS ---
+||ilovelittlekids.buzz^$important
+||rentry.org^$important
+
 # --- APRIL 2026 ADDITIONS ---
 ||pornerome.com^$important
 ||coomer.party^$important
