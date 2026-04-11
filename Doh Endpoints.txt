@@ -1,2 +1,58 @@
-||cloudflare-dns.com^$important
+# CATEGORY: DoH / DoT Bypass Prevention
+# PURPOSE: Block DNS-over-HTTPS and DNS-over-TLS resolvers to prevent
+#           clients bypassing AdGuard Home filtering. Safe to enable —
+#           does not affect AdGuard Home's own upstream DNS resolution.
+# Last updated: April 2026
+
+# --- ALREADY IN YOUR LIST ---
 ||mozilla.cloudflare-dns.com^$important
+
+# --- CLOUDFLARE ---
+||cloudflare-dns.com^$important
+||one.one.one.one^$important
+||1dot1dot1dot1.cloudflare-dns.com^$important
+
+# --- GOOGLE ---
+||dns.google^$important
+||dns.google.com^$important
+||8888.google^$important
+
+# --- QUAD9 ---
+||dns.quad9.net^$important
+||quad9.net^$important
+
+# --- OPENDNS ---
+||doh.opendns.com^$important
+||doh.familyshield.opendns.com^$important
+||familyshield.opendns.com^$important
+
+# --- CLEANBROWSING ---
+||doh.cleanbrowsing.org^$important
+||cleanbrowsing.org^$important
+
+# --- ADGUARD DNS ---
+||adguard-dns.io^$important
+||dns.adguard.com^$important
+||dns.adguard-dns.com^$important
+
+# --- NEXTDNS ---
+||dns.nextdns.io^$important
+||nextdns.io^$important
+
+# --- ALTERNATE RESOLVERS ---
+||doh.sb^$important
+||doh.dns.sb^$important
+||dns.sb^$important
+||doh.li^$important
+||dns.digitale-gesellschaft.ch^$important
+||dnsforge.de^$important
+||dns.hostux.net^$important
+||dns.aa.net.uk^$important
+||dns.switch.ch^$important
+||odvr.nic.cz^$important
+||dnscrypt.info^$important
+||doh.tiar.app^$important
+||dns.twnic.tw^$important
+||doh.xfinity.com^$important
+||resolver.telstra.net^$important
+||101.101.101.101^$important
