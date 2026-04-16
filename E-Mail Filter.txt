@@ -173,3 +173,6 @@
 ||sharp-protocol.com^$important
 ||thundermail.com^$important
 ||tb.pro^$important
+
+# --- APRIL 2026 ADDITIONS ---
+||smailpro.com^$important
