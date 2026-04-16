@@ -225,3 +225,9 @@
 ||yuishare.com^$important
 ||z-lib.ai^$important
 ||z-lib.cv^$important
+
+# ---APRIL 2026 ADDITIONS ---
+||sharedrop.io^$important
+||file.pizza^$important
+||toffeeshare.com^$important
+||wormhole.app^$important
