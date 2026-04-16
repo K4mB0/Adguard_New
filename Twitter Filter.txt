@@ -32,6 +32,8 @@
 ||nitter.poast.org^$important
 ||nitter.privacydev.net^$important
 
+
+# --- APRIL 2026 ADDITIONS ---
 # --- NITTER API KILL ---
 ||api.twitter.com^$important
 ||api.x.com^$important
