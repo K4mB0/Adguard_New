@@ -48,3 +48,37 @@
 ||nitter.us.catsarch.com^$important
 ||nitter.aishiteiru.moe^$important
 ||twitt.re^$important
+
+# --- TWITTER FRONTENDS / NITTER INSTANCES ---
+# XCancel — actively maintained Nitter instance, most popular in 2026
+||xcancel.com^$important
+
+# Twiiit — redirector that picks random working Nitter instances
+||twiiit.com^$important
+
+# Nitter instances currently active per status tracker
+||nitter.net^$important
+||nitter.eu^$important
+||nitter.ethibox.fr^$important
+||nitter.namazso.eu^$important
+||nitter.mailstation.de^$important
+||nitter.actionsack.com^$important
+||nitter.cattube.org^$important
+||nitter.skrep.in^$important
+||nitter.database.red^$important
+||nitter.cc^$important
+||nitter.domain.glass^$important
+||nitter.42l.fr^$important
+||nitter.pussthecat.org^$important
+||nitter.nixnet.services^$important
+||nitter.fdn.fr^$important
+||nitter.unixfox.eu^$important
+||nitter.40two.app^$important
+||nitter.exonip.de^$important
+||birdsite.xanny.family^$important
+
+# Redirect aggregators
+||status.d420.de^$important
+
+# Non-nitter Twitter frontends
+||farside.link^$important
