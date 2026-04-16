@@ -147,3 +147,5 @@
 ||limits.minmaxify.com^$important
 ||snrbox.com^$important
 ||whatcani.run^$important
+||proxytop.space^$important
+||freezenova.net^$important
