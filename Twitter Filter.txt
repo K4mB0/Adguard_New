@@ -31,3 +31,18 @@
 ||nitter.eu^$important
 ||nitter.poast.org^$important
 ||nitter.privacydev.net^$important
+
+# --- NITTER API KILL ---
+||api.twitter.com^$important
+||api.x.com^$important
+
+# --- NITTER INSTANCE BLOCKS ---
+||nitter.space^$important
+||nitter.aosus.link^$important
+||nitter.dashy.a3x.dn.nyx.im^$important
+||nitter.kavin.rocks^$important
+||nitter.mint.lgbt^$important
+||nitter.pek.li^$important
+||nitter.us.catsarch.com^$important
+||nitter.aishiteiru.moe^$important
+||twitt.re^$important
