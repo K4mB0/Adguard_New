@@ -151,3 +151,10 @@
 ||polybuzz.ai^$important
 ||saucepan.ai^$important
 ||quillgen.app^$important
+||g4f.dev^$important
+||g4f.space^$important
+||cerebras.ai^$important
+||llm7.io^$important
+||uncloseai.com^$important
+||pollinations.ai^$important
+||base44.app^$important
