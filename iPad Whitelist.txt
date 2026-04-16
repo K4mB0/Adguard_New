@@ -1,0 +1,54 @@
+# CATEGORY: iPad — School Device Allowlist
+# PURPOSE: Allow legitimate iCloud, Apple and school services on the
+#           Kids iPad (192.168.50.12) only. Rules are client-specific
+#           so they cannot override blocks on other devices.
+#           iCloud Private Relay intentionally kept blocked — it would
+#           route traffic through Apple servers bypassing AdGuard DNS.
+# Last updated: April 2026
+
+# --- ICLOUD CORE SERVICES ---
+@@||gateway.icloud.com^$important,client=192.168.50.12
+@@||setup.icloud.com^$important,client=192.168.50.12
+@@||quota.icloud.com^$important,client=192.168.50.12
+@@||contacts.icloud.com^$important,client=192.168.50.12
+@@||sharedstreams.icloud.com^$important,client=192.168.50.12
+@@||icloud.com^$important,client=192.168.50.12
+@@||icloud-content.com^$important,client=192.168.50.12
+@@||api.apple-cloudkit.com^$important,client=192.168.50.12
+@@||appattest.apple.com^$important,client=192.168.50.12
+
+# --- ICLOUD MAIL ---
+@@||mail.icloud.com^$important,client=192.168.50.12
+@@||imap.mail.me.com^$important,client=192.168.50.12
+@@||smtp.mail.me.com^$important,client=192.168.50.12
+@@||p01-smtp.icloud.com^$important,client=192.168.50.12
+@@||p02-smtp.icloud.com^$important,client=192.168.50.12
+@@||p03-smtp.icloud.com^$important,client=192.168.50.12
+
+# --- APPLE DEVICE SERVICES ---
+@@||apple.com^$important,client=192.168.50.12
+@@||appleid.apple.com^$important,client=192.168.50.12
+@@||push.apple.com^$important,client=192.168.50.12
+@@||gs.apple.com^$important,client=192.168.50.12
+@@||certs.apple.com^$important,client=192.168.50.12
+@@||ocsp.apple.com^$important,client=192.168.50.12
+@@||ocsp2.apple.com^$important,client=192.168.50.12
+@@||valid.apple.com^$important,client=192.168.50.12
+@@||time.apple.com^$important,client=192.168.50.12
+@@||configuration.apple.com^$important,client=192.168.50.12
+
+# --- APP STORE ---
+@@||apps.apple.com^$important,client=192.168.50.12
+@@||ppq.apple.com^$important,client=192.168.50.12
+@@||api.storekit.apple.com^$important,client=192.168.50.12
+
+# --- SCHOOL / EDUCATION ---
+@@||classroom.apple.com^$important,client=192.168.50.12
+@@||schoolwork.apple.com^$important,client=192.168.50.12
+
+# ============================================================
+# ⚠️ INTENTIONALLY KEPT BLOCKED — DO NOT ALLOWLIST
+# mask-api.icloud.com = iCloud Private Relay
+#   Routes traffic through Apple proxy servers, hides device IP
+#   and bypasses AdGuard Home DNS filtering entirely
+# ============================================================
