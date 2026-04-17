@@ -176,3 +176,5 @@
 
 # --- APRIL 2026 ADDITIONS ---
 ||smailpro.com^$important
+||tempmailo.com^$important
+||temporary-mail.net^$important
