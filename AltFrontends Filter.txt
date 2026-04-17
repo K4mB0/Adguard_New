@@ -152,3 +152,6 @@
 ||tunnel1.dlproxy.uk^$important
 ||ffmhy.pages.dev^$important
 ||fmhy.artistgrid.cx^$important
+||www.securly.com.northbangkokfc.com^$important
+||dua.thub.lol^$important
+||strawberry.thub.lol^$important
