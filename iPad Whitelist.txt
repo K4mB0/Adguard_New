@@ -46,6 +46,9 @@
 @@||classroom.apple.com^$important,client=192.168.50.12
 @@||schoolwork.apple.com^$important,client=192.168.50.12
 
+||apple-relay.cloudflare.com^$important,client=192.168.50.12
+||mask.icloud.com^$important,client=192.168.50.12
+
 # ============================================================
 # ⚠️ INTENTIONALLY KEPT BLOCKED — DO NOT ALLOWLIST
 # mask-api.icloud.com = iCloud Private Relay
