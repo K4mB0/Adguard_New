@@ -149,3 +149,6 @@
 ||whatcani.run^$important
 ||proxytop.space^$important
 ||freezenova.net^$important
+||tunnel1.dlproxy.uk^$important
+||ffmhy.pages.dev^$important
+||fmhy.artistgrid.cx^$important
