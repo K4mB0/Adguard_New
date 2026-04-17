@@ -82,3 +82,11 @@
 
 # Non-nitter Twitter frontends
 ||farside.link^$important
+
+# --- APRIL 2026 LOG ADDITIONS ---
+||vxtwitter.com^$important
+||fixupx.com^$important
+||fixvx.com^$important
+||fxembed.com^$important
+||nitter.my.id^$important
+||nitter.zebes.info^$important
