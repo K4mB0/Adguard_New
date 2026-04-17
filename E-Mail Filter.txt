@@ -178,3 +178,8 @@
 ||smailpro.com^$important
 ||tempmailo.com^$important
 ||temporary-mail.net^$important
+||generator.email^$important
+||mail.tm^$important
+||fakemailgenerator.com^$important
+||rentry.org^$important
+||rentry.co^$important
