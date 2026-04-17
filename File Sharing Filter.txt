@@ -231,3 +231,14 @@
 ||file.pizza^$important
 ||toffeeshare.com^$important
 ||wormhole.app^$important
+||bunkr.cr^$important
+||bunkr.si^$important
+||bunkr-albums.io^$important
+||bunkrr.su^$important
+||bunkr.pk^$important
+||pairdrop.net^$important
+||localsend.org^$important
+||justbeamit.com^$important
+||webwormhole.com^$important
+||webwormhole.io^$important
+||file.tc^$important
