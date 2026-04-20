@@ -11,6 +11,7 @@
 ||cloudflare-dns.com^$important
 ||one.one.one.one^$important
 ||1dot1dot1dot1.cloudflare-dns.com^$important
+||dooh.cloudflare-dns.com^$important
 
 # --- GOOGLE ---
 ||dns.google^$important
