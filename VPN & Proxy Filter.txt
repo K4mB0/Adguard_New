@@ -95,6 +95,15 @@
 ||mullvad.net^$important
 ||mullvad.com^$important
 ||mullvadvpn.net^$important
+||am.i.mullvad.net^$important
+||ipv4.am.i.mullvad.net^$important
+||ipv6.am.i.mullvad.net^$important
+||adblock.dns.mullvad.net^$important
+||dns.mullvad.net^$important
+||api.mullvad.net^$important
+||account.mullvad.net^$important
+||relays.mullvad.net^$important
+||bridges.mullvad.net^$important
 
 # --- ASTRILL ---
 ||astrill.com^$important
