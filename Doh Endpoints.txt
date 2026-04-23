@@ -4,28 +4,31 @@
 #           does not affect AdGuard Home's own upstream DNS resolution.
 # Last updated: April 2026
 
-# --- ALREADY IN YOUR LIST ---
-||mozilla.cloudflare-dns.com^$important
-
 # --- CLOUDFLARE ---
 ||cloudflare-dns.com^$important
 ||one.one.one.one^$important
 ||1dot1dot1dot1.cloudflare-dns.com^$important
+||mozilla.cloudflare-dns.com^$important
+||security.cloudflare-dns.com^$important
+||family.cloudflare-dns.com^$important
 ||dooh.cloudflare-dns.com^$important
 
 # --- GOOGLE ---
 ||dns.google^$important
 ||dns.google.com^$important
+||dns64.dns.google^$important
 ||8888.google^$important
 
 # --- QUAD9 ---
 ||dns.quad9.net^$important
 ||quad9.net^$important
+||dns11.quad9.net^$important
 
 # --- OPENDNS ---
 ||doh.opendns.com^$important
 ||doh.familyshield.opendns.com^$important
 ||familyshield.opendns.com^$important
+||doh.xfinity.com^$important
 
 # --- CLEANBROWSING ---
 ||doh.cleanbrowsing.org^$important
@@ -35,10 +38,24 @@
 ||adguard-dns.io^$important
 ||dns.adguard.com^$important
 ||dns.adguard-dns.com^$important
+||unfiltered.adguard-dns.com^$important
 
 # --- NEXTDNS ---
 ||dns.nextdns.io^$important
 ||nextdns.io^$important
+
+# --- MULLVAD DNS ---
+||doh.mullvad.net^$important
+
+# --- LIBREDNS ---
+||libredns.gr^$important
+||doh.libredns.gr^$important
+
+# --- DNS0.EU ---
+||dns0.eu^$important
+||open.dns0.eu^$important
+||zero.dns0.eu^$important
+||kids.dns0.eu^$important
 
 # --- ALTERNATE RESOLVERS ---
 ||doh.sb^$important
@@ -53,7 +70,11 @@
 ||odvr.nic.cz^$important
 ||dnscrypt.info^$important
 ||doh.tiar.app^$important
+||doh.applied-privacy.net^$important
+||doh.ffmuc.net^$important
+||doh.la.ahadns.net^$important
+||doh.nl.ahadns.net^$important
 ||dns.twnic.tw^$important
-||doh.xfinity.com^$important
+||dns.flatuslifeco.com^$important
 ||resolver.telstra.net^$important
 ||101.101.101.101^$important
