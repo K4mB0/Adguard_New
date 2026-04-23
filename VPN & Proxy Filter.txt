@@ -92,6 +92,8 @@
 ||purevpn.io^$important
 
 # --- MULLVAD ---
+# ⚠️ Mullvad actively being used — confirmed via log gap analysis
+# Now exclusively uses WireGuard protocol (OpenVPN dropped Jan 2026)
 ||mullvad.net^$important
 ||mullvad.com^$important
 ||mullvadvpn.net^$important
@@ -100,10 +102,14 @@
 ||ipv6.am.i.mullvad.net^$important
 ||adblock.dns.mullvad.net^$important
 ||dns.mullvad.net^$important
+||doh.mullvad.net^$important
 ||api.mullvad.net^$important
+||app.mullvad.net^$important
 ||account.mullvad.net^$important
 ||relays.mullvad.net^$important
 ||bridges.mullvad.net^$important
+||stagemole.eu^$important
+||mullvad.github.io^$important
 
 # --- ASTRILL ---
 ||astrill.com^$important
@@ -121,6 +127,10 @@
 ||speedify.com^$important
 ||speedify.net^$important
 
+# --- MOZILLA VPN (powered by Mullvad) ---
+||mozilla-vpn.net^$important
+||vpn.mozilla.org^$important
+
 # --- GAMING VPNs (LAN EMULATORS) ---
 ||radmin-vpn.com^$important
 ||vpn.net^$important
@@ -133,7 +143,6 @@
 ||vpnarea.com^$important
 ||ivpn.net^$important
 ||ivacy.com^$important
-||mozilla-vpn.net^$important
 ||torguard.net^$important
 ||torguard.com^$important
 ||privatekvpn.com^$important
@@ -162,13 +171,14 @@
 ||getflix.com.au^$important
 ||anonine.com^$important
 ||unlocator.com^$important
-||astrill.com^$important
 ||ovpn.com^$important
 ||vpn.ac^$important
 ||hidemy.name^$important
 ||anonymousvpn.org^$important
 ||freevpnplanet.com^$important
 ||vpn.ht^$important
+||malwarebytes.com^$important
+||vpn.malwarebytes.com^$important
 
 # --- CLOUDFLARE WARP ---
 ||warp.plus^$important
