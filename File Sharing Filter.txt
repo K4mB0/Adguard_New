@@ -242,3 +242,5 @@
 ||webwormhole.com^$important
 ||webwormhole.io^$important
 ||file.tc^$important
+||sendfiles.dev^$important
+||up.sb^$important
