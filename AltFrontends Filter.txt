@@ -181,3 +181,5 @@
 ||fmhy.net^$important
 ||assetsconfigcdn.org^$important
 ||localghost.org^$important
+||imbubbo.repl.co^$important
+||interstellarofficial.gq^$important
