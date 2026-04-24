@@ -204,3 +204,4 @@
 ||binternet.ducks.party^$important
 ||cf-web-proxy.pages.dev^$important
 ||devprod.cloudflare.dev^$important
+||proxy-seller.com^$important
