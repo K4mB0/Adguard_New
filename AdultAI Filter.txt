@@ -180,3 +180,5 @@
 ||grok.com^$important
 ||x.ai^$important
 ||leonardo.ai^$important
+||character-tavern.com^$important
+||talkie-ai.com^$important
