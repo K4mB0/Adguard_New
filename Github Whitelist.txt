@@ -1,0 +1,17 @@
+@@||github.com^$important
+@@||githubusercontent.com^$important
+@@||raw.githubusercontent.com^$important
+@@||github.githubassets.com^$important
+@@||avatars.githubusercontent.com^$important
+@@||camo.githubusercontent.com^$important
+@@||objects.githubusercontent.com^$important
+@@||api.github.com^$important
+@@||alive.github.com^$important
+@@||codeload.github.com^$important
+@@||github.io^$important
+@@||githubstatus.com^$important
+@@||github-releases.githubusercontent.com^$important
+@@||github-production-release-asset.s3.amazonaws.com^$important
+@@||ghcr.io^$important
+@@||npm.pkg.github.com^$important
+@@||pipelines.actions.githubusercontent.com^$important
