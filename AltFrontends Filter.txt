@@ -183,3 +183,5 @@
 ||localghost.org^$important
 ||imbubbo.repl.co^$important
 ||interstellarofficial.gq^$important
+||luminal.lol^$important
+||truffled.cc^$important
