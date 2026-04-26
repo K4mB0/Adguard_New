@@ -54,6 +54,21 @@
 ||premiumgram.app^$important
 ||kotatgram.org^$important
 ||exgram.app^$important
+||ayugram.one^$important
+||ayugram.app^$important
+||ayugram.net^$important
+||ayugram.io^$important
+||ayu.gr^$important
+||nekogram.app^$important
+||nekox.app^$important
+||plusmessenger.org^$important
+||bgram.org^$important
+||telegramx.app^$important
+||nicegram.app^$important
+||unigram.me^$important
+||catogram.app^$important
+||forkgram.app^$important
+||tgx.app^$important
 
 # --- TON BLOCKCHAIN / TELEGRAM CRYPTO ---
 ||ton.org^$important
