@@ -190,3 +190,4 @@
 ||0--1.pages.dev^$important
 ||mercurywork.shop^$important
 ||ayugram.one^$important
+||bog.fyinx.wtf^$important
