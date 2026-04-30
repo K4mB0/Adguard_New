@@ -56,3 +56,4 @@
 
 # --- CRYPTO ---
 ||cakewallet.com^&important
+||razorpay.com^$important
