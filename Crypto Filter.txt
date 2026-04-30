@@ -1,0 +1,165 @@
+# CATEGORY: Cryptocurrency — Full Block
+# PURPOSE: Block all cryptocurrency wallets, exchanges, payment
+#           processors, Monero infrastructure, mining tools and
+#           anonymous crypto services. Monero (XMR) specifically
+#           confirmed active in query logs April 2026.
+# Last updated: April 2026
+
+# --- MONERO — CONFIRMED ACTIVE IN LOGS ---
+# ⚠️ CakeWallet 340x/day confirmed, Monero node active
+||monero.com^$important
+||monero.org^$important
+||getmonero.org^$important
+||cakewallet.com^$important
+||monero.fail^$important
+||featherwallet.org^$important
+||mymonero.com^$important
+||monerica.com^$important
+||xmr.ru^$important
+||xmrchain.net^$important
+||explorer.monero.com^$important
+||sethforprivacy.com^$important
+||nanoslo.0x.no^$important
+||0x.no^$important
+||xmr.sh^$important
+||xmr.to^$important
+||trocador.app^$important
+||localmonero.co^$important
+||agoradesk.com^$important
+||moneroj.net^$important
+||moneroworld.com^$important
+||monerod.org^$important
+||nownodes.io^$important
+
+# --- NANO / CAKE RELATED ---
+||nano-gpt.com^$important
+||nanocurrency.org^$important
+||nanos.cc^$important
+||nanolooker.com^$important
+
+# --- CRYPTO PAYMENT PROCESSORS ---
+||nowpayments.io^$important
+||coingate.com^$important
+||bitpay.com^$important
+||coinpayments.net^$important
+||cryptomus.com^$important
+||plisio.net^$important
+||oxapay.com^$important
+||crypton.sh^$important
+||kycnot.me^$important
+||silentapi.com^$important
+||razorpay.com^$important
+||coinbase.com^$important
+||commerce.coinbase.com^$important
+||pay.coinbase.com^$important
+
+# --- ANONYMOUS SWAP SERVICES ---
+||godex.io^$important
+||stealthex.io^$important
+||changenow.io^$important
+||simpleswap.io^$important
+||exolix.com^$important
+||swapzone.io^$important
+||letsexchange.io^$important
+||swapspace.co^$important
+||fixedfloat.com^$important
+||sideshift.ai^$important
+||majesticbank.sc^$important
+||orangefren.com^$important
+
+# --- MAJOR EXCHANGES ---
+||binance.com^$important
+||binance.org^$important
+||kraken.com^$important
+||kucoin.com^$important
+||bybit.com^$important
+||okx.com^$important
+||mexc.com^$important
+||gate.io^$important
+||htx.com^$important
+||huobi.com^$important
+||bitfinex.com^$important
+||bitstamp.net^$important
+||gemini.com^$important
+||crypto.com^$important
+||coinex.com^$important
+||bydfi.com^$important
+||xt.com^$important
+
+# --- DECENTRALISED EXCHANGES ---
+||uniswap.org^$important
+||pancakeswap.finance^$important
+||dydx.exchange^$important
+||dydx.trade^$important
+||curve.fi^$important
+||1inch.io^$important
+||sushiswap.com^$important
+||raydium.io^$important
+
+# --- CRYPTO WALLETS ---
+||metamask.io^$important
+||trustwallet.com^$important
+||exodus.com^$important
+||electrum.org^$important
+||wasabiwallet.io^$important
+||samouraiwallet.com^$important
+||ledger.com^$important
+||trezor.io^$important
+||myetherwallet.com^$important
+||rainbow.me^$important
+||phantom.app^$important
+||solflare.com^$important
+||stackwallet.com^$important
+
+# --- CRYPTO MINING ---
+||xmrig.com^$important
+||moneroocean.stream^$important
+||supportxmr.com^$important
+||minexmr.com^$important
+||hashvault.pro^$important
+||miningpoolhub.com^$important
+||nicehash.com^$important
+||2miners.com^$important
+||nanopool.org^$important
+||f2pool.com^$important
+||antpool.com^$important
+||viabtc.com^$important
+
+# --- BLOCKCHAIN EXPLORERS ---
+||blockchain.com^$important
+||blockchair.com^$important
+||etherscan.io^$important
+||bscscan.com^$important
+||polygonscan.com^$important
+||solscan.io^$important
+||tronscan.org^$important
+||blockstream.info^$important
+
+# --- CRYPTO PRICE / INFO SITES ---
+||coinmarketcap.com^$important
+||coingecko.com^$important
+||coindesk.com^$important
+||cointelegraph.com^$important
+||decrypt.co^$important
+||cryptonews.com^$important
+
+# --- NFT PLATFORMS ---
+||opensea.io^$important
+||rarible.com^$important
+||foundation.app^$important
+||niftygateway.com^$important
+||superrare.com^$important
+||blur.io^$important
+||magic.eden^$important
+
+# --- MISC CRYPTO INFRASTRUCTURE ---
+||infura.io^$important
+||alchemy.com^$important
+||quicknode.com^$important
+||ankr.com^$important
+||pokt.network^$important
+||thegraph.com^$important
+||chainlink.com^$important
+||ipfs.io^$important
+||pinata.cloud^$important
+||web3.storage^$important
