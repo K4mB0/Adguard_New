@@ -182,3 +182,5 @@
 ||leonardo.ai^$important
 ||character-tavern.com^$important
 ||talkie-ai.com^$important
+||aiallure.com^$important
+||ppq.ai^$important
