@@ -163,3 +163,9 @@
 ||ipfs.io^$important
 ||pinata.cloud^$important
 ||web3.storage^$important
+||featherwallet.net^$important
+||monerodevs.org^$important
+||xmr-tw.org^$important
+||triplebit.org^$important
+||ditatompel.com^$important
+||xmr-ppq-v2.centralus.cloudapp.azure.com^$important
