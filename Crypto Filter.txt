@@ -169,3 +169,8 @@
 ||triplebit.org^$important
 ||ditatompel.com^$important
 ||xmr-ppq-v2.centralus.cloudapp.azure.com^$important
+||monerodice.pro^$important
+||monerohash.com^$important
+||xmr.l0l.fi^$important
+||xmr.surf^$important
+||0x255.xyz^$important
