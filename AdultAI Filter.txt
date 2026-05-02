@@ -184,3 +184,7 @@
 ||talkie-ai.com^$important
 ||aiallure.com^$important
 ||ppq.ai^$important
+
+# --- MAY 2026  ADDITIONS ---
+||z.ai^$important
+
