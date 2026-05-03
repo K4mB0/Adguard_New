@@ -244,3 +244,7 @@
 ||www.youjizz.com^$important
 ||motherless.com^$important
 ||tumblr.com^$important
+
+#--- MAY 2026 ADDITIONS ---
+||vndb.org^$important
+||imgur.com^$important
