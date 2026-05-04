@@ -51,3 +51,7 @@
 ||frontends.net^$important
 ||frontendfriendly.xyz^$important
 ||privacyredirect.com^$important
+
+#--- MAY 2026 ADDITIONS ---
+||redlib.ziggy.nl^$important
+||redlib.zaggy.nl^$important
