@@ -191,3 +191,8 @@
 ||mercurywork.shop^$important
 ||ayugram.one^$important
 ||bog.fyinx.wtf^$important
+
+#--- MAY 2026 ADDITIONS ---
+||nerdvpn.de^$important
+||nadeko.net^$important
+||chocolatemoo53.com^$important
