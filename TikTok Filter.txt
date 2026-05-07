@@ -53,3 +53,7 @@
 ||tikmate.online^$important
 ||ssyoutube.net^$important
 ||ttsave.app^$important
+
+#--- MAY 2026 ADDITIONS ---
+||ttwstatic.com^$important
+||ttwstatic.net^$important
