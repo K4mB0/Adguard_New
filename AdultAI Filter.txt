@@ -187,4 +187,7 @@
 
 # --- MAY 2026  ADDITIONS ---
 ||z.ai^$important
+||theoldllm.vercel.app^$important
+||poe.com^$important
+||poe.live-video.net^$important
 
