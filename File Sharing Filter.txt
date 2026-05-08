@@ -244,3 +244,8 @@
 ||file.tc^$important
 ||sendfiles.dev^$important
 ||up.sb^$important
+
+#--- MAY 2026 ADDITIONS ---
+||nztcdn.com^$important
+||odycdn.com^$important
+||odysee.com^$important
