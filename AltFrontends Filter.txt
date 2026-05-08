@@ -196,3 +196,4 @@
 ||nerdvpn.de^$important
 ||nadeko.net^$important
 ||chocolatemoo53.com^$important
+||eldorado.gg^$important
