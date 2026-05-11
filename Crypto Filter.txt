@@ -174,3 +174,6 @@
 ||xmr.l0l.fi^$important
 ||xmr.surf^$important
 ||0x255.xyz^$important
+
+#--- MAY 2026 ADDITIONS ---
+||polymarket.com^$important
