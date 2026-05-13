@@ -197,3 +197,6 @@
 ||nadeko.net^$important
 ||chocolatemoo53.com^$important
 ||eldorado.gg^$important
+||buffersnow.com^$important
+||atom-os.com^$important
+||nadeko.ygg^$important
