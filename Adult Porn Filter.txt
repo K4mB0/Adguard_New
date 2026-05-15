@@ -248,3 +248,5 @@
 #--- MAY 2026 ADDITIONS ---
 ||vndb.org^$important
 ||imgur.com^$important
+||erome.com^$important
+||phncdn.com^$important
