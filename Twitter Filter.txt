@@ -90,3 +90,6 @@
 ||fxembed.com^$important
 ||nitter.my.id^$important
 ||nitter.zebes.info^$important
+
+#--- MAY 2026 ADDITIONS ---
+||nitter.tiekoetter.com^$important
