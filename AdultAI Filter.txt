@@ -190,4 +190,8 @@
 ||theoldllm.vercel.app^$important
 ||poe.com^$important
 ||poe.live-video.net^$important
+||civitaiarchive.com^$important
+||civitasbay.org^$important
+||tensor.art^$important
+||seaart.ai^$important
 
