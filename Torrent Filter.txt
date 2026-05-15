@@ -101,3 +101,8 @@
 ||onion.pet^$important
 ||onion.cab^$important
 ||onion.ws^$important
+
+#--- MAY 2026 ADDITIONS ---
+||bittor.pw^$important
+||qu.ax^$important
+||demonii.com^$important
