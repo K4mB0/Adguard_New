@@ -200,3 +200,4 @@
 ||buffersnow.com^$important
 ||atom-os.com^$important
 ||nadeko.ygg^$important
+||vividdarkness.uk^$important
