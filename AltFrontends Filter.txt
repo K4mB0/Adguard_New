@@ -201,3 +201,8 @@
 ||atom-os.com^$important
 ||nadeko.ygg^$important
 ||vividdarkness.uk^$important
+||unblokkked.web.app^$important
+||classroom.lat^$important
+||cokezero.uk^$important
+||searx.space^$important
+||searxng.org^$important
