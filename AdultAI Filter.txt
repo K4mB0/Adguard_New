@@ -194,4 +194,9 @@
 ||civitasbay.org^$important
 ||tensor.art^$important
 ||seaart.ai^$important
+||civarchive.com^$important
+||safebooru.donmai.us^$important
+||jan.ai^$important
+||models.dev^$important
+||exa.ai^$important
 
