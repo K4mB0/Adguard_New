@@ -250,3 +250,5 @@
 ||imgur.com^$important
 ||erome.com^$important
 ||phncdn.com^$important
+||porn4fans.com^$important
+||erothots.is^$important
