@@ -199,4 +199,5 @@
 ||jan.ai^$important
 ||models.dev^$important
 ||exa.ai^$important
+||pixai.art^$important
 
