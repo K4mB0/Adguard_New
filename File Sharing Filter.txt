@@ -249,3 +249,4 @@
 ||nztcdn.com^$important
 ||odycdn.com^$important
 ||odysee.com^$important
+||downloadmost.com^$important
