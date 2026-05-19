@@ -200,4 +200,7 @@
 ||models.dev^$important
 ||exa.ai^$important
 ||pixai.art^$important
+||mage.space^$important
+||venus.moe^$important
+||nextpart.ai^$important
 
