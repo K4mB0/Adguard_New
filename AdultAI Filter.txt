@@ -257,3 +257,6 @@
 # in your Gaming/Google Whitelist file rather than here.
 # Ensure these domains are in your global allowlist.
 # ============================================================
+
+#=== MAY 2026 ADDITIONS ===
+||chatsum.ai^$important
