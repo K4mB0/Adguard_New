@@ -260,3 +260,4 @@
 
 #=== MAY 2026 ADDITIONS ===
 ||chatsum.ai^$important
+||donmai.us^$important
