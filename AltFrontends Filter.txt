@@ -206,3 +206,9 @@
 ||cokezero.uk^$important
 ||searx.space^$important
 ||searxng.org^$important
+||truffled.mooo.com^$important
+||truffledproxy.strangled.net^$important
+||luminaire.railway.com^$important
+||geeked.wtf^$important
+||kinoplus.online^$important
+||ghostarchive.org^$important
