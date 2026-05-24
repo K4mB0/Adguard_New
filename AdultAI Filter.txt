@@ -265,6 +265,7 @@
 ||perplexity.ai^$important
 ||parallel.ai^$important
 ||thinkinai.xyz^$important
-||x-tg.tube^$important
-||reddxxx.com^$important
-||imageban.ru^$important
+||prompthero.com^$important
+||tavily.com^$important
+||you.com^$important
+||bfl.ml^$important
