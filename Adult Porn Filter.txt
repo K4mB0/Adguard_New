@@ -252,3 +252,6 @@
 ||phncdn.com^$important
 ||porn4fans.com^$important
 ||erothots.is^$important
+||x-tg.tube^$important
+||reddxxx.com^$important
+||imageban.ru^$important
