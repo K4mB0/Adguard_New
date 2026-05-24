@@ -212,3 +212,6 @@
 ||geeked.wtf^$important
 ||kinoplus.online^$important
 ||ghostarchive.org^$important
+||qwant.com^$important
+||startpage.com^$important
+||priv.au^$important
