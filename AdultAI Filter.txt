@@ -269,3 +269,5 @@
 ||tavily.com^$important
 ||you.com^$important
 ||bfl.ml^$important
+||flixmomo.org^$important
+||ome.tv^$important
