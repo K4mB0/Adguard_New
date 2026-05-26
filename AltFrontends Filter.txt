@@ -215,3 +215,6 @@
 ||qwant.com^$important
 ||startpage.com^$important
 ||priv.au^$important
+||quizlet.gq^$important
+||coursera.cf^$important
+||waguri.kato.ninja^$important
