@@ -218,3 +218,7 @@
 ||quizlet.gq^$important
 ||coursera.cf^$important
 ||waguri.kato.ninja^$important
+||truffled-sepia-omega.vercel.app^$important
+||psi-truffled.netlify.app^$important
+||canlite.org^$important
+||codefusion.technology^$important
