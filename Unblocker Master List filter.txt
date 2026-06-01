@@ -104,3 +104,9 @@
 
 # --- APRIL 2026 ADDITIONS ---
 ||cdn.jsdelivr.xyz^$important
+
+# === June 2026 ===
+||iamjustaproxyinohostanythingdontsendmedmcaniggas.lol^$important
+||keybypass.net^$important
+||linkvertise.lol^$important
+||turbocdn.st^$important
