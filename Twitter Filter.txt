@@ -93,3 +93,7 @@
 
 #--- MAY 2026 ADDITIONS ---
 ||nitter.tiekoetter.com^$important
+
+#=== June 2026 ===
+||nitter.d420.de^$important
+
