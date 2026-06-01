@@ -271,3 +271,6 @@
 ||bfl.ml^$important
 ||flixmomo.org^$important
 ||ome.tv^$important
+
+#=== June 2026 ===
+||openclaw.ai^$important
