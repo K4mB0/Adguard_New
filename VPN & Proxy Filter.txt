@@ -205,3 +205,6 @@
 ||cf-web-proxy.pages.dev^$important
 ||devprod.cloudflare.dev^$important
 ||proxy-seller.com^$important
+
+#=== June 2026 ===
+||ffuavtlceo.in^$important
