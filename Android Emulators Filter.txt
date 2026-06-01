@@ -1,0 +1,39 @@
+! Title: Android Emulator Filter
+! Description: Blocks Android emulator platforms that could be used to sideload VPN apps and bypass DNS filtering
+! Homepage: https://github.com/K4mB0/Adguard_New
+! Last modified: 01 Jun 2026
+
+! BlueStacks (also operates as now.gg cloud platform)
+||bluestacks.com^$important
+||now.gg^$important
+||bluestackscontent.com^$important
+
+! LDPlayer (Chinese emulator, two active domains)
+||ldplayer.net^$important
+||ldplayer.tw^$important
+
+! NoxPlayer
+||bignox.com^$important
+||noxinfosystems.com^$important
+
+! MEmu
+||memuplay.com^$important
+
+! MuMu Player (NetEase)
+||mumuplayer.com^$important
+
+! GameLoop (Tencent)
+||gameloop.fun^$important
+||gameloop.com^$important
+
+! Genymotion
+||genymotion.com^$important
+
+! Bliss OS (Android OS, can run from USB or dual boot)
+||blissos.org^$important
+
+! Waydroid (Linux/WSL2 based)
+||waydro.id^$important
+
+! KOPlayer
+||ko-em.com^$important
