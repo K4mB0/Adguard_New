@@ -110,3 +110,5 @@
 ||keybypass.net^$important
 ||linkvertise.lol^$important
 ||turbocdn.st^$important
+||acceptancesuicidegel.com^$important
+||highschoolacademy.online^$important
