@@ -106,3 +106,8 @@
 ||bittor.pw^$important
 ||qu.ax^$important
 ||demonii.com^$important
+
+#=== JUNE 2026 ===
+||bittorrent.com^$important
+||publictracker.xyz^$important
+||bt4g.com^$important
