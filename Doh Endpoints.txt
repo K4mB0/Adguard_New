@@ -81,5 +81,7 @@
 
 #=== June 2026 ===
 ||brahma.world^$important
+||controld.com^$important
+||controld.io^$important
 
 
