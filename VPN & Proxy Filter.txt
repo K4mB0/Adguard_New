@@ -209,3 +209,4 @@
 #=== June 2026 ===
 ||ffuavtlceo.in^$important
 ||dlproxy.uk^$important
+||proxyscrape.com^$important
