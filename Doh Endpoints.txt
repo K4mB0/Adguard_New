@@ -83,5 +83,6 @@
 ||brahma.world^$important
 ||controld.com^$important
 ||controld.io^$important
+||wikimedia-dns.org
 
 
