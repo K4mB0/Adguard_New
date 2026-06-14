@@ -84,5 +84,6 @@
 ||controld.com^$important
 ||controld.io^$important
 ||wikimedia-dns.org
+||dns4all.eu^$important
 
 
