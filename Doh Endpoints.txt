@@ -2,7 +2,7 @@
 # PURPOSE: Block DNS-over-HTTPS and DNS-over-TLS resolvers to prevent
 #           clients bypassing AdGuard Home filtering. Safe to enable —
 #           does not affect AdGuard Home's own upstream DNS resolution.
-# Last updated: April 2026
+# Last updated: 14 June 2026
 
 # --- CLOUDFLARE ---
 ||cloudflare-dns.com^$important
@@ -79,11 +79,23 @@
 ||resolver.telstra.net^$important
 ||101.101.101.101^$important
 
-#=== June 2026 ===
+# === June 2026 ===
 ||brahma.world^$important
 ||controld.com^$important
 ||controld.io^$important
-||wikimedia-dns.org
+||wikimedia-dns.org^$important
 ||dns4all.eu^$important
 
-
+# --- DoH resolvers found via privacy guide list, 14 June ---
+||powerdns.org^$important
+||dnsoverhttps.com^$important
+||snopyta.org^$important
+||wevpn.com^$important
+||crypto.sx^$important
+||mydns.network^$important
+||cgnat.net^$important
+||blahdns.com^$important
+||aaflalo.me^$important
+||alekberg.net^$important
+||arapurayil.com^$important
+||faelix.net^$important
