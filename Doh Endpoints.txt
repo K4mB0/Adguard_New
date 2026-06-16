@@ -85,8 +85,6 @@
 ||controld.io^$important
 ||wikimedia-dns.org^$important
 ||dns4all.eu^$important
-
-# --- DoH resolvers found via privacy guide list, 14 June ---
 ||powerdns.org^$important
 ||dnsoverhttps.com^$important
 ||snopyta.org^$important
@@ -99,3 +97,4 @@
 ||alekberg.net^$important
 ||arapurayil.com^$important
 ||faelix.net^$important
+||rethinkdns.com^$important
