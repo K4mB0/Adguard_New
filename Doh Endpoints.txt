@@ -98,3 +98,10 @@
 ||arapurayil.com^$important
 ||faelix.net^$important
 ||rethinkdns.com^$important
+
+# DoH filter — obscure/self-hosted resolvers (18 June hunt)
+||lavate.ch^$important
+||lavatech.top^$important
+||ahadns.com^$important
+||adhole.org^$important
+||e-utp.net^$important
