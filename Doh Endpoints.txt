@@ -99,9 +99,25 @@
 ||faelix.net^$important
 ||rethinkdns.com^$important
 
-# DoH filter — obscure/self-hosted resolvers (18 June hunt)
+# DoH filter — obscure/self-hosted resolvers (20 June hunt)
+||ddns.net^$important
+||tiar.app^$important
 ||lavate.ch^$important
 ||lavatech.top^$important
 ||ahadns.com^$important
 ||adhole.org^$important
 ||e-utp.net^$important
+||duckdns.org^$important
+||no-ip.com^$important
+||noip.com^$important
+||hopto.org^$important
+||zapto.org^$important
+||serveo.net^$important
+||freedns.afraid.org^$important
+||afraid.org^$important
+||dynu.com^$important
+||dynv6.com^$important
+||myftp.biz^$important
+||serveminecraft.net^$important
+||sytes.net^$important
+||3utilities.com^$important
