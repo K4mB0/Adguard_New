@@ -121,3 +121,4 @@
 ||serveminecraft.net^$important
 ||sytes.net^$important
 ||3utilities.com^$important
+||joindns4.eu^$important
