@@ -122,3 +122,18 @@
 ||sytes.net^$important
 ||3utilities.com^$important
 ||joindns4.eu^$important
+
+# DoH filter — alternate-TLD and new resolvers (21 June)
+||tiarap.org^$important
+||ahadns.net^$important
+||dnswarden.com^$important
+||dnshome.de^$important
+||dns-over-https.com^$important
+||seby.io^$important
+||rubyfish.cn^$important
+||alidns.com^$important
+||dnslify.com^$important
+||moulticast.net^$important
+||post-factum.tk^$important
+||plan9-ns1.com^$important
+||plan9-ns2.com^$important
