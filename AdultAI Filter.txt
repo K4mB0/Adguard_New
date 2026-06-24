@@ -276,3 +276,5 @@
 ||openclaw.ai^$important
 ||ollama.ai^$important
 ||muah.ai^$important
+||civitai.com^$important
+||civitai.red^$important
