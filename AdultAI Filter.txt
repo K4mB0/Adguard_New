@@ -18,6 +18,8 @@
 ||wyvern.chat^$important
 
 # --- JANITOR AI ---
+# Adult AI filter
+||janitorai.me^$important
 ||janitorai.com^$important
 ||janitor.ai^$important
 
